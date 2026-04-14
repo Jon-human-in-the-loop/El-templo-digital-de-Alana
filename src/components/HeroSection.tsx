@@ -2,9 +2,10 @@
 
 import { useRef } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
-import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 export default function HeroSection() {
+  const t = useTranslations('hero')
   const containerRef = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -70,7 +71,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: 'easeOut', delay: 0.55 }}
           >
-            Artista multidisciplinar · Portfolio y Tienda
+            {t('description')}
           </motion.p>
         </div>
       </motion.div>

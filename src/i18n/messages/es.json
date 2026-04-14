@@ -8,53 +8,53 @@
     "announcement": "✦ Alana Zarzairaeta — Artista Multidisciplinar ✦"
   },
   "hero": {
-    "title": "Entremares",
-    "subtitle": "Alfajores Artesanales Premium",
-    "description": "Descubre la riqueza de la tradición en cada bocado. Nuestros alfajores artesanales se hacen a mano con pasión, utilizando métodos tradicionales e ingredientes premium.",
-    "exploreButton": "Explorar Alfajores",
-    "storyButton": "Nuestra Historia",
-    "brandTitle": "ENTRE MARES",
-    "brandSubtitle": "ARTESANOS DEL MAR • ALFAJORES DE AUTOR",
-    "tagline": "ENTRE MARES: DONDE LA PASIÓN POR EL DULCE DE LECHE SE ENCUENTRA CON LA INNOVACIÓN ARTESANAL",
+    "title": "El Templo Digital",
+    "subtitle": "Universo Creativo & Arte",
+    "description": "Explora un universo donde la materia y la energía se encuentran a través del arte. Pintura, tatuaje y performance bajo el concepto de fluidez.",
+    "exploreButton": "Ver Galería",
+    "storyButton": "Sobre Mí",
+    "brandTitle": "ALANA ZARZAIRAETA",
+    "brandSubtitle": "ARTISTA MULTIDISCIPLINAR • MÉDIUM",
+    "tagline": "EL TEMPLO DIGITAL: DONDE LA MATERIA SE DILUYE Y LA ENERGÍA SE CONDENSA",
     "discover": "Descubrir"
   },
   "pistacheSection": {
-    "title": "PISTACHE INTENSO",
-    "subtitle": "Artesanía en Movimiento",
-    "bottomTagline": "ENTRE MARES · ALFAJORES PREMIUM ARTESANALES"
+    "title": "FLUIDEZ PURA",
+    "subtitle": "Arte en Movimiento",
+    "bottomTagline": "ALANA ZARZAIRAETA · UNIVERSO CREATIVO"
   },
   "packs": {
-    "featured": "Nuestros Alfajores",
-    "subtitle": "Nuestra Colección",
-    "description": "Descubre nuestra selección curada de alfajores artesanales, cada uno elaborado a mano con ingredientes premium.",
-    "classic": "Pistache Intenso",
-    "premium": "Vinho do Porto",
-    "special": "Chocolate Intenso"
+    "featured": "Obra Disponible",
+    "subtitle": "Ediciones & Originales",
+    "description": "Descubre una selección curada de láminas, originales y piezas únicas creadas por Alana.",
+    "classic": "Láminas",
+    "premium": "Originales",
+    "special": "Ediciones Limitadas"
   },
   "packDetails": {
     "pieces": "piezas",
     "price": "Precio",
-    "ingredients": "Ingredientes",
-    "weight": "Peso",
-    "flavors": "Sabores",
+    "ingredients": "Materiales",
+    "weight": "Formato",
+    "flavors": "Técnica",
     "available": "En Stock",
-    "outOfStock": "Agotado",
-    "mostPopular": "Más Popular",
+    "outOfStock": "Vendido",
+    "mostPopular": "Destacado",
     "limitedEdition": "Edición Limitada"
   },
   "cart": {
     "addToCart": "Añadir al Carrito",
     "cartEmpty": "Tu carrito está vacío",
-    "emptyDescription": "Explora nuestros alfajores artesanales y añade algo especial.",
+    "emptyDescription": "Explora la obra de Alana y encuentra algo que conecte contigo.",
     "cartTitle": "Carrito de Compras",
     "items": "artículos",
     "total": "Total",
-    "product": "Producto",
+    "product": "Obra",
     "price": "Precio",
     "quantity": "Cantidad",
     "subtotal": "Subtotal",
     "pieces": "piezas",
-    "continueShopping": "Seguir Comprando",
+    "continueShopping": "Seguir Explorando",
     "checkout": "Finalizar Compra"
   },
   "checkout": {
@@ -68,9 +68,9 @@
     "postalCode": "Código Postal",
     "orderSummary": "Resumen del Pedido",
     "processing": "Procesando...",
-    "placeOrder": "Realizar Pedido",
-    "orderConfirmed": "¡Pedido Confirmado!",
-    "orderConfirmedDescription": "Gracias por tu pedido. Te hemos enviado un email de confirmación.",
+    "placeOrder": "Confirmar Pedido",
+    "orderConfirmed": "¡Pedido Realizado!",
+    "orderConfirmedDescription": "Gracias por conectar con mi obra. Te he enviado un email de confirmación.",
     "backToHome": "Volver al Inicio",
     "payment": {
       "title": "Método de Pago",
@@ -85,16 +85,16 @@
     }
   },
   "brand": {
-    "heritage": "Nuestra Historia",
-    "story": "En Entremares, creemos en el poder de la tradición y la alegría de regalar. Cada alfajor es un testimonio de generaciones de artesanía, hecho con amor y los mejores ingredientes.",
-    "craftsmanship": "Descubre la riqueza de la tradición y el sabor auténtico en cada alfajor."
+    "heritage": "Sobre el Arte",
+    "story": "En El Templo Digital, creemos en la fluidez entre lo material e inmaterial. Cada obra es un canal de energía personificada.",
+    "craftsmanship": "Descubre el binomio materia-inmaterialidad en cada trazo."
   },
   "pages": {
-    "about": "Acerca de",
-    "aboutTitle": "Nuestra Historia",
+    "about": "Sobre Mí",
+    "aboutTitle": "Sobre Alana",
     "contact": "Contacto",
-    "contactTitle": "Ponte en Contacto",
-    "contactDescription": "¿Tienes preguntas? Nos encantaría saber de ti."
+    "contactTitle": "Conectemos",
+    "contactDescription": "¿Tienes preguntas sobre mi obra o quieres colaborar? Escríbeme."
   },
   "form": {
     "name": "Nombre",
@@ -102,10 +102,10 @@
     "email": "Correo Electrónico",
     "emailPlaceholder": "tu@email.com",
     "message": "Mensaje",
-    "messagePlaceholder": "Cuéntanos qué necesitas...",
+    "messagePlaceholder": "Cuéntame...",
     "send": "Enviar",
     "sending": "Enviando...",
-    "success": "¡Gracias! Nos pondremos en contacto pronto.",
+    "success": "¡Gracias! Me pondré en contacto pronto.",
     "error": "Algo salió mal. Por favor, inténtalo de nuevo."
   },
   "footer": {
@@ -117,54 +117,54 @@
     "copyright": "Todos los derechos reservados."
   },
   "errors": {
-    "notFound": "Alfajor no encontrado",
-    "notFoundDescription": "Lo sentimos, el alfajor que buscas no existe."
+    "notFound": "Obra no encontrada",
+    "notFoundDescription": "Lo sentimos, la pieza que buscas no existe."
   },
   "aboutPage": {
-    "title": "Sobre Nosotros",
-    "subtitle": "Dos. Una cocina. Pequeña.",
+    "title": "Sobre Alana",
+    "subtitle": "Materia e Inmaterialidad.",
     "content": {
-      "p1": "Dos.\nUna cocina. Pequeña.\nEntremares nace de un par de manos y de una curiosidad — saber qué ocurre cuando se trae a Portugal un dulce que aquí aún no tiene nombre.",
-      "p2": "Trabajamos a pequeña escala, con ingredientes que elegimos a mano. No hacemos muchos. Los hacemos con tiempo.",
-      "p3": "El resto de lo que somos está en Instagram. Allí mostramos la cocina por dentro — lo que sale bien, lo que falla y lo que está por llegar."
+      "p1": "Alana es una artista de espectro completo. Canaliza, a través de sus diferentes facetas, la concepción del mundo que ve bajo el concepto de 'fluidez'.",
+      "p2": "En la pintura, el tatuaje, la escritura y la performance, da a conocer al mundo su visión holístico-espiritual de las cosas.",
+      "p3": "Su trabajo está cargado de mensajes esotéricos autorreferenciales, explorando la materia y la inmaterialidad — personificando las energías que percibe."
     }
   },
   "packsData": {
     "pistache-intenso": {
-      "name": "Pistache Intenso",
-      "description": "Alfajor artesanal relleno de rico pistacho.",
-      "longDescription": "El 'Pistache Intenso' ofrece una experiencia vibrante, combinando nuestra emblemática masa con una crema rica y praliné de pistacho, recubierto de chocolate blanca."
+      "name": "Lámina: Fluidez I",
+      "description": "Reproducción en papel de alta calidad.",
+      "longDescription": "Una pieza que explora el movimiento y la energía vibrante."
     },
     "chocolate-blanco-nuez": {
-      "name": "Chocolate Blanco con Nuez",
-      "description": "Alfajor tierno bañado en chocolate blanco premium con trozos de nuez.",
-      "longDescription": "Una fusión perfecta de suavidad y textura crocante. Nuestro alfajor de chocolate blanco con trozos de nueces seleccionadas es un clásico reimaginado para los paladares más exigentes."
+      "name": "Original: La Luz",
+      "description": "Obra original técnica mixta.",
+      "longDescription": "Exploración de la luz y el contraste en gran formato."
     },
     "vinho-do-porto": {
-      "name": "Vinho do Porto",
-      "description": "Una experiencia refinada con notas de vino de Oporto.",
-      "longDescription": "Un homenaje a nuestras raíces ibéricas y la influencia local. El relleno está suavemente infusionado con el prestigioso Vinho do Porto, envuelto en chocolate negro y ofreciendo un final aromático único."
+      "name": "Lámina: Oporto",
+      "description": "Serie limitada inspirada en la ciudad.",
+      "longDescription": "Influencia local y misticismo en cada trazo."
     },
     "caramelo-salado": {
-      "name": "Caramelo Salado",
-      "description": "El equilibrio perfecto entre dulzura y toques de sal marina.",
-      "longDescription": "Descubre el contraste adictivo de nuestro Caramelo Salado. El clásico dulce de leche fusionado con escamas de sal marina premium crea una explosión de sabor inigualable."
+      "name": "Serie: Contraste",
+      "description": "Lámina artística en edición especial.",
+      "longDescription": "El equilibrio entre los polos opuestos."
     },
     "chocolate-intenso": {
-      "name": "Chocolate Intenso",
-      "description": "Para los verdaderos amantes del cacao puro.",
-      "longDescription": "Un alfajor oscuro diseñado para los puristas del cacao. Con un baño triple de chocolate belga de 80% y un relleno de ganache profundo, esta pieza es pura intensidad."
+      "name": "Original: Oscuridad",
+      "description": "Obra profunda y minimalista.",
+      "longDescription": "Cacao de energía pura plasmado en el lienzo."
     }
   },
   "packFlavors": {
-    "dulce-leche": "Dulce de Leche",
-    "chocolate": "Chocolate",
-    "limon": "Limón",
-    "framboesa": "Frambuesa",
-    "cafe": "Café",
-    "pistacio": "Pistacho",
-    "flor-sal": "Flor de Sal",
-    "trufa": "Trufa Negra"
+    "dulce-leche": "Óleo",
+    "chocolate": "Acrílico",
+    "limon": "Tinta",
+    "framboesa": "Técnica Mixta",
+    "cafe": "Digital",
+    "pistacio": "Acuarela",
+    "flor-sal": "Carboncillo",
+    "trufa": "Grabado"
   },
   "whatsapp": {
     "message": "¡Hola! Me gustaría saber más sobre la obra y la tienda de Alana."

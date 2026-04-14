@@ -8,57 +8,57 @@
     "announcement": "✦ Alana Zarzairaeta — Multidisciplinary Artist ✦"
   },
   "hero": {
-    "title": "Entremares",
-    "subtitle": "Premium Handcrafted Alfajores",
-    "description": "Discover the rich heritage of craftsmanship in every bite. Our handcrafted alfajores are made with passion, using traditional methods and premium ingredients.",
-    "exploreButton": "Explore Alfajores",
-    "storyButton": "Our Story",
-    "brandTitle": "ENTRE MARES",
-    "brandSubtitle": "ARTISANS OF THE SEA • SIGNATURE ALFAJORES",
-    "tagline": "ENTRE MARES: WHERE PASSION FOR DULCE DE LECHE MEETS ARTISANAL INNOVATION",
+    "title": "The Digital Temple",
+    "subtitle": "Creative Universe & Art",
+    "description": "Explore a universe where matter and energy meet through art. Painting, tattoo, and performance under the concept of fluidity.",
+    "exploreButton": "View Gallery",
+    "storyButton": "About Me",
+    "brandTitle": "ALANA ZARZAIRAETA",
+    "brandSubtitle": "MULTIDISCIPLINARY ARTIST • MEDIUM",
+    "tagline": "THE DIGITAL TEMPLE: WHERE MATTER DILUTES AND ENERGY CONDENSES",
     "discover": "Discover"
   },
   "pistacheSection": {
-    "title": "INTENSE PISTACHIO",
-    "subtitle": "Craftsmanship in Motion",
-    "bottomTagline": "ENTRE MARES · PREMIUM HANDCRAFTED ALFAJORES"
+    "title": "PURE FLUIDITY",
+    "subtitle": "Art in Motion",
+    "bottomTagline": "ALANA ZARZAIRAETA · CREATIVE UNIVERSE"
   },
   "packs": {
-    "featured": "Our Alfajores",
-    "subtitle": "Our Collection",
-    "description": "Discover our curated selection of handcrafted alfajores, each made with premium ingredients.",
-    "classic": "Pistache Intenso",
-    "premium": "Vinho do Porto",
-    "special": "Chocolate Intenso"
+    "featured": "Available Work",
+    "subtitle": "Prints & Originals",
+    "description": "Discover a curated selection of prints, originals, and unique pieces created by Alana.",
+    "classic": "Prints",
+    "premium": "Originals",
+    "special": "Limited Editions"
   },
   "packDetails": {
     "pieces": "pieces",
     "price": "Price",
-    "ingredients": "Ingredients",
-    "weight": "Weight",
-    "flavors": "Flavors",
+    "ingredients": "Materials",
+    "weight": "Format",
+    "flavors": "Technique",
     "available": "In Stock",
-    "outOfStock": "Out of Stock",
-    "mostPopular": "Most Popular",
+    "outOfStock": "Sold Out",
+    "mostPopular": "Featured",
     "limitedEdition": "Limited Edition"
   },
   "cart": {
     "addToCart": "Add to Cart",
     "cartEmpty": "Your cart is empty",
-    "emptyDescription": "Browse our handcrafted alfajores and add something special.",
+    "emptyDescription": "Browse Alana's work and find something that connects with you.",
     "cartTitle": "Shopping Cart",
     "items": "items",
     "total": "Total",
-    "product": "Product",
+    "product": "Artwork",
     "price": "Price",
     "quantity": "Quantity",
     "subtotal": "Subtotal",
     "pieces": "pieces",
-    "continueShopping": "Continue Shopping",
+    "continueShopping": "Continue Exploring",
     "checkout": "Proceed to Checkout"
   },
   "checkout": {
-    "title": "Checkout",
+    "title": "Payment",
     "shippingDetails": "Shipping Details",
     "name": "Full Name",
     "email": "Email Address",
@@ -70,7 +70,7 @@
     "processing": "Processing...",
     "placeOrder": "Place Order",
     "orderConfirmed": "Order Confirmed!",
-    "orderConfirmedDescription": "Thank you for your order. We've sent a confirmation email.",
+    "orderConfirmedDescription": "Thank you for connecting with my work. A confirmation email has been sent.",
     "backToHome": "Back to Home",
     "payment": {
       "title": "Payment Method",
@@ -85,31 +85,31 @@
     }
   },
   "brand": {
-    "heritage": "Our Heritage",
-    "story": "At Entremares, we believe in the power of tradition and the joy of giving. Each alfajor is a testament to generations of craftsmanship, made with love and the finest ingredients.",
-    "craftsmanship": "Discover the rich heritage of craftsmanship and authentic flavor in every alfajor."
+    "heritage": "About the Art",
+    "story": "At The Digital Temple, we believe in the fluidity between the material and the immaterial. Each work is a channel for personified energy.",
+    "craftsmanship": "Discover the duality of matter and immateriality in every stroke."
   },
   "pages": {
-    "about": "About",
-    "aboutTitle": "Our Story",
+    "about": "About Me",
+    "aboutTitle": "About Alana",
     "contact": "Contact",
-    "contactTitle": "Get in Touch",
-    "contactDescription": "Have questions? We'd love to hear from you."
+    "contactTitle": "Let's Connect",
+    "contactDescription": "Have questions about my work or want to collaborate? Write to me."
   },
   "form": {
     "name": "Name",
-    "namePlaceholder": "Your name",
+    "namePlaceholder": "Your full name",
     "email": "Email",
     "emailPlaceholder": "your@email.com",
     "message": "Message",
-    "messagePlaceholder": "Tell us about your needs...",
+    "messagePlaceholder": "Tell me...",
     "send": "Send",
     "sending": "Sending...",
-    "success": "Thank you! We'll be in touch soon.",
+    "success": "Thank you! I'll be in touch soon.",
     "error": "Something went wrong. Please try again."
   },
   "footer": {
-    "brand": "El Templo Digital de Alana",
+    "brand": "Alana's Digital Temple",
     "tagline": "Creative Universe, Portfolio and Shop",
     "quickLinks": "Sections",
     "contact": "Contact",
@@ -117,54 +117,54 @@
     "copyright": "All rights reserved."
   },
   "errors": {
-    "notFound": "Alfajor not found",
-    "notFoundDescription": "Sorry, the alfajor you're looking for doesn't exist."
+    "notFound": "Artwork not found",
+    "notFoundDescription": "Sorry, the piece you are looking for doesn't exist."
   },
   "aboutPage": {
-    "title": "About Us",
-    "subtitle": "Two. One kitchen. Small.",
+    "title": "About Alana",
+    "subtitle": "Matter and Immateriality.",
     "content": {
-      "p1": "Two.\nOne kitchen. Small.\nEntremares is born from a pair of hands and a curiosity — to know what happens when you bring to Portugal a sweet that still has no name here.",
-      "p2": "We work on a small scale, with hand-picked ingredients. We don't make many. We make them with time.",
-      "p3": "The rest of who we are is on Instagram. There, we show the kitchen from the inside — what goes right, what fails, and what is yet to come."
+      "p1": "Alana is a full-spectrum artist. She channels, through her different facets, the conception of the world she sees under the concept of 'fluidity'.",
+      "p2": "In painting, tattoo, writing, and performance, she shares her holistic-spiritual vision of things with the world.",
+      "p3": "Her work is charged with esoteric self-referential messages, exploring matter and immateriality — personifying the energies she perceives."
     }
   },
   "packsData": {
     "pistache-intenso": {
-      "name": "Pistache Intenso",
-      "description": "Handcrafted alfajor filled with rich pistachio.",
-      "longDescription": "The 'Pistache Intenso' offers a vibrant experience, combining our signature dough with a rich cream and pistachio praline, coated in white chocolate."
+      "name": "Print: Fluidity I",
+      "description": "High-quality paper reproduction.",
+      "longDescription": "A piece exploring movement and vibrant energy."
     },
     "chocolate-blanco-nuez": {
-      "name": "Chocolate Blanco con Nuez",
-      "description": "Tender alfajor dipped in premium white chocolate with walnut pieces.",
-      "longDescription": "A perfect fusion of smoothness and crunchy texture. Our white chocolate alfajor with selected walnut pieces is a reimagined classic for the most demanding palates."
+      "name": "Original: The Light",
+      "description": "Original mixed media artwork.",
+      "longDescription": "Exploration of light and contrast in large format."
     },
     "vinho-do-porto": {
-      "name": "Vinho do Porto",
-      "description": "A refined experience with notes of Port wine.",
-      "longDescription": "A tribute to our Iberian roots and local influence. The filling is gently infused with prestigious Port Wine, enveloped in dark chocolate and offering a unique aromatic finish."
+      "name": "Print: Porto",
+      "description": "Limited series inspired by the city.",
+      "longDescription": "Local influence and mysticism in every stroke."
     },
     "caramelo-salado": {
-      "name": "Caramelo Salado",
-      "description": "The perfect balance between sweetness and hints of sea salt.",
-      "longDescription": "Discover the addictive contrast of our Salted Caramel. The classic dulce de leche fused with premium sea salt flakes creates an unparalleled flavor explosion."
+      "name": "Series: Contrast",
+      "description": "Special edition artistic print.",
+      "longDescription": "The balance between opposing poles."
     },
     "chocolate-intenso": {
-      "name": "Chocolate Intenso",
-      "description": "For true lovers of pure cocoa.",
-      "longDescription": "A dark alfajor designed for cocoa purists. With a triple dip of 80% Belgian chocolate and a deep ganache filling, this piece is pure intensity."
+      "name": "Original: Darkness",
+      "description": "Deep and minimalist work.",
+      "longDescription": "Pure energy captured on canvas."
     }
   },
   "packFlavors": {
-    "dulce-leche": "Dulce de Leche",
-    "chocolate": "Chocolate",
-    "limon": "Lemon",
-    "framboesa": "Raspberry",
-    "cafe": "Coffee",
-    "pistacio": "Pistachio",
-    "flor-sal": "Sea Salt",
-    "trufa": "Black Truffle"
+    "dulce-leche": "Oil",
+    "chocolate": "Acrylic",
+    "limon": "Ink",
+    "framboesa": "Mixed Media",
+    "cafe": "Digital",
+    "pistacio": "Watercolor",
+    "flor-sal": "Charcoal",
+    "trufa": "Engraving"
   },
   "whatsapp": {
     "message": "Hello! I would like to know more about Alana's artwork and shop."
