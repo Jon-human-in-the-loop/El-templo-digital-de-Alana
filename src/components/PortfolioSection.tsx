@@ -94,24 +94,6 @@ const WORKS = [
     size: 'medium',
   },
   {
-    src: '/images/portfolio/fluid-art/un-petalo-1.webp',
-    title: 'Un Pétalo, Un Mensaje y Una Chispa',
-    category: 'Fluid Art',
-    size: 'medium',
-  },
-  {
-    src: '/images/portfolio/fluid-art/un-petalo-2.webp',
-    title: 'Un Pétalo, Un Mensaje y Una Chispa II',
-    category: 'Fluid Art',
-    size: 'small',
-  },
-  {
-    src: '/images/portfolio/fluid-art/un-petalo-3.webp',
-    title: 'Un Pétalo, Un Mensaje y Una Chispa III',
-    category: 'Fluid Art',
-    size: 'small',
-  },
-  {
     src: '/images/portfolio/fluid-art/ya-no-se-oye-1.webp',
     title: 'Ya No Se Oye el Último Suspiro',
     category: 'Fluid Art',
@@ -244,6 +226,54 @@ function WorkCard({ work, index }: WorkCardProps) {
   )
 }
 
+/* ──────────────────────────────────────────────
+   Triptych: Un Pétalo, Un Mensaje y Una Chispa
+   Ocupa las 2 columnas, 3 paneles en fila
+   ────────────────────────────────────────────── */
+function TriptychSection({ index }: { index: number }) {
+  const ref = useRef<HTMLDivElement>(null)
+  const inView = useInView(ref, { once: true, margin: '-80px' })
+
+  const panels = [
+    '/images/portfolio/fluid-art/un-petalo-1.webp',
+    '/images/portfolio/fluid-art/un-petalo-2.webp',
+    '/images/portfolio/fluid-art/un-petalo-3.webp',
+  ]
+
+  return (
+    <motion.div
+      ref={ref}
+      className="col-span-1 md:col-span-2 grid grid-cols-3 h-[300px] md:h-[450px] group/triptych"
+      initial={{ opacity: 0, y: 40 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.8, ease: 'easeOut', delay: index * 0.06 }}
+    >
+      {panels.map((src, i) => (
+        <div key={src} className="relative overflow-hidden">
+          <Image
+            src={src}
+            alt={`Un Pétalo, Un Mensaje y Una Chispa — panel ${i + 1}`}
+            fill
+            className="object-cover transition-transform duration-700 ease-out group-hover/triptych:scale-105"
+            sizes="33vw"
+          />
+          {/* Overlay solo en panel central para no fragmentar */}
+          {i === 1 && (
+            <div className="absolute inset-0 bg-black/0 group-hover/triptych:bg-black/50 transition-all duration-500 flex flex-col justify-end p-5 md:p-7">
+              <div className="translate-y-4 opacity-0 group-hover/triptych:translate-y-0 group-hover/triptych:opacity-100 transition-all duration-400">
+                <p className="font-sans text-xs text-white/60 uppercase tracking-widest mb-1">Fluid Art</p>
+                <h3 className="font-heading text-white uppercase" style={{ fontSize: 'clamp(0.9rem, 1.5vw, 1.4rem)' }}>
+                  Un Pétalo, Un Mensaje y Una Chispa
+                </h3>
+              </div>
+            </div>
+          )}
+        </div>
+      ))}
+    </motion.div>
+  )
+}
+
 export default function PortfolioSection() {
   const titleRef = useRef<HTMLDivElement>(null)
   const titleInView = useInView(titleRef, { once: true })
@@ -271,10 +301,14 @@ export default function PortfolioSection() {
         </motion.h2>
       </div>
 
-      {/* Masonry-style grid */}
+      {/* Masonry-style grid — triptych inserted after index 13 */}
       <div className="grid grid-cols-1 md:grid-cols-2">
-        {WORKS.map((work, i) => (
+        {WORKS.slice(0, 14).map((work, i) => (
           <WorkCard key={work.src} work={work} index={i} />
+        ))}
+        <TriptychSection index={14} />
+        {WORKS.slice(14).map((work, i) => (
+          <WorkCard key={work.src} work={work} index={i + 15} />
         ))}
       </div>
 
