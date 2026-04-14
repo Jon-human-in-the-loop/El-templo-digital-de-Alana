@@ -1,299 +1,168 @@
-# Entremares Web
+# El Templo Digital de Alana
 
-Premium artisanal alfajores gift packs with a rich heritage of craftsmanship.
+Portfolio digital y tienda de arte multidisciplinar de **Alana Zarzairaeta** — artista argentina radicada en Porto.
 
-Entremares is an Argentine producer of artisanal alfajores expanding to the Portuguese market. This website showcases our premium gift packs and brand heritage.
+Pintura, fluid art, ilustración, tatuajes y mucho más. Una ventana a su universo creativo.
 
-## Quick Start
-
-### Prerequisites
-- Node.js 18+ (check with `node --version`)
-- npm (comes with Node.js)
-
-### Installation
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Open http://localhost:3000 in your browser
-```
-
-The development server will auto-reload as you make changes.
-
-### Production Build
-
-```bash
-# Build for production
-npm run build
-
-# Run production build locally
-npm start
-
-# Type checking without emitting files
-npx tsc --noEmit
-
-# Linting
-npm run lint
-```
-
-## Project Structure
-
-```
-entremares-web/
-├── src/
-│   ├── app/
-│   │   ├── layout.tsx         # Root layout with metadata
-│   │   ├── page.tsx           # Home page
-│   │   ├── globals.css        # Global Tailwind styles
-│   │   └── favicon.ico        # Brand favicon
-│   ├── components/            # React components
-│   │   └── ui/               # shadcn/ui components
-│   ├── lib/
-│   │   ├── utils.ts          # Utility functions (cn for classnames)
-│   │   └── constants.ts      # Brand constants and metadata
-│   ├── types/
-│   │   └── index.ts          # TypeScript type definitions
-│   └── styles/
-│       └── variables.css     # CSS custom properties for brand colors
-├── public/                    # Static assets
-├── .editorconfig             # Editor configuration (2-space indent)
-├── .gitignore               # Git ignore rules
-├── next.config.js           # Next.js configuration
-├── tailwind.config.ts       # Tailwind CSS configuration
-├── tsconfig.json            # TypeScript strict mode config
-├── package.json             # Project dependencies
-├── CLAUDE.md                # Developer guidelines for Claude & team
-├── PROJECT.md               # Business context and architecture
-└── README.md                # This file
-```
-
-## Technology Stack
-
-### Core Framework
-- **Next.js 14+** - React meta-framework for production
-- **React 19** - Latest React with improved performance
-- **TypeScript 5** - Type-safe development with strict mode
-
-### Styling & UI
-- **Tailwind CSS 3** - Utility-first CSS framework
-- **shadcn/ui** - High-quality React components (installed as needed)
-- **CSS Variables** - Brand color system in `src/styles/variables.css`
-
-### Code Quality
-- **TypeScript Strict Mode** - Maximum type safety
-- **ESLint** - Code quality and consistency
-- **2-space indentation** - Enforced via .editorconfig
-
-## Brand Color Palette
-
-Defined in `src/styles/variables.css` and configured in Tailwind:
-
-- **Warm Gold** (#d4a574) - Primary brand color
-- **Honey** (#e8d4b0) - Secondary light warm tone
-- **Earth Brown** (#8b6f47) - Text and interactive elements
-- **Dark Brown** (#5c4033) - Headings and emphasis
-- **Cream** (#faf6f1) - Light backgrounds
-- **Warm White** (#fefdfb) - Primary background
-
-## Key Features (Current)
-
-### MVP Phase (Current)
-- ✓ Premium artisanal brand presentation
-- ✓ Home page with brand story and featured gift packs
-- ✓ Responsive design (mobile, tablet, desktop)
-- ✓ Navigation and footer components
-- ✓ TypeScript strict mode for type safety
-- ✓ Tailwind CSS with custom brand colors
-- ✓ Dark mode ready (CSS variables support)
-
-### Planned Features (Phase 2+)
-- Gift pack catalog with filtering
-- Individual product detail pages
-- Shopping cart functionality
-- User accounts and authentication
-- Payment gateway integration (MB WAY, Multibanco)
-- Blog/content section
-- Email newsletter signup
-- Order management
-
-See [PROJECT.md](./PROJECT.md) for detailed feature roadmap.
-
-## Development Guidelines
-
-### Code Style
-- **Components**: Functional components only
-- **Typing**: TypeScript with interfaces for props
-- **Imports**: ESM syntax, path aliases (`@/...`)
-- **Async**: Async/await for asynchronous operations
-- **Styling**: Tailwind utilities, no component CSS files
-
-### File Naming
-- Components: PascalCase (`Header.tsx`)
-- Utilities: camelCase (`formatPrice.ts`)
-- Types: PascalCase (`User.ts`)
-- Styles: kebab-case (`brand-colors.css`)
-
-### Git Workflow
-```bash
-# Create feature branch
-git checkout -b feature/your-feature-name
-
-# Make changes, test locally
-npm run dev
-npx tsc --noEmit
-npm run build
-
-# Commit with clear message
-git add .
-git commit -m "feat: descriptive message"
-
-# Push to remote
-git push -u origin feature/your-feature-name
-
-# Create PR on GitHub
-```
-
-**Important**: Never push directly to `main`. Always create feature branches and PRs.
-
-## Common Commands
-
-```bash
-# Development
-npm run dev           # Start development server (localhost:3000)
-npm run build         # Build for production
-npm start            # Run production build locally
-
-# Type checking
-npx tsc --noEmit      # Check TypeScript without emitting
-
-# Linting
-npm run lint          # Run ESLint
-npm run lint -- --fix # Auto-fix linting issues
-
-# Components (shadcn/ui)
-npx shadcn-ui@latest add button    # Add a new component
-npx shadcn-ui@latest add card      # Examples
-```
-
-## Documentation
-
-### For Development
-- **[CLAUDE.md](./CLAUDE.md)** - Development patterns, code style, and conventions
-  - TypeScript practices
-  - Component patterns
-  - File organization
-  - Styling approach
-  - Git workflow
-  - Brand aesthetic guidelines
-
-### For Business Context
-- **[PROJECT.md](./PROJECT.md)** - Business context and technical architecture
-  - Brand vision and goals
-  - Feature roadmap (Phases 1-4)
-  - Technical decisions explained
-  - Page structure and routing
-  - Success metrics
-  - Integration points for Phase 2+
-
-## Testing & Quality Assurance
-
-### TypeScript Compilation
-```bash
-npx tsc --noEmit
-```
-Must pass with no errors. Strict mode enabled to catch issues early.
-
-### ESLint
-```bash
-npm run lint
-```
-Ensures code quality and consistency.
-
-### Manual Testing
-- Test on multiple viewport sizes (mobile, tablet, desktop)
-- Test interactive components thoroughly
-- Verify responsive design
-- Check accessibility
-
-### Browser Support
-- Chrome/Edge (latest)
-- Firefox (latest)
-- Safari (latest)
-- Mobile browsers (iOS Safari, Chrome mobile)
-
-## Performance Optimization
-
-This project leverages Next.js built-in optimizations:
-- Automatic code splitting
-- Image optimization via `next/image`
-- Static generation where possible
-- CSS minification via Tailwind
-- Optimized production bundle
-
-**Performance Targets:**
-- Lighthouse scores: 90+ across all metrics
-- First Contentful Paint: < 2 seconds
-- Largest Contentful Paint: < 2.5 seconds
-
-## Deployment
-
-### Recommended: Vercel
-```bash
-# Connect GitHub repository to Vercel
-# Automatic deployments on every push to main
-```
-
-Vercel is the official Next.js hosting platform with:
-- Zero-config deployments
-- Automatic HTTPS
-- Edge Functions
-- Environment variable management
-- Preview deployments for PRs
-
-### Alternative: Self-hosted
-Can deploy to any Node.js hosting (AWS, DigitalOcean, Heroku, etc.)
-
-## Resources
-
-### Official Documentation
-- [Next.js 14 Docs](https://nextjs.org/docs)
-- [React 19](https://react.dev)
-- [TypeScript Handbook](https://www.typescriptlang.org/docs)
-- [Tailwind CSS](https://tailwindcss.com)
-- [shadcn/ui](https://ui.shadcn.com)
-
-### Design References
-- [brownbee.com.ar](https://brownbee.com.ar) - Brand aesthetic inspiration
-- [amsterdambakingcompany.com](https://amsterdambakingcompany.com) - Modern artisanal presentation
-
-## Contributing
-
-See [CLAUDE.md](./CLAUDE.md) for detailed development guidelines.
-
-**Branch Strategy:**
-- Create new branch for each feature: `feature/feature-name`
-- Never reuse branches
-- Write clear commit messages
-- Create atomic PRs
-
-## Support & Issues
-
-For questions or issues:
-1. Check CLAUDE.md for development guidelines
-2. Check PROJECT.md for business context
-3. Review existing code for patterns
-4. Check Next.js and Tailwind documentation
-
-## License
-
-© 2024 Entremares. All rights reserved.
+🌐 **Referencia de diseño:** [alanazarzairaeta.my.canva.site](https://alanazarzairaeta.my.canva.site)
 
 ---
 
-**Status**: MVP Phase - Active Development
-**Version**: 0.1.0
-**Last Updated**: 2024
+## Inicio rápido
+
+### Requisitos
+- Node.js 18+ (`node --version` para verificar)
+- npm (incluido con Node.js)
+
+### Instalación
+
+```bash
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
+npm run dev
+
+# Abrir http://localhost:3000 en el navegador
+```
+
+### Variables de entorno
+
+Crear un archivo `.env.local` en la raíz con:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=...
+NEXT_PUBLIC_SUPABASE_ANON_KEY=...
+SUPABASE_SERVICE_ROLE_KEY=...
+RESEND_API_KEY=...
+STRIPE_SECRET_KEY=...
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=...
+```
+
+### Build de producción
+
+```bash
+npm run build     # Compilar para producción
+npm start         # Ejecutar build localmente
+npm run lint      # Linting con ESLint
+npx tsc --noEmit  # Verificar tipos TypeScript
+```
+
+---
+
+## Estructura del proyecto
+
+```
+El-templo-digital-de-Alana/
+├── public/
+│   └── images/
+│       ├── logo/                  # Logo de Alana
+│       ├── qr/                    # QR Instagram
+│       └── portfolio/
+│           ├── figurativo/        # Obras figurativas
+│           ├── fluid-art/         # Fluid art / acrílico
+│           └── acuarela/          # Acuarelas
+├── src/
+│   ├── app/
+│   │   ├── [locale]/              # Rutas internacionalizadas (es/pt/en)
+│   │   │   ├── layout.tsx         # Layout con fuentes y providers
+│   │   │   ├── page.tsx           # Home page
+│   │   │   ├── about/             # Sobre mí
+│   │   │   ├── gift-packs/        # Tienda (obras)
+│   │   │   ├── contact/           # Contacto
+│   │   │   ├── portfolio/         # Portfolio completo
+│   │   │   └── checkout/          # Proceso de pago
+│   │   ├── api/                   # API Routes (contacto, pagos)
+│   │   └── globals.css            # Estilos globales y variables CSS
+│   ├── components/
+│   │   ├── Header.tsx             # Header con logo y nav
+│   │   ├── HeroSection.tsx        # Hero con parallax y obra de fondo
+│   │   ├── PortfolioSection.tsx   # Grid masonry con obras
+│   │   ├── AboutSection.tsx       # Sección sobre Alana + CV
+│   │   ├── Footer.tsx             # Footer negro con QR Instagram
+│   │   └── WhatsAppButton.tsx     # Botón flotante WhatsApp
+│   ├── i18n/
+│   │   ├── messages/
+│   │   │   ├── es.json            # Español (principal)
+│   │   │   ├── pt.json            # Portugués
+│   │   │   └── en.json            # Inglés
+│   │   ├── routing.ts             # Configuración de rutas i18n
+│   │   └── request.ts             # next-intl server config
+│   ├── context/
+│   │   └── CartContext.tsx        # Estado global del carrito
+│   └── lib/
+│       ├── supabase/              # Cliente y consultas Supabase
+│       ├── constants.ts           # Constantes del proyecto
+│       └── utils.ts              # Funciones utilitarias
+├── tailwind.config.ts             # Tailwind con tipografías y colores custom
+├── tsconfig.json                  # TypeScript strict mode
+└── next.config.js                 # Configuración Next.js
+```
+
+---
+
+## Stack tecnológico
+
+| Capa | Tecnología |
+|---|---|
+| Framework | Next.js 14+ (App Router) |
+| Lenguaje | TypeScript 5 (strict mode) |
+| Estilos | Tailwind CSS 3 |
+| Animaciones | Framer Motion |
+| i18n | next-intl (ES / PT / EN) |
+| Base de datos | Supabase (PostgreSQL) |
+| Pagos | Stripe + Ifthenpay (MB WAY / Multibanco) |
+| Email | Resend |
+| Deploy | Vercel |
+
+---
+
+## Diseño
+
+### Paleta de colores
+
+| Token | Valor | Uso |
+|---|---|---|
+| `alana-white` | `#FFFFFF` | Fondos principales |
+| `alana-black` | `#000000` | Textos y detalles |
+| `alana-grey` | `#F0EEED` | Fondos de secciones (referencia Canva) |
+
+### Tipografías
+
+- **`font-heading`** → `Helvetica LT Ultra Compressed` (local) — títulos y nav en caps
+- **`font-sans`** → `Cormorant Garamond` (Google Fonts) — textos e itálicas editoriales
+
+### Estética
+
+Minimalista editorial. Blanco, negro y gris beige. Grandes formatos tipográficos.  
+Inspirado directamente en el portfolio Canva de Alana.
+
+---
+
+## Internacionalización
+
+El sitio está disponible en 3 idiomas accesibles desde `/es`, `/pt`, `/en`.  
+Los textos se gestionan en `src/i18n/messages/`.
+
+---
+
+## Contacto
+
+- **WhatsApp:** +351 968 493 165
+- **Email:** zarzairaetaalana@gmail.com
+- **Instagram:** [@alanazarzairaeta](https://www.instagram.com/alanazarzairaeta/)
+- **YouTube:** [@alanazarzairaeta](https://www.youtube.com/@alanazarzairaeta)
+- **TikTok:** [@alanazarzairaeta](https://www.tiktok.com/@alanazarzairaeta)
+
+---
+
+## Despliegue en Vercel
+
+1. Importar el repositorio desde el dashboard de Vercel
+2. Agregar las variables de entorno (ver sección anterior)
+3. Framework detectado automáticamente como **Next.js**
+4. Cada push a `main` genera un deploy automático ✨
+
+---
+
+© 2025 Alana Zarzairaeta — Todos los derechos reservados.
