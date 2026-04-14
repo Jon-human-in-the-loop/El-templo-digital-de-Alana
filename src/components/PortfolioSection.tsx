@@ -143,12 +143,6 @@ const WORKS = [
   },
   // ── Figurativo ─────────────────────────────────────────────────────
   {
-    src: '/images/portfolio/figurativo/La-luz-y-la-sombra-equilibran-la-mente-y-el-espiritu-70x100.webp',
-    title: 'La Luz y la Sombra',
-    category: 'Figurativo',
-    size: 'large',
-  },
-  {
     src: '/images/portfolio/figurativo/La-luz-y-la-sombra-equilibran-la-mente-y-el-espiritu-70x100-vertical.webp',
     title: 'La Luz y la Sombra',
     category: 'Figurativo',
