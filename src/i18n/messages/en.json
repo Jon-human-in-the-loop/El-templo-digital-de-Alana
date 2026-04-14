@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "home": "HOME",
+    "giftPacks": "SHOP",
+    "about": "ABOUT ME",
+    "contact": "CONTACT",
+    "buyNow": "EXPLORE WORK",
+    "announcement": "✦ Alana Zarzairaeta — Multidisciplinary Artist ✦"
+  },
+  "hero": {
+    "title": "Entremares",
+    "subtitle": "Premium Handcrafted Alfajores",
+    "description": "Discover the rich heritage of craftsmanship in every bite. Our handcrafted alfajores are made with passion, using traditional methods and premium ingredients.",
+    "exploreButton": "Explore Alfajores",
+    "storyButton": "Our Story",
+    "brandTitle": "ENTRE MARES",
+    "brandSubtitle": "ARTISANS OF THE SEA • SIGNATURE ALFAJORES",
+    "tagline": "ENTRE MARES: WHERE PASSION FOR DULCE DE LECHE MEETS ARTISANAL INNOVATION",
+    "discover": "Discover"
+  },
+  "pistacheSection": {
+    "title": "INTENSE PISTACHIO",
+    "subtitle": "Craftsmanship in Motion",
+    "bottomTagline": "ENTRE MARES · PREMIUM HANDCRAFTED ALFAJORES"
+  },
+  "packs": {
+    "featured": "Our Alfajores",
+    "subtitle": "Our Collection",
+    "description": "Discover our curated selection of handcrafted alfajores, each made with premium ingredients.",
+    "classic": "Pistache Intenso",
+    "premium": "Vinho do Porto",
+    "special": "Chocolate Intenso"
+  },
+  "packDetails": {
+    "pieces": "pieces",
+    "price": "Price",
+    "ingredients": "Ingredients",
+    "weight": "Weight",
+    "flavors": "Flavors",
+    "available": "In Stock",
+    "outOfStock": "Out of Stock",
+    "mostPopular": "Most Popular",
+    "limitedEdition": "Limited Edition"
+  },
+  "cart": {
+    "addToCart": "Add to Cart",
+    "cartEmpty": "Your cart is empty",
+    "emptyDescription": "Browse our handcrafted alfajores and add something special.",
+    "cartTitle": "Shopping Cart",
+    "items": "items",
+    "total": "Total",
+    "product": "Product",
+    "price": "Price",
+    "quantity": "Quantity",
+    "subtotal": "Subtotal",
+    "pieces": "pieces",
+    "continueShopping": "Continue Shopping",
+    "checkout": "Proceed to Checkout"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shippingDetails": "Shipping Details",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "address": "Street Address",
+    "city": "City",
+    "postalCode": "Postal Code",
+    "orderSummary": "Order Summary",
+    "processing": "Processing...",
+    "placeOrder": "Place Order",
+    "orderConfirmed": "Order Confirmed!",
+    "orderConfirmedDescription": "Thank you for your order. We've sent a confirmation email.",
+    "backToHome": "Back to Home",
+    "payment": {
+      "title": "Payment Method",
+      "mbway": "MB WAY",
+      "mbwayDesc": "Pay directly with your MB WAY app.",
+      "multibanco": "Multibanco",
+      "multibancoDesc": "Pay at an ATM or through home banking.",
+      "pendingMbway": "Check your MB WAY app to approve the payment.",
+      "multibancoEntity": "Entity",
+      "multibancoReference": "Reference",
+      "multibancoValue": "Value"
+    }
+  },
+  "brand": {
+    "heritage": "Our Heritage",
+    "story": "At Entremares, we believe in the power of tradition and the joy of giving. Each alfajor is a testament to generations of craftsmanship, made with love and the finest ingredients.",
+    "craftsmanship": "Discover the rich heritage of craftsmanship and authentic flavor in every alfajor."
+  },
+  "pages": {
+    "about": "About",
+    "aboutTitle": "Our Story",
+    "contact": "Contact",
+    "contactTitle": "Get in Touch",
+    "contactDescription": "Have questions? We'd love to hear from you."
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your needs...",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Thank you! We'll be in touch soon.",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "brand": "El Templo Digital de Alana",
+    "tagline": "Creative Universe, Portfolio and Shop",
+    "quickLinks": "Sections",
+    "contact": "Contact",
+    "email": "zarzairaetaalana@gmail.com",
+    "copyright": "All rights reserved."
+  },
+  "errors": {
+    "notFound": "Alfajor not found",
+    "notFoundDescription": "Sorry, the alfajor you're looking for doesn't exist."
+  },
+  "aboutPage": {
+    "title": "About Us",
+    "subtitle": "Two. One kitchen. Small.",
+    "content": {
+      "p1": "Two.\nOne kitchen. Small.\nEntremares is born from a pair of hands and a curiosity — to know what happens when you bring to Portugal a sweet that still has no name here.",
+      "p2": "We work on a small scale, with hand-picked ingredients. We don't make many. We make them with time.",
+      "p3": "The rest of who we are is on Instagram. There, we show the kitchen from the inside — what goes right, what fails, and what is yet to come."
+    }
+  },
+  "packsData": {
+    "pistache-intenso": {
+      "name": "Pistache Intenso",
+      "description": "Handcrafted alfajor filled with rich pistachio.",
+      "longDescription": "The 'Pistache Intenso' offers a vibrant experience, combining our signature dough with a rich cream and pistachio praline, coated in white chocolate."
+    },
+    "chocolate-blanco-nuez": {
+      "name": "Chocolate Blanco con Nuez",
+      "description": "Tender alfajor dipped in premium white chocolate with walnut pieces.",
+      "longDescription": "A perfect fusion of smoothness and crunchy texture. Our white chocolate alfajor with selected walnut pieces is a reimagined classic for the most demanding palates."
+    },
+    "vinho-do-porto": {
+      "name": "Vinho do Porto",
+      "description": "A refined experience with notes of Port wine.",
+      "longDescription": "A tribute to our Iberian roots and local influence. The filling is gently infused with prestigious Port Wine, enveloped in dark chocolate and offering a unique aromatic finish."
+    },
+    "caramelo-salado": {
+      "name": "Caramelo Salado",
+      "description": "The perfect balance between sweetness and hints of sea salt.",
+      "longDescription": "Discover the addictive contrast of our Salted Caramel. The classic dulce de leche fused with premium sea salt flakes creates an unparalleled flavor explosion."
+    },
+    "chocolate-intenso": {
+      "name": "Chocolate Intenso",
+      "description": "For true lovers of pure cocoa.",
+      "longDescription": "A dark alfajor designed for cocoa purists. With a triple dip of 80% Belgian chocolate and a deep ganache filling, this piece is pure intensity."
+    }
+  },
+  "packFlavors": {
+    "dulce-leche": "Dulce de Leche",
+    "chocolate": "Chocolate",
+    "limon": "Lemon",
+    "framboesa": "Raspberry",
+    "cafe": "Coffee",
+    "pistacio": "Pistachio",
+    "flor-sal": "Sea Salt",
+    "trufa": "Black Truffle"
+  },
+  "whatsapp": {
+    "message": "Hello! I would like to know more about Alana's artwork and shop."
+  }
+}

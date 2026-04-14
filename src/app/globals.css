@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #FFFFFF;
+    --foreground: #000000;
+    --grey: #F0EEED;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading uppercase;
+    font-weight: normal; /* Ultra compressed is already bold usually, we can adjust via css if needed */
+    letter-spacing: 0.02em;
+    line-height: .9;
+  }
+
+  .collage-border {
+    border: 3px solid var(--foreground);
+    box-shadow: 6px 6px 0px var(--foreground);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .collage-border:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 8px 8px 0px var(--foreground);
+  }
+
+  .section-dropdown {
+    background-color: var(--grey);
+  }
+}

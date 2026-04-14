@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "home": "INICIO",
+    "giftPacks": "TIENDA",
+    "about": "SOBRE MÍ",
+    "contact": "CONTACTO",
+    "buyNow": "EXPLORAR OBRA",
+    "announcement": "✦ Alana Zarzairaeta — Artista Multidisciplinar ✦"
+  },
+  "hero": {
+    "title": "Entremares",
+    "subtitle": "Alfajores Artesanales Premium",
+    "description": "Descubre la riqueza de la tradición en cada bocado. Nuestros alfajores artesanales se hacen a mano con pasión, utilizando métodos tradicionales e ingredientes premium.",
+    "exploreButton": "Explorar Alfajores",
+    "storyButton": "Nuestra Historia",
+    "brandTitle": "ENTRE MARES",
+    "brandSubtitle": "ARTESANOS DEL MAR • ALFAJORES DE AUTOR",
+    "tagline": "ENTRE MARES: DONDE LA PASIÓN POR EL DULCE DE LECHE SE ENCUENTRA CON LA INNOVACIÓN ARTESANAL",
+    "discover": "Descubrir"
+  },
+  "pistacheSection": {
+    "title": "PISTACHE INTENSO",
+    "subtitle": "Artesanía en Movimiento",
+    "bottomTagline": "ENTRE MARES · ALFAJORES PREMIUM ARTESANALES"
+  },
+  "packs": {
+    "featured": "Nuestros Alfajores",
+    "subtitle": "Nuestra Colección",
+    "description": "Descubre nuestra selección curada de alfajores artesanales, cada uno elaborado a mano con ingredientes premium.",
+    "classic": "Pistache Intenso",
+    "premium": "Vinho do Porto",
+    "special": "Chocolate Intenso"
+  },
+  "packDetails": {
+    "pieces": "piezas",
+    "price": "Precio",
+    "ingredients": "Ingredientes",
+    "weight": "Peso",
+    "flavors": "Sabores",
+    "available": "En Stock",
+    "outOfStock": "Agotado",
+    "mostPopular": "Más Popular",
+    "limitedEdition": "Edición Limitada"
+  },
+  "cart": {
+    "addToCart": "Añadir al Carrito",
+    "cartEmpty": "Tu carrito está vacío",
+    "emptyDescription": "Explora nuestros alfajores artesanales y añade algo especial.",
+    "cartTitle": "Carrito de Compras",
+    "items": "artículos",
+    "total": "Total",
+    "product": "Producto",
+    "price": "Precio",
+    "quantity": "Cantidad",
+    "subtotal": "Subtotal",
+    "pieces": "piezas",
+    "continueShopping": "Seguir Comprando",
+    "checkout": "Finalizar Compra"
+  },
+  "checkout": {
+    "title": "Pago",
+    "shippingDetails": "Datos de Envío",
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "phone": "Número de Teléfono",
+    "address": "Dirección",
+    "city": "Ciudad",
+    "postalCode": "Código Postal",
+    "orderSummary": "Resumen del Pedido",
+    "processing": "Procesando...",
+    "placeOrder": "Realizar Pedido",
+    "orderConfirmed": "¡Pedido Confirmado!",
+    "orderConfirmedDescription": "Gracias por tu pedido. Te hemos enviado un email de confirmación.",
+    "backToHome": "Volver al Inicio",
+    "payment": {
+      "title": "Método de Pago",
+      "mbway": "MB WAY",
+      "mbwayDesc": "Paga directamente con tu app MB WAY.",
+      "multibanco": "Multibanco",
+      "multibancoDesc": "Paga en tu banco o cajero Multibanco.",
+      "pendingMbway": "Revisa tu app MB WAY para confirmar el pago.",
+      "multibancoEntity": "Entidad",
+      "multibancoReference": "Referencia",
+      "multibancoValue": "Valor"
+    }
+  },
+  "brand": {
+    "heritage": "Nuestra Historia",
+    "story": "En Entremares, creemos en el poder de la tradición y la alegría de regalar. Cada alfajor es un testimonio de generaciones de artesanía, hecho con amor y los mejores ingredientes.",
+    "craftsmanship": "Descubre la riqueza de la tradición y el sabor auténtico en cada alfajor."
+  },
+  "pages": {
+    "about": "Acerca de",
+    "aboutTitle": "Nuestra Historia",
+    "contact": "Contacto",
+    "contactTitle": "Ponte en Contacto",
+    "contactDescription": "¿Tienes preguntas? Nos encantaría saber de ti."
+  },
+  "form": {
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre completo",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "tu@email.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntanos qué necesitas...",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "success": "¡Gracias! Nos pondremos en contacto pronto.",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo."
+  },
+  "footer": {
+    "brand": "El Templo Digital de Alana",
+    "tagline": "Universo Creativo, Portfolio y Tienda",
+    "quickLinks": "Secciones",
+    "contact": "Contacto",
+    "email": "zarzairaetaalana@gmail.com",
+    "copyright": "Todos los derechos reservados."
+  },
+  "errors": {
+    "notFound": "Alfajor no encontrado",
+    "notFoundDescription": "Lo sentimos, el alfajor que buscas no existe."
+  },
+  "aboutPage": {
+    "title": "Sobre Nosotros",
+    "subtitle": "Dos. Una cocina. Pequeña.",
+    "content": {
+      "p1": "Dos.\nUna cocina. Pequeña.\nEntremares nace de un par de manos y de una curiosidad — saber qué ocurre cuando se trae a Portugal un dulce que aquí aún no tiene nombre.",
+      "p2": "Trabajamos a pequeña escala, con ingredientes que elegimos a mano. No hacemos muchos. Los hacemos con tiempo.",
+      "p3": "El resto de lo que somos está en Instagram. Allí mostramos la cocina por dentro — lo que sale bien, lo que falla y lo que está por llegar."
+    }
+  },
+  "packsData": {
+    "pistache-intenso": {
+      "name": "Pistache Intenso",
+      "description": "Alfajor artesanal relleno de rico pistacho.",
+      "longDescription": "El 'Pistache Intenso' ofrece una experiencia vibrante, combinando nuestra emblemática masa con una crema rica y praliné de pistacho, recubierto de chocolate blanca."
+    },
+    "chocolate-blanco-nuez": {
+      "name": "Chocolate Blanco con Nuez",
+      "description": "Alfajor tierno bañado en chocolate blanco premium con trozos de nuez.",
+      "longDescription": "Una fusión perfecta de suavidad y textura crocante. Nuestro alfajor de chocolate blanco con trozos de nueces seleccionadas es un clásico reimaginado para los paladares más exigentes."
+    },
+    "vinho-do-porto": {
+      "name": "Vinho do Porto",
+      "description": "Una experiencia refinada con notas de vino de Oporto.",
+      "longDescription": "Un homenaje a nuestras raíces ibéricas y la influencia local. El relleno está suavemente infusionado con el prestigioso Vinho do Porto, envuelto en chocolate negro y ofreciendo un final aromático único."
+    },
+    "caramelo-salado": {
+      "name": "Caramelo Salado",
+      "description": "El equilibrio perfecto entre dulzura y toques de sal marina.",
+      "longDescription": "Descubre el contraste adictivo de nuestro Caramelo Salado. El clásico dulce de leche fusionado con escamas de sal marina premium crea una explosión de sabor inigualable."
+    },
+    "chocolate-intenso": {
+      "name": "Chocolate Intenso",
+      "description": "Para los verdaderos amantes del cacao puro.",
+      "longDescription": "Un alfajor oscuro diseñado para los puristas del cacao. Con un baño triple de chocolate belga de 80% y un relleno de ganache profundo, esta pieza es pura intensidad."
+    }
+  },
+  "packFlavors": {
+    "dulce-leche": "Dulce de Leche",
+    "chocolate": "Chocolate",
+    "limon": "Limón",
+    "framboesa": "Frambuesa",
+    "cafe": "Café",
+    "pistacio": "Pistacho",
+    "flor-sal": "Flor de Sal",
+    "trufa": "Trufa Negra"
+  },
+  "whatsapp": {
+    "message": "¡Hola! Me gustaría saber más sobre la obra y la tienda de Alana."
+  }
+}

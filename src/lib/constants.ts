@@ -1,0 +1,105 @@
+import type { GiftPack } from '@/types'
+
+export const BRAND = {
+  name: 'Entremares',
+  tagline: 'Premium Handcrafted Alfajores',
+  baseUrl: process.env.NEXT_PUBLIC_BASE_URL || 'https://entremares.pt',
+} as const
+
+export const GIFT_PACKS: GiftPack[] = [
+  {
+    id: 'pistache-intenso',
+    slug: 'pistache-intenso',
+    name: 'Pistache Intenso',
+    pieces: 1,
+    price: 350,
+    available: true,
+    isFeatured: true,
+    description: 'Alfajor artesanal relleno de rico pistacho.',
+    longDescription: 'El "Pistache Intenso" ofrece una experiencia vibrante, combinando nuestra emblemática masa con una crema rica y praliné de pistacho, recubierto de chocolate.',
+    image: '/images/products/pistache-intenso.jpg',
+    weight: '60g',
+    ingredients: 'Pistachos, dulce de leche de pistacho, chocolate blanco, harina.',
+    flavors: [
+      { id: 'pistacho', name: 'Pistacho', description: 'Crema intensa de pistacho', isSignature: true },
+    ],
+  },
+  {
+    id: 'chocolate-blanco-nuez',
+    slug: 'chocolate-blanco-nuez',
+    name: 'Chocolate Blanco con Nuez',
+    pieces: 1,
+    price: 350,
+    available: true,
+    isFeatured: true,
+    description: 'Alfajor tierno bañado en chocolate blanco premium con trozos de nuez.',
+    longDescription: 'Una fusión perfecta de suavidad y textura crocante. Nuestro alfajor de chocolate blanco con trozos de nueces seleccionadas es un clásico reimaginado para los paladares más exigentes.',
+    image: '/images/products/chocolate-blanco-nuez.jpg',
+    weight: '60g',
+    ingredients: 'Chocolate blanco belga, nueces, dulce de leche, harina.',
+    flavors: [
+      { id: 'chocolate-blanco', name: 'Chocolate Blanco', description: 'Chocolate blanco belga derretido' },
+      { id: 'nuez', name: 'Nuez', description: 'Nueces pacanas crujientes' },
+    ],
+  },
+  {
+    id: 'vinho-do-porto',
+    slug: 'vinho-do-porto',
+    name: 'Vinho do Porto',
+    pieces: 1,
+    price: 380,
+    available: true,
+    isFeatured: true,
+    badge: 'premium',
+    description: 'Una experiencia refinada con notas de vino de Oporto.',
+    longDescription: 'Un homenaje a nuestras raíces ibéricas y la influencia local. El relleno está suavemente infusionado con el prestigioso Vinho do Porto, envuelto en chocolate negro y ofreciendo un final aromático único.',
+    image: '/images/products/vinho-do-porto.jpg',
+    weight: '60g',
+    ingredients: 'Chocolate 70% cacao, reducción de Vino de Oporto, dulce de leche, mantequilla.',
+    flavors: [
+      { id: 'oporto', name: 'Vinho do Porto', description: 'Notas maderadas y afrutadas', isSignature: true },
+    ],
+  },
+  {
+    id: 'caramelo-salado',
+    slug: 'caramelo-salado',
+    name: 'Caramelo Salado',
+    pieces: 1,
+    price: 350,
+    available: true,
+    isFeatured: true,
+    description: 'El equilibrio perfecto entre dulzura y toques de sal marina.',
+    longDescription: 'Descubre el contraste adictivo de nuestro Caramelo Salado. El clásico dulce de leche fusionado con escamas de sal marina premium crea una explosión de sabor inigualable.',
+    image: '/images/products/caramelo-salado.jpg',
+    weight: '60g',
+    ingredients: 'Dulce de leche premium, flor de sal, cobertura de chocolate con leche.',
+    flavors: [
+      { id: 'caramelo', name: 'Caramelo Salado', description: 'Sutil sal marina combinada con caramelo' },
+    ],
+  },
+  {
+    id: 'chocolate-intenso',
+    slug: 'chocolate-intenso',
+    name: 'Chocolate Intenso',
+    pieces: 1,
+    price: 350,
+    available: true,
+    isFeatured: true,
+    badge: 'mostPopular',
+    description: 'Para los verdaderos amantes del cacao puro.',
+    longDescription: 'Un alfajor oscuro diseñado para los puristas del cacao. Con un baño triple de chocolate belga de 80% y un relleno de ganache profundo, esta pieza es pura intensidad.',
+    image: '/images/products/chocolate-intenso.jpg',
+    weight: '60g',
+    ingredients: 'Cacao orgánico puro, ganache oscuro, masa sablée de cacao.',
+    flavors: [
+      { id: 'chocolate-negro', name: 'Chocolate Extra Oscuro', description: 'Cacao intenso de 80%' },
+    ],
+  },
+]
+
+export const NAVIGATION = [
+  { label: 'home', href: '/' },
+  { label: 'giftPacks', href: '/gift-packs' },
+  { label: 'about', href: '/about' },
+  { label: 'contact', href: '/contact' },
+] as const
