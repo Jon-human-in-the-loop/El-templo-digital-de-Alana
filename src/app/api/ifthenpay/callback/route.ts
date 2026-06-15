@@ -81,5 +81,5 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  return NextResponse.json({ status: 'ok', service: 'Entremares Ifthenpay Callback' })
+  return NextResponse.json({ status: 'ok', service: 'El Templo Digital Ifthenpay Callback' })
 }

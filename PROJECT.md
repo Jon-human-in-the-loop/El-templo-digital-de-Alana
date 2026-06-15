@@ -1,20 +1,20 @@
-# PROJECT.md: Entremares Web Project
+# PROJECT.md: El Templo Digital de Alana
 
 ## Context
 
-Entremares is a premium artisanal alfajores producer based in Argentina, now expanding to sell online in Portugal. This project builds the e-commerce website to showcase gift packs, communicate brand heritage, and enable purchases for the Portuguese market.
+El Templo Digital de Alana is the digital portfolio and art shop of Alana Zarzairaeta — an Argentine multidisciplinary artist based in Porto, Portugal. This project builds the website to showcase her work (painting, fluid art, illustration, tattoo and performance), communicate her artistic vision, and enable sales of prints and original pieces to a Portuguese and international audience.
 
 ## Business Overview
 
 ### Brand Identity
-- **Product**: Premium artisanal alfajores (Argentine confection) in curated gift packs
-- **Market**: Portugal (primary target market)
-- **Positioning**: Premium, artisanal, heritage-driven, warm
-- **Key Values**: Quality, tradition, craftsmanship, authenticity
+- **Product**: Original artworks, limited editions and fine-art prints
+- **Market**: Portugal and international (online)
+- **Positioning**: Editorial, minimal, artistic, spiritual
+- **Key Values**: Authenticity, fluidity, materiality–immateriality, creative expression
 
 ### Website Goals
-1. **Tell the Brand Story** - Communicate Entremares heritage and artisanal values
-2. **Showcase Gift Packs** - Present curated product offerings with clear descriptions
+1. **Tell the Artist's Story** - Communicate Alana's vision and the concept of "fluidity"
+2. **Showcase the Portfolio** - Present curated works with clear descriptions
 3. **Build Premium Perception** - Visual and textual branding that reflects luxury positioning
 4. **Enable Purchases** - Clear product information and purchase path (payment to be implemented)
 5. **Market Presence** - Establish online presence in Portuguese market
@@ -355,7 +355,7 @@ See CLAUDE.md for detailed file structure and organization conventions.
 
 ---
 
-**Project Owner**: Entremares
+**Project Owner**: Alana Zarzairaeta
 **Version**: 1.0
 **Last Updated**: 2024
 **Status**: MVP Phase - In Development

@@ -3,7 +3,7 @@
 import { createContext, useContext, useReducer, useEffect, ReactNode } from 'react'
 import type { CartItem, CartState, GiftPack } from '@/types'
 
-const STORAGE_KEY = 'entremares-cart'
+const STORAGE_KEY = 'alana-cart'
 
 type CartAction =
   | { type: 'ADD_ITEM'; pack: GiftPack }

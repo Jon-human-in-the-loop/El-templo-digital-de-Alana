@@ -36,7 +36,7 @@ export default function AdminLoginPage() {
         {/* Logo */}
         <div className="text-center mb-10">
           <h1 className="font-serif text-3xl font-bold text-dark-brown tracking-widest uppercase">
-            Entremares
+            El Templo Digital
           </h1>
           <p className="text-xs text-text-muted font-sans tracking-[0.3em] uppercase mt-2">
             Admin Panel
@@ -66,7 +66,7 @@ export default function AdminLoginPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  placeholder="admin@entremares.pt"
+                  placeholder="admin@el-templo-digital.com"
                   className="w-full pl-9 pr-4 py-3 bg-warm-white border border-border rounded-lg font-sans text-sm text-dark-brown placeholder:text-text-muted/50 focus:outline-none focus:border-dark-brown transition-colors"
                 />
               </div>
@@ -107,7 +107,7 @@ export default function AdminLoginPage() {
         </div>
 
         <p className="text-center text-[10px] text-text-muted/40 font-sans mt-6 uppercase tracking-widest">
-          Restricted area · Entremares
+          Restricted area · El Templo Digital
         </p>
       </div>
     </div>

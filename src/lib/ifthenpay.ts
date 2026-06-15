@@ -6,7 +6,7 @@
  *   IFTHENPAY_MBWAY_KEY  — e.g. "ZZZ-000000"  (assigned by Ifthenpay)
  *   IFTHENPAY_MB_KEY     — e.g. "ZZZ-000000"  (assigned by Ifthenpay)
  *   IFTHENPAY_ANTI_PHISHING_KEY — secret to validate webhook callbacks
- *   NEXT_PUBLIC_BASE_URL — your deployed domain, e.g. https://entremares.pt
+ *   NEXT_PUBLIC_BASE_URL — your deployed domain, e.g. https://el-templo-digital.vercel.app
  */
 
 const MBWAY_API = 'https://api.ifthenpay.com/spg/payment/mbway'
@@ -82,7 +82,7 @@ export async function createMBWayPayment(
     amount: centsToEuroString(req.amountCents),
     mobileNumber: formatPortuguesePhone(req.mobileNumber),
     email: req.email ?? '',
-    description: req.description ?? `Entremares order ${req.orderId}`,
+    description: req.description ?? `El Templo Digital order ${req.orderId}`,
   }
 
   try {
@@ -122,7 +122,7 @@ export async function createMultibancoReference(
     return { success: false, error: 'Payment service not configured' }
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://entremares.pt'
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://el-templo-digital.vercel.app'
   const callbackUrl = `${baseUrl}/api/ifthenpay/callback`
 
   const payload: Record<string, string> = {

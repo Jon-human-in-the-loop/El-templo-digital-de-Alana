@@ -1,5 +1,5 @@
 -- ============================================================
--- ENTREMARES — Supabase Schema
+-- EL TEMPLO DIGITAL DE ALANA — Supabase Schema
 -- Paste this in: Supabase Dashboard → SQL Editor → Run
 -- ============================================================
 
@@ -160,12 +160,12 @@ ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO product_translations (product_id, locale, name, description, long_description) VALUES
   -- Classic ES
-  ('a0000000-0000-0000-0000-000000000001','es','Pack Clásico','La introducción perfecta a nuestros clásicos.','El Pack Clásico es una perfecta introducción a los alfajores Entremares. Cada pieza está hecha a mano con ingredientes premium y técnicas tradicionales, reflejando siglos de herencia artesanal.'),
-  ('a0000000-0000-0000-0000-000000000001','en','Classic Pack','The perfect introduction to our classics.','The Classic Pack is a perfect introduction to Entremares alfajores. Each piece is handmade with premium ingredients and traditional techniques.'),
-  ('a0000000-0000-0000-0000-000000000001','pt','Pack Clássico','A introdução perfeita aos nossos clássicos.','O Pack Clássico é uma introdução perfeita aos alfajores Entremares. Cada peça é feita à mão com ingredientes premium.'),
+  ('a0000000-0000-0000-0000-000000000001','es','Pack Clásico','La introducción perfecta a nuestros clásicos.','El Pack Clásico es una perfecta introducción a nuestros productos. Cada pieza está hecha a mano con ingredientes premium y técnicas tradicionales, reflejando siglos de herencia artesanal.'),
+  ('a0000000-0000-0000-0000-000000000001','en','Classic Pack','The perfect introduction to our classics.','The Classic Pack is a perfect introduction to our products. Each piece is handmade with premium ingredients and traditional techniques.'),
+  ('a0000000-0000-0000-0000-000000000001','pt','Pack Clássico','A introdução perfeita aos nossos clássicos.','O Pack Clássico é uma introdução perfeita aos nossos produtos. Cada peça é feita à mão com ingredientes premium.'),
   -- Premium ES
   ('a0000000-0000-0000-0000-000000000002','es','Pack Premium','Nuestra selección más completa. Una experiencia handcrafted de excelencia.','El Pack Premium es nuestro más vendido, ofreciendo una impresionante variedad de sabores premium. Con 12 piezas cuidadosamente seleccionadas.'),
-  ('a0000000-0000-0000-0000-000000000002','en','Entremares Premium Pack','Our most complete selection. A handcrafted experience of excellence.','For the true connoisseur, the Premium Pack delivers our finest selection. Perfect for special occasions or as a distinguished corporate gift.'),
+  ('a0000000-0000-0000-0000-000000000002','en','Premium Pack','Our most complete selection. A handcrafted experience of excellence.','For the true connoisseur, the Premium Pack delivers our finest selection. Perfect for special occasions or as a distinguished corporate gift.'),
   ('a0000000-0000-0000-0000-000000000002','pt','Pack Premium','A nossa seleção mais completa. Uma experiência handcrafted de excelência.','O Pack Premium é o nosso bestseller, oferecendo uma variedade impressionante de sabores premium.'),
   -- Special ES
   ('a0000000-0000-0000-0000-000000000003','es','Edición Especial','Sabores de edición limitada en embalaje premium para ocasiones especiales.','La Edición Especial es la cima del arte de hacer alfajores. Con ingredientes raros y sabores innovadores, cada pieza es una obra maestra.'),

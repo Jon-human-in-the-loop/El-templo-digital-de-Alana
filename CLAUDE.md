@@ -1,6 +1,6 @@
-# CLAUDE.md: Development Guidelines for Entremares Web
+# CLAUDE.md: Development Guidelines for El Templo Digital de Alana
 
-This document outlines development patterns, code style, and conventions for the Entremares web project. It's designed for both Claude (AI assistant) and human developers to maintain consistency and quality.
+This document outlines development patterns, code style, and conventions for El Templo Digital de Alana. It's designed for both Claude (AI assistant) and human developers to maintain consistency and quality.
 
 ## 1. Project Stack Overview
 

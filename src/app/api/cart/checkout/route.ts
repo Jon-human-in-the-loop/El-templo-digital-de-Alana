@@ -85,7 +85,7 @@ export async function POST(request: Request) {
         amountCents: order.total,
         mobileNumber: order.customer.phone,
         email: order.customer.email,
-        description: `Entremares ${orderId}`,
+        description: `El Templo Digital ${orderId}`,
       })
 
       if (!result.success) {

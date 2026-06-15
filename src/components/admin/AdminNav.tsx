@@ -32,7 +32,7 @@ export default function AdminNav() {
     <aside className="fixed top-0 left-0 h-full w-64 bg-dark-brown text-cream flex flex-col z-50">
       {/* Brand */}
       <div className="px-6 py-8 border-b border-white/10">
-        <p className="font-serif text-xl font-bold tracking-widest uppercase">Entremares</p>
+        <p className="font-serif text-xl font-bold tracking-widest uppercase">El Templo Digital</p>
         <p className="text-[10px] text-cream/40 font-sans tracking-[0.25em] uppercase mt-1">Admin Panel</p>
       </div>
 

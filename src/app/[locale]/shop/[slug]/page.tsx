@@ -27,7 +27,7 @@ export async function generateMetadata({ params: { locale, slug } }: DetailPageP
   const packDesc = tData.has(`${pack.id}.description`) ? tData(`${pack.id}.description`) : pack.description
 
   return {
-    title: `${packName} | Entremares`,
+    title: `${packName} | El Templo Digital de Alana`,
     description: packDesc,
   }
 }
