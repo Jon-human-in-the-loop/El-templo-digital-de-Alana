@@ -1,10 +1,8 @@
 {
   "nav": {
     "home": "HOME",
-    "giftPacks": "SHOP",
     "about": "ABOUT ME",
     "contact": "CONTACT",
-    "buyNow": "EXPLORE WORK",
     "announcement": "✦ Alana Zarzairaeta — Multidisciplinary Artist ✦"
   },
   "hero": {
@@ -17,67 +15,6 @@
     "brandSubtitle": "MULTIDISCIPLINARY ARTIST • MEDIUM",
     "tagline": "THE DIGITAL TEMPLE: WHERE MATTER DILUTES AND ENERGY CONDENSES",
     "discover": "Discover"
-  },
-  "packs": {
-    "featured": "Available Work",
-    "subtitle": "Prints & Originals",
-    "description": "Discover a curated selection of prints, originals, and unique pieces created by Alana.",
-    "classic": "Prints",
-    "premium": "Originals",
-    "special": "Limited Editions"
-  },
-  "packDetails": {
-    "pieces": "pieces",
-    "price": "Price",
-    "ingredients": "Materials",
-    "weight": "Format",
-    "flavors": "Technique",
-    "available": "In Stock",
-    "outOfStock": "Sold Out",
-    "mostPopular": "Featured",
-    "limitedEdition": "Limited Edition"
-  },
-  "cart": {
-    "addToCart": "Add to Cart",
-    "cartEmpty": "Your cart is empty",
-    "emptyDescription": "Browse Alana's work and find something that connects with you.",
-    "cartTitle": "Shopping Cart",
-    "items": "items",
-    "total": "Total",
-    "product": "Artwork",
-    "price": "Price",
-    "quantity": "Quantity",
-    "subtotal": "Subtotal",
-    "pieces": "pieces",
-    "continueShopping": "Continue Exploring",
-    "checkout": "Proceed to Checkout"
-  },
-  "checkout": {
-    "title": "Payment",
-    "shippingDetails": "Shipping Details",
-    "name": "Full Name",
-    "email": "Email Address",
-    "phone": "Phone Number",
-    "address": "Street Address",
-    "city": "City",
-    "postalCode": "Postal Code",
-    "orderSummary": "Order Summary",
-    "processing": "Processing...",
-    "placeOrder": "Place Order",
-    "orderConfirmed": "Order Confirmed!",
-    "orderConfirmedDescription": "Thank you for connecting with my work. A confirmation email has been sent.",
-    "backToHome": "Back to Home",
-    "payment": {
-      "title": "Payment Method",
-      "mbway": "MB WAY",
-      "mbwayDesc": "Pay directly with your MB WAY app.",
-      "multibanco": "Multibanco",
-      "multibancoDesc": "Pay at an ATM or through home banking.",
-      "pendingMbway": "Check your MB WAY app to approve the payment.",
-      "multibancoEntity": "Entity",
-      "multibancoReference": "Reference",
-      "multibancoValue": "Value"
-    }
   },
   "brand": {
     "heritage": "About the Art",
@@ -105,7 +42,7 @@
   },
   "footer": {
     "brand": "Alana's Digital Temple",
-    "tagline": "Creative Universe, Portfolio and Shop",
+    "tagline": "Creative Universe and Portfolio",
     "quickLinks": "Sections",
     "contact": "Contact",
     "email": "zarzairaetaalana@gmail.com",
@@ -124,29 +61,7 @@
       "p3": "Her work is charged with esoteric self-referential messages, exploring matter and immateriality — personifying the energies she perceives."
     }
   },
-  "packsData": {
-    "fluidez-i": {
-      "name": "Print: Fluidity I",
-      "description": "High-quality paper reproduction from the Fluidity series.",
-      "longDescription": "A piece that explores movement and vibrant energy through organic strokes and deep colors."
-    },
-    "la-luz": {
-      "name": "Original: The Light",
-      "description": "Original mixed-media work on canvas.",
-      "longDescription": "An exploration of light and contrast in large format. Matter and immateriality meet."
-    },
-    "porto-mystic": {
-      "name": "Print: Porto Mystic",
-      "description": "Limited series inspired by the mysticism of Porto.",
-      "longDescription": "A tribute to roots and local influence. Galician-Portuguese mysticism wrapped in contemporary strokes."
-    }
-  },
-  "packFlavors": {
-    "tecnica": "Giclée",
-    "tecnica-mixta": "Mixed Media",
-    "misticismo": "Esotericism"
-  },
   "whatsapp": {
-    "message": "Hello! I would like to know more about Alana's artwork and shop."
+    "message": "Hello! I would like to know more about Alana's artwork."
   }
 }

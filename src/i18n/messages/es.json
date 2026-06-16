@@ -1,10 +1,8 @@
 {
   "nav": {
     "home": "INICIO",
-    "giftPacks": "TIENDA",
     "about": "SOBRE MÍ",
     "contact": "CONTACTO",
-    "buyNow": "EXPLORAR OBRA",
     "announcement": "✦ Alana Zarzairaeta — Artista Multidisciplinar ✦"
   },
   "hero": {
@@ -17,67 +15,6 @@
     "brandSubtitle": "ARTISTA MULTIDISCIPLINAR • MÉDIUM",
     "tagline": "EL TEMPLO DIGITAL: DONDE LA MATERIA SE DILUYE Y LA ENERGÍA SE CONDENSA",
     "discover": "Descubrir"
-  },
-  "packs": {
-    "featured": "Obra Disponible",
-    "subtitle": "Ediciones & Originales",
-    "description": "Descubre una selección curada de láminas, originales y piezas únicas creadas por Alana.",
-    "classic": "Láminas",
-    "premium": "Originales",
-    "special": "Ediciones Limitadas"
-  },
-  "packDetails": {
-    "pieces": "piezas",
-    "price": "Precio",
-    "ingredients": "Materiales",
-    "weight": "Formato",
-    "flavors": "Técnica",
-    "available": "En Stock",
-    "outOfStock": "Vendido",
-    "mostPopular": "Destacado",
-    "limitedEdition": "Edición Limitada"
-  },
-  "cart": {
-    "addToCart": "Añadir al Carrito",
-    "cartEmpty": "Tu carrito está vacío",
-    "emptyDescription": "Explora la obra de Alana y encuentra algo que conecte contigo.",
-    "cartTitle": "Carrito de Compras",
-    "items": "artículos",
-    "total": "Total",
-    "product": "Obra",
-    "price": "Precio",
-    "quantity": "Cantidad",
-    "subtotal": "Subtotal",
-    "pieces": "piezas",
-    "continueShopping": "Seguir Explorando",
-    "checkout": "Finalizar Compra"
-  },
-  "checkout": {
-    "title": "Pago",
-    "shippingDetails": "Datos de Envío",
-    "name": "Nombre Completo",
-    "email": "Correo Electrónico",
-    "phone": "Número de Teléfono",
-    "address": "Dirección",
-    "city": "Ciudad",
-    "postalCode": "Código Postal",
-    "orderSummary": "Resumen del Pedido",
-    "processing": "Procesando...",
-    "placeOrder": "Confirmar Pedido",
-    "orderConfirmed": "¡Pedido Realizado!",
-    "orderConfirmedDescription": "Gracias por conectar con mi obra. Te he enviado un email de confirmación.",
-    "backToHome": "Volver al Inicio",
-    "payment": {
-      "title": "Método de Pago",
-      "mbway": "MB WAY",
-      "mbwayDesc": "Paga directamente con tu app MB WAY.",
-      "multibanco": "Multibanco",
-      "multibancoDesc": "Paga en tu banco o cajero Multibanco.",
-      "pendingMbway": "Revisa tu app MB WAY para confirmar el pago.",
-      "multibancoEntity": "Entidad",
-      "multibancoReference": "Referencia",
-      "multibancoValue": "Valor"
-    }
   },
   "brand": {
     "heritage": "Sobre el Arte",
@@ -105,7 +42,7 @@
   },
   "footer": {
     "brand": "El Templo Digital de Alana",
-    "tagline": "Universo Creativo, Portfolio y Tienda",
+    "tagline": "Universo Creativo y Portfolio",
     "quickLinks": "Secciones",
     "contact": "Contacto",
     "email": "zarzairaetaalana@gmail.com",
@@ -124,29 +61,7 @@
       "p3": "Su trabajo está cargado de mensajes esotéricos autorreferenciales, explorando la materia y la inmaterialidad — personificando las energías que percibe."
     }
   },
-  "packsData": {
-    "fluidez-i": {
-      "name": "Lámina: Fluidez I",
-      "description": "Reproducción en papel de alta calidad de la serie Fluidez.",
-      "longDescription": "Una pieza que explora el movimiento y la energía vibrante a través de trazos orgánicos y colores profundos."
-    },
-    "la-luz": {
-      "name": "Original: La Luz",
-      "description": "Obra original técnica mixta sobre lienzo.",
-      "longDescription": "Exploración de la luz y el contraste en gran formato. Materia e inmaterialidad se dan la mano."
-    },
-    "porto-mystic": {
-      "name": "Lámina: Porto Mystic",
-      "description": "Serie limitada inspirada en el misticismo de Oporto.",
-      "longDescription": "Un homenaje a las raíces y la influencia local. El misticismo gallego-portugués envuelto en trazos contemporáneos."
-    }
-  },
-  "packFlavors": {
-    "tecnica": "Giclée",
-    "tecnica-mixta": "Técnica Mixta",
-    "misticismo": "Esoterismo"
-  },
   "whatsapp": {
-    "message": "¡Hola! Me gustaría saber más sobre la obra y la tienda de Alana."
+    "message": "¡Hola! Me gustaría saber más sobre la obra de Alana."
   }
 }

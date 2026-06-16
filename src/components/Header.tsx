@@ -2,7 +2,6 @@
 
 import { usePathname, Link } from '@/i18n/routing'
 import { useTranslations } from 'next-intl'
-import CartIndicator from './cart/CartIndicator'
 import LanguageSwitcher from './LanguageSwitcher'
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
@@ -21,7 +20,6 @@ export default function Header() {
 
   const navItems = [
     { label: t('home'), href: '/' as const },
-    { label: t('giftPacks'), href: '/shop' as const },
     { label: t('about'), href: '/about' as const },
     { label: t('contact'), href: '/contact' as const },
   ]
@@ -72,14 +70,7 @@ export default function Header() {
 
         {/* Right Side */}
         <div className="flex items-center gap-2 xl:gap-3 shrink-0">
-          <Link
-            href="/shop"
-            className="hidden md:flex items-center justify-center whitespace-nowrap font-heading font-normal text-[14px] tracking-[0.05em] uppercase bg-black text-white px-4 py-2 rounded-full hover:bg-black/80 transition-all duration-300 shadow-sm"
-          >
-            {t('buyNow')}
-          </Link>
           <LanguageSwitcher />
-          <CartIndicator />
 
           {/* Mobile Menu Button */}
           <button

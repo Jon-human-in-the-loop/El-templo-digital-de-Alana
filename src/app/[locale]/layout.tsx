@@ -7,7 +7,6 @@ import { notFound } from 'next/navigation'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
-import { CartProvider } from '@/context/CartContext'
 import { Cormorant_Garamond } from 'next/font/google'
 import localFont from 'next/font/local'
 
@@ -26,13 +25,13 @@ const helveticaUltra = localFont({
 
 export const metadata: Metadata = {
   title: 'El Templo Digital de Alana',
-  description: 'Universo Creativo, Portfolio y Tienda Virtual de Alana Zarzairaeta.',
+  description: 'Universo Creativo y Portfolio de Alana Zarzairaeta.',
   icons: {
     icon: '/favicon.ico',
   },
   openGraph: {
     title: 'El Templo Digital de Alana',
-    description: 'Universo Creativo, Portfolio y Tienda Virtual de Alana Zarzairaeta.',
+    description: 'Universo Creativo y Portfolio de Alana Zarzairaeta.',
     type: 'website',
   },
 }
@@ -60,14 +59,12 @@ export default async function LocaleLayout(props: {
     <html lang={resolvedParams.locale} className={`${cormorant.variable} ${helveticaUltra.variable}`}>
       <body className="antialiased font-sans">
         <NextIntlClientProvider messages={messages}>
-          <CartProvider>
-            <Header />
-            <div className="min-h-[calc(100vh-200px)]">
-              {children}
-            </div>
-            <WhatsAppButton phoneNumber="351968493165" />
-            <Footer />
-          </CartProvider>
+          <Header />
+          <div className="min-h-[calc(100vh-200px)]">
+            {children}
+          </div>
+          <WhatsAppButton phoneNumber="351968493165" />
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -1,6 +1,6 @@
 # El Templo Digital de Alana
 
-Portfolio digital y tienda de arte multidisciplinar de **Alana Zarzairaeta** — artista Argentina radicada en Porto.
+Portfolio digital de arte multidisciplinar de **Alana Zarzairaeta** — artista Argentina radicada en Porto.
 
 Pintura, fluid art, ilustración, tatuajes y mucho más. Una ventana a su universo creativo.
 
@@ -30,12 +30,13 @@ npm run dev
 Crear un archivo `.env.local` en la raíz con:
 
 ```env
-NEXT_PUBLIC_SUPABASE_URL=...
-NEXT_PUBLIC_SUPABASE_ANON_KEY=...
-SUPABASE_SERVICE_ROLE_KEY=...
+# Formulario de contacto (Resend)
 RESEND_API_KEY=...
-STRIPE_SECRET_KEY=...
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=...
+FROM_EMAIL=onboarding@resend.dev
+TO_EMAIL=zarzairaetaalana@gmail.com
+
+# URL base del sitio
+NEXT_PUBLIC_BASE_URL=https://el-templo-digital.vercel.app
 ```
 
 ### Build de producción
@@ -67,11 +68,10 @@ El-templo-digital-de-Alana/
 │   │   │   ├── layout.tsx         # Layout con fuentes y providers
 │   │   │   ├── page.tsx           # Home page
 │   │   │   ├── about/             # Sobre mí
-│   │   │   ├── shop/              # Tienda (obras)
-│   │   │   ├── contact/           # Contacto
 │   │   │   ├── portfolio/         # Portfolio completo
-│   │   │   └── checkout/          # Proceso de pago
-│   │   ├── api/                   # API Routes (contacto, pagos)
+│   │   │   ├── blog/              # Blog / universo creativo
+│   │   │   └── contact/           # Contacto
+│   │   ├── api/                   # API Routes (formulario de contacto)
 │   │   └── globals.css            # Estilos globales y variables CSS
 │   ├── components/
 │   │   ├── Header.tsx             # Header con logo y nav
@@ -87,12 +87,11 @@ El-templo-digital-de-Alana/
 │   │   │   └── en.json            # Inglés
 │   │   ├── routing.ts             # Configuración de rutas i18n
 │   │   └── request.ts             # next-intl server config
-│   ├── context/
-│   │   └── CartContext.tsx        # Estado global del carrito
 │   └── lib/
-│       ├── supabase/              # Cliente y consultas Supabase
 │       ├── constants.ts           # Constantes del proyecto
-│       └── utils.ts              # Funciones utilitarias
+│       ├── email.ts               # Envío de emails (Resend)
+│       ├── validation.ts          # Validación de formularios
+│       └── utils.ts               # Funciones utilitarias
 ├── tailwind.config.ts             # Tailwind con tipografías y colores custom
 ├── tsconfig.json                  # TypeScript strict mode
 └── next.config.js                 # Configuración Next.js
@@ -109,9 +108,7 @@ El-templo-digital-de-Alana/
 | Estilos | Tailwind CSS 3 |
 | Animaciones | Framer Motion |
 | i18n | next-intl (ES / PT / EN) |
-| Base de datos | Supabase (PostgreSQL) |
-| Pagos | Stripe + Ifthenpay (MB WAY / Multibanco) |
-| Email | Resend |
+| Email | Resend (formulario de contacto) |
 | Deploy | Vercel |
 
 ---
