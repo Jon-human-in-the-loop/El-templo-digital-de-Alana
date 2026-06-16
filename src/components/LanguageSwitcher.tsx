@@ -19,15 +19,15 @@ export default function LanguageSwitcher() {
   ]
 
   return (
-    <div className="flex bg-cream/80 rounded-pill p-1 gap-0.5">
+    <div className="flex bg-alana-grey rounded-full p-1 gap-0.5">
       {locales.map((loc) => (
         <button
           key={loc.code}
           onClick={() => handleLanguageChange(loc.code)}
-          className={`px-3 py-1.5 rounded-pill text-xs font-sans font-semibold tracking-wider uppercase transition-all duration-300 ${
+          className={`px-3 py-1.5 rounded-full text-xs font-sans font-semibold tracking-wider uppercase transition-all duration-300 ${
             currentLocale === loc.code
-              ? 'bg-dark-brown text-cream shadow-sm'
-              : 'text-earth-brown hover:text-dark-brown hover:bg-honey/40'
+              ? 'bg-black text-white shadow-sm'
+              : 'text-black/50 hover:text-black hover:bg-white/70'
           }`}
         >
           {loc.label}

@@ -57,7 +57,7 @@ All routes are localized under `/[locale]` for `es`, `pt` and `en`.
 
 ### Architectural notes
 - **App Router** with React Server Components; client components only where interactivity is required.
-- **Styling**: Tailwind utility-first; CSS custom properties live in `src/styles/variables.css`; no per-component CSS files.
+- **Styling**: Tailwind utility-first; brand colours live in `tailwind.config.ts` (`alana-*`); base CSS custom properties (`--background`, `--foreground`, `--grey`) and global styles in `src/app/globals.css`; no per-component CSS files.
 - **i18n**: messages in `src/i18n/messages/{es,pt,en}.json`, locale routing via the `next-intl` middleware.
 - **Contact**: `POST /api/contact` validates the form and sends an email through Resend.
 

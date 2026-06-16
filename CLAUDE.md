@@ -89,7 +89,7 @@ export default function ComponentName({
 **Tailwind CSS:**
 - Utility-first approach for all styling
 - No component-specific CSS files
-- Use custom colors defined in `src/styles/variables.css`
+- Use the brand color tokens defined in `tailwind.config.ts` (`alana-*`)
 - Responsive design via Tailwind breakpoints
 
 **Brand Colors (Tailwind tokens):**
@@ -97,8 +97,8 @@ export default function ComponentName({
 - `alana-black` (#000000): Text and detail
 - `alana-grey` (#F0EEED): Section backgrounds
 
-Additional design tokens (spacing, shadows, transitions) live as CSS custom
-properties in `src/styles/variables.css`.
+Base CSS custom properties (`--background`, `--foreground`, `--grey`) and the
+global base styles live in `src/app/globals.css`.
 
 ### 2.5 Async/Await Pattern
 

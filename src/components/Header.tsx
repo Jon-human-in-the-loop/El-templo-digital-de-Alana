@@ -29,10 +29,10 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-500 ease-luxe ${
+      className={`sticky top-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'header-glass shadow-sm'
-          : 'bg-warm-white/0'
+          ? 'bg-white/90 backdrop-blur-md shadow-sm'
+          : 'bg-transparent'
       }`}
     >
       {/* Announcement Bar */}
@@ -74,13 +74,13 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2.5 hover:bg-cream rounded-lg transition-colors"
+            className="lg:hidden p-2.5 hover:bg-alana-grey rounded-lg transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (
-              <X size={22} className="text-dark-brown" />
+              <X size={22} className="text-black" />
             ) : (
-              <Menu size={22} className="text-dark-brown" />
+              <Menu size={22} className="text-black" />
             )}
           </button>
         </div>
@@ -88,7 +88,7 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <nav className="lg:hidden border-t border-border bg-warm-white animate-fade-in-up">
+        <nav className="lg:hidden border-t border-black/10 bg-white">
           <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col gap-5">
             {navItems.map((item) => (
               <Link
