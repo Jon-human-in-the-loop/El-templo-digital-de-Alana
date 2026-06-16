@@ -67,7 +67,7 @@ El-templo-digital-de-Alana/
 │   │   │   ├── layout.tsx         # Layout con fuentes y providers
 │   │   │   ├── page.tsx           # Home page
 │   │   │   ├── about/             # Sobre mí
-│   │   │   ├── gift-packs/        # Tienda (obras)
+│   │   │   ├── shop/              # Tienda (obras)
 │   │   │   ├── contact/           # Contacto
 │   │   │   ├── portfolio/         # Portfolio completo
 │   │   │   └── checkout/          # Proceso de pago

@@ -33,7 +33,7 @@ export default function GiftPackCard({
 
   if (variant === 'compact') {
     return (
-      <Link href={`/gift-packs/${pack.slug}`}>
+      <Link href={`/shop/${pack.slug}`}>
         <div className="card-premium group cursor-pointer h-full flex flex-col">
           {/* Image with hover zoom */}
           <div className="relative img-hover-zoom aspect-[4/3] bg-gradient-to-br from-honey/40 to-warm-gold/30 shrink-0 overflow-hidden">
@@ -76,7 +76,7 @@ export default function GiftPackCard({
   return (
     <div className="card-premium group h-full flex flex-col">
       {/* Image with hover zoom */}
-      <Link href={`/gift-packs/${pack.slug}`} className="block relative img-hover-zoom aspect-[4/3] bg-gradient-to-br from-honey/40 to-warm-gold/30 shrink-0 overflow-hidden">
+      <Link href={`/shop/${pack.slug}`} className="block relative img-hover-zoom aspect-[4/3] bg-gradient-to-br from-honey/40 to-warm-gold/30 shrink-0 overflow-hidden">
         {pack.image ? (
           <Image src={pack.image} alt={packName} fill className="object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
         ) : (
@@ -93,7 +93,7 @@ export default function GiftPackCard({
 
       {/* Content */}
       <div className="p-6 flex flex-col flex-grow">
-        <Link href={`/gift-packs/${pack.slug}`} className="block">
+        <Link href={`/shop/${pack.slug}`} className="block">
           <h3 className="mb-2 text-lg font-serif font-semibold text-dark-brown group-hover:text-earth-brown transition-colors">
             {packName}
           </h3>

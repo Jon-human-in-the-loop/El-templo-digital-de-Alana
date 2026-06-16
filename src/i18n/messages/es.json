@@ -125,41 +125,26 @@
     }
   },
   "packsData": {
-    "pistache-intenso": {
+    "fluidez-i": {
       "name": "Lámina: Fluidez I",
-      "description": "Reproducción en papel de alta calidad.",
-      "longDescription": "Una pieza que explora el movimiento y la energía vibrante."
+      "description": "Reproducción en papel de alta calidad de la serie Fluidez.",
+      "longDescription": "Una pieza que explora el movimiento y la energía vibrante a través de trazos orgánicos y colores profundos."
     },
-    "chocolate-blanco-nuez": {
+    "la-luz": {
       "name": "Original: La Luz",
-      "description": "Obra original técnica mixta.",
-      "longDescription": "Exploración de la luz y el contraste en gran formato."
+      "description": "Obra original técnica mixta sobre lienzo.",
+      "longDescription": "Exploración de la luz y el contraste en gran formato. Materia e inmaterialidad se dan la mano."
     },
-    "vinho-do-porto": {
-      "name": "Lámina: Oporto",
-      "description": "Serie limitada inspirada en la ciudad.",
-      "longDescription": "Influencia local y misticismo en cada trazo."
-    },
-    "caramelo-salado": {
-      "name": "Serie: Contraste",
-      "description": "Lámina artística en edición especial.",
-      "longDescription": "El equilibrio entre los polos opuestos."
-    },
-    "chocolate-intenso": {
-      "name": "Original: Oscuridad",
-      "description": "Obra profunda y minimalista.",
-      "longDescription": "Cacao de energía pura plasmado en el lienzo."
+    "porto-mystic": {
+      "name": "Lámina: Porto Mystic",
+      "description": "Serie limitada inspirada en el misticismo de Oporto.",
+      "longDescription": "Un homenaje a las raíces y la influencia local. El misticismo gallego-portugués envuelto en trazos contemporáneos."
     }
   },
   "packFlavors": {
-    "dulce-leche": "Óleo",
-    "chocolate": "Acrílico",
-    "limon": "Tinta",
-    "framboesa": "Técnica Mixta",
-    "cafe": "Digital",
-    "pistacio": "Acuarela",
-    "flor-sal": "Carboncillo",
-    "trufa": "Grabado"
+    "tecnica": "Giclée",
+    "tecnica-mixta": "Técnica Mixta",
+    "misticismo": "Esoterismo"
   },
   "whatsapp": {
     "message": "¡Hola! Me gustaría saber más sobre la obra y la tienda de Alana."

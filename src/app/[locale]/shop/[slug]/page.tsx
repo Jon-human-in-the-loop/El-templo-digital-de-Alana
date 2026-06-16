@@ -58,7 +58,7 @@ export default function DetailPage({ params: { locale, slug } }: DetailPageProps
         <div className="mx-auto max-w-4xl text-sm text-text-muted font-sans uppercase tracking-wider text-[11px] font-semibold">
           <Link href="/" className="hover:text-earth-brown transition-colors">{t('nav.home')}</Link>
           <span className="mx-2 text-border">/</span>
-          <Link href="/gift-packs" className="hover:text-earth-brown transition-colors">{t('nav.giftPacks')}</Link>
+          <Link href="/shop" className="hover:text-earth-brown transition-colors">{t('nav.giftPacks')}</Link>
           <span className="mx-2 text-border">/</span>
           <span className="text-earth-brown">{packName}</span>
         </div>

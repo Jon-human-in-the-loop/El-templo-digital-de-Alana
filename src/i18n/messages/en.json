@@ -125,41 +125,26 @@
     }
   },
   "packsData": {
-    "pistache-intenso": {
+    "fluidez-i": {
       "name": "Print: Fluidity I",
-      "description": "High-quality paper reproduction.",
-      "longDescription": "A piece exploring movement and vibrant energy."
+      "description": "High-quality paper reproduction from the Fluidity series.",
+      "longDescription": "A piece that explores movement and vibrant energy through organic strokes and deep colors."
     },
-    "chocolate-blanco-nuez": {
+    "la-luz": {
       "name": "Original: The Light",
-      "description": "Original mixed media artwork.",
-      "longDescription": "Exploration of light and contrast in large format."
+      "description": "Original mixed-media work on canvas.",
+      "longDescription": "An exploration of light and contrast in large format. Matter and immateriality meet."
     },
-    "vinho-do-porto": {
-      "name": "Print: Porto",
-      "description": "Limited series inspired by the city.",
-      "longDescription": "Local influence and mysticism in every stroke."
-    },
-    "caramelo-salado": {
-      "name": "Series: Contrast",
-      "description": "Special edition artistic print.",
-      "longDescription": "The balance between opposing poles."
-    },
-    "chocolate-intenso": {
-      "name": "Original: Darkness",
-      "description": "Deep and minimalist work.",
-      "longDescription": "Pure energy captured on canvas."
+    "porto-mystic": {
+      "name": "Print: Porto Mystic",
+      "description": "Limited series inspired by the mysticism of Porto.",
+      "longDescription": "A tribute to roots and local influence. Galician-Portuguese mysticism wrapped in contemporary strokes."
     }
   },
   "packFlavors": {
-    "dulce-leche": "Oil",
-    "chocolate": "Acrylic",
-    "limon": "Ink",
-    "framboesa": "Mixed Media",
-    "cafe": "Digital",
-    "pistacio": "Watercolor",
-    "flor-sal": "Charcoal",
-    "trufa": "Engraving"
+    "tecnica": "Giclée",
+    "tecnica-mixta": "Mixed Media",
+    "misticismo": "Esotericism"
   },
   "whatsapp": {
     "message": "Hello! I would like to know more about Alana's artwork and shop."

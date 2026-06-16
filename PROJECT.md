@@ -168,8 +168,8 @@ Deliverables:
 - `/public/favicon.ico` - Brand favicon
 
 ### Planned Pages (Phase 2+)
-- `/gift-packs` - Gift pack catalog and listing
-- `/gift-packs/[slug]` - Individual product detail page
+- `/shop` - Art shop catalog and listing
+- `/shop/[slug]` - Individual artwork detail page
 - `/about` - About page (brand history, production process)
 - `/contact` - Contact form
 - `/blog` - Blog/content section (Phase 3)

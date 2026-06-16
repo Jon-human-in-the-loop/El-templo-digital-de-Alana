@@ -39,7 +39,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/gift-packs" className="text-sm font-sans text-white/50 hover:text-white transition-colors duration-300">
+                <Link href="/shop" className="text-sm font-sans text-white/50 hover:text-white transition-colors duration-300">
                   {tNav('giftPacks')}
                 </Link>
               </li>
