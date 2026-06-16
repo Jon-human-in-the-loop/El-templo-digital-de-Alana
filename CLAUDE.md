@@ -6,9 +6,9 @@ This document outlines development patterns, code style, and conventions for El 
 
 **Core Technology Stack:**
 - **Framework**: Next.js 14+ with TypeScript 5 (strict mode)
-- **UI Framework**: React 19 with functional components
-- **Styling**: Tailwind CSS 3 with custom brand color palette
-- **Component Library**: shadcn/ui (installed as needed)
+- **UI Framework**: React 18 with functional components
+- **Styling**: Tailwind CSS 3 with a custom brand palette (white / black / grey)
+- **Animation**: Framer Motion
 - **Type Safety**: TypeScript with strict mode enforced
 - **Module System**: ESM imports exclusively
 - **Node Version**: 18+ (minimum)
@@ -25,11 +25,11 @@ This document outlines development patterns, code style, and conventions for El 
 - Line length: prefer readable lengths (aim for ~120 chars where possible)
 
 **File Naming:**
-- Components: PascalCase (e.g., `Header.tsx`, `ProductCard.tsx`)
+- Components: PascalCase (e.g., `Header.tsx`, `PortfolioSection.tsx`)
 - Utilities/helpers: camelCase (e.g., `formatPrice.ts`, `validateEmail.ts`)
 - Types/interfaces: PascalCase (e.g., `User.ts`, `ProductProps.ts`)
 - CSS/Style files: kebab-case (e.g., `brand-colors.css`)
-- Pages/Routes: kebab-case (e.g., `gift-packs.tsx`, `about-us.tsx`)
+- Pages/Routes: kebab-case (e.g., `portfolio.tsx`, `about.tsx`)
 
 **Import Organization:**
 - External imports first (React, Next.js, dependencies)
@@ -92,18 +92,13 @@ export default function ComponentName({
 - Use custom colors defined in `src/styles/variables.css`
 - Responsive design via Tailwind breakpoints
 
-**Brand Colors:**
-- `--color-warm-gold`: Primary brand color (#d4a574)
-- `--color-honey`: Secondary light tone (#e8d4b0)
-- `--color-earth-brown`: Text and interactive elements (#8b6f47)
-- `--color-dark-brown`: Headings and strong emphasis (#5c4033)
-- `--color-cream`: Light backgrounds (#faf6f1)
-- `--color-warm-white`: Primary background (#fefdfb)
+**Brand Colors (Tailwind tokens):**
+- `alana-white` (#FFFFFF): Primary background
+- `alana-black` (#000000): Text and detail
+- `alana-grey` (#F0EEED): Section backgrounds
 
-**shadcn/ui Components:**
-- Install components as needed: `npx shadcn-ui@latest add button`
-- Import from `@/components/ui/[component-name]`
-- Customize via Tailwind utilities only
+Additional design tokens (spacing, shadows, transitions) live as CSS custom
+properties in `src/styles/variables.css`.
 
 ### 2.5 Async/Await Pattern
 
@@ -143,19 +138,20 @@ npm run lint          # ESLint
 
 ## 6. Brand Aesthetic
 
-- **Feeling**: Premium, artisanal, warm, authentic
-- **Colors**: Warm golds, honey, earthy browns, cream
-- **Typography**: Serif headings, clean sans-serif body
-- **Spacing**: Generous whitespace, luxury feel
-- **References**: brownbee.com.ar, amsterdambakingcompany.com
+- **Feeling**: Minimalist, editorial, artistic, spiritual
+- **Colors**: White, black and warm grey
+- **Typography**: Helvetica LT Ultra Compressed (headings), Cormorant Garamond (body)
+- **Spacing**: Generous whitespace, large typographic formats
+- **Reference**: Alana's Canva portfolio
 
 ## 7. Resources
 
 - [Next.js Docs](https://nextjs.org/docs)
 - [Tailwind CSS](https://tailwindcss.com)
-- [shadcn/ui](https://ui.shadcn.com)
+- [Framer Motion](https://www.framer.com/motion/)
+- [next-intl](https://next-intl-docs.vercel.app/)
 - [TypeScript](https://www.typescriptlang.org)
-- See PROJECT.md for business context
+- See PROJECT.md for project context
 
 ---
 
