@@ -1,7 +1,10 @@
 {
   "nav": {
     "home": "HOME",
+    "portfolio": "PORTFOLIO",
     "about": "ABOUT ME",
+    "exhibitions": "EXHIBITIONS",
+    "blog": "BLOG",
     "contact": "CONTACT",
     "announcement": "✦ Alana Zarzairaeta — Multidisciplinary Artist ✦"
   },

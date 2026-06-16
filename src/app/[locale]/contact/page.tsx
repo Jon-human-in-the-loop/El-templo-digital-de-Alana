@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { Loader2, Send } from 'lucide-react'
+import { collaborationNote } from '@/content/about'
 
 export default function ContactPage() {
   const t = useTranslations()
@@ -152,6 +153,45 @@ export default function ContactPage() {
               )}
             </button>
           </form>
+        </div>
+      </section>
+
+      {/* Canales directos */}
+      <section className="w-full px-6 pb-20 md:pb-28">
+        <div className="mx-auto max-w-xl border-t border-black/10 pt-10">
+          <p className="font-sans italic text-black/70 text-lg mb-8">{collaborationNote}</p>
+          <ul className="space-y-4 font-sans text-sm">
+            <li>
+              <span className="block text-black/40 uppercase tracking-wider text-xs mb-0.5">Email</span>
+              <a className="text-black hover:opacity-60 transition-opacity" href="mailto:zarzairaetaalana@gmail.com">
+                zarzairaetaalana@gmail.com
+              </a>
+            </li>
+            <li>
+              <span className="block text-black/40 uppercase tracking-wider text-xs mb-0.5">WhatsApp</span>
+              <a className="text-black hover:opacity-60 transition-opacity" href="https://wa.me/351968493165" target="_blank" rel="noopener noreferrer">
+                +351 968 493 165
+              </a>
+            </li>
+            <li>
+              <span className="block text-black/40 uppercase tracking-wider text-xs mb-0.5">Instagram</span>
+              <a className="text-black hover:opacity-60 transition-opacity" href="https://www.instagram.com/alanazarzairaeta/" target="_blank" rel="noopener noreferrer">
+                @alanazarzairaeta
+              </a>
+            </li>
+            <li>
+              <span className="block text-black/40 uppercase tracking-wider text-xs mb-0.5">YouTube</span>
+              <a className="text-black hover:opacity-60 transition-opacity" href="https://www.youtube.com/@alanazarzairaeta" target="_blank" rel="noopener noreferrer">
+                @alanazarzairaeta
+              </a>
+            </li>
+            <li>
+              <span className="block text-black/40 uppercase tracking-wider text-xs mb-0.5">TikTok</span>
+              <a className="text-black hover:opacity-60 transition-opacity" href="https://www.tiktok.com/@alanazarzairaeta" target="_blank" rel="noopener noreferrer">
+                @alanazarzairaeta
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
     </div>

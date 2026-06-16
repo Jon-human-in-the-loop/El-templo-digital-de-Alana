@@ -20,7 +20,10 @@ export default function Header() {
 
   const navItems = [
     { label: t('home'), href: '/' as const },
+    { label: t('portfolio'), href: '/portfolio' as const },
     { label: t('about'), href: '/about' as const },
+    { label: t('exhibitions'), href: '/exhibitions' as const },
+    { label: t('blog'), href: '/blog' as const },
     { label: t('contact'), href: '/contact' as const },
   ]
 
