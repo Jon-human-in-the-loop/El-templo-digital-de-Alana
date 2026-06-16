@@ -1,11 +1,18 @@
 {
   "nav": {
     "home": "INÍCIO",
+    "gallery": "GALERIA",
     "portfolio": "PORTFOLIO",
     "about": "SOBRE MIM",
     "exhibitions": "EXPOSIÇÕES",
     "blog": "BLOG",
     "contact": "CONTACTO",
+    "originals": "Originais",
+    "watercolours": "Aguarelas",
+    "merch": "Merch",
+    "figurative": "Figurativo",
+    "fluidArt": "Fluid Art",
+    "murals": "Murais",
     "announcement": "✦ Alana Zarzairaeta — Artista Multidisciplinar ✦"
   },
   "hero": {
