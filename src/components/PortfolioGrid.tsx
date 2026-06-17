@@ -3,6 +3,7 @@
 import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
 import { useRef } from 'react'
+import { useTranslations } from 'next-intl'
 import type { Work } from '@/content/portfolio'
 
 const HEIGHT: Record<Work['size'], string> = {
@@ -43,10 +44,11 @@ function WorkCard({ work, index }: { work: Work; index: number }) {
 
 /** Grilla de obras a dos columnas. */
 export default function PortfolioGrid({ works }: { works: Work[] }) {
+  const t = useTranslations('gallery')
   if (works.length === 0) {
     return (
       <p className="px-6 md:px-12 font-sans text-black/40 italic">
-        Próximamente: nuevas obras en esta sección.
+        {t('comingSoon')}
       </p>
     )
   }

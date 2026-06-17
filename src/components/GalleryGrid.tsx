@@ -4,17 +4,21 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { Link } from '@/i18n/routing'
 import { X } from 'lucide-react'
+import { useLocale, useTranslations } from 'next-intl'
+import { asLocale } from '@/content/locale'
 import type { GalleryWork } from '@/content/gallery'
-
-const STATUS_LABEL: Record<GalleryWork['status'], string> = {
-  available: 'Disponible',
-  reserved: 'Reservada',
-  sold: 'Vendida',
-}
 
 export default function GalleryGrid({ works }: { works: GalleryWork[] }) {
   const [selected, setSelected] = useState<GalleryWork | null>(null)
   const [activeImg, setActiveImg] = useState<string>('')
+  const locale = asLocale(useLocale())
+  const t = useTranslations('gallery')
+
+  const STATUS: Record<GalleryWork['status'], string> = {
+    available: t('statusAvailable'),
+    reserved: t('statusReserved'),
+    sold: t('statusSold'),
+  }
 
   useEffect(() => {
     document.body.style.overflow = selected ? 'hidden' : ''
@@ -29,9 +33,7 @@ export default function GalleryGrid({ works }: { works: GalleryWork[] }) {
   }
 
   if (works.length === 0) {
-    return (
-      <p className="font-sans text-black/40 italic">Próximamente: obras disponibles en esta sección.</p>
-    )
+    return <p className="font-sans text-black/40 italic">{t('comingSoon')}</p>
   }
 
   const thumbs = selected
@@ -56,7 +58,7 @@ export default function GalleryGrid({ works }: { works: GalleryWork[] }) {
             />
             {w.status !== 'available' && (
               <span className="absolute top-3 left-3 bg-black text-white text-[10px] uppercase tracking-widest px-2 py-1">
-                {STATUS_LABEL[w.status]}
+                {STATUS[w.status]}
               </span>
             )}
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-500 flex flex-col justify-end p-4">
@@ -111,7 +113,7 @@ export default function GalleryGrid({ works }: { works: GalleryWork[] }) {
               {/* Datos */}
               <div className="p-6 md:p-10 flex flex-col">
                 <p className="font-sans uppercase tracking-[0.3em] text-black/40 text-xs mb-3">
-                  {STATUS_LABEL[selected.status]}
+                  {STATUS[selected.status]}
                   {selected.price ? ` · ${selected.price}` : ''}
                 </p>
                 <h2
@@ -122,16 +124,16 @@ export default function GalleryGrid({ works }: { works: GalleryWork[] }) {
                 </h2>
                 <ul className="font-sans text-sm text-black/60 space-y-1 mb-6">
                   {selected.year && <li>{selected.year}</li>}
-                  {selected.technique && <li>{selected.technique}</li>}
+                  {selected.technique && <li>{selected.technique[locale]}</li>}
                   {selected.dimensions && <li>{selected.dimensions}</li>}
                 </ul>
                 {selected.description && (
-                  <p className="font-sans text-black/75 italic leading-relaxed mb-4">{selected.description}</p>
+                  <p className="font-sans text-black/75 italic leading-relaxed mb-4">{selected.description[locale]}</p>
                 )}
                 {selected.symbolism && (
                   <div className="mb-6">
-                    <p className="font-sans uppercase tracking-wider text-black/40 text-xs mb-1">Simbolismo</p>
-                    <p className="font-sans text-black/75 italic leading-relaxed">{selected.symbolism}</p>
+                    <p className="font-sans uppercase tracking-wider text-black/40 text-xs mb-1">{t('symbolism')}</p>
+                    <p className="font-sans text-black/75 italic leading-relaxed">{selected.symbolism[locale]}</p>
                   </div>
                 )}
                 <div className="mt-auto pt-4">
@@ -140,7 +142,7 @@ export default function GalleryGrid({ works }: { works: GalleryWork[] }) {
                     onClick={() => setSelected(null)}
                     className="inline-flex items-center gap-3 font-heading uppercase text-sm border border-black px-8 py-4 hover:bg-black hover:text-white transition-all duration-300"
                   >
-                    {selected.status === 'available' ? 'Consultar esta obra' : 'Consultar'}
+                    {selected.status === 'available' ? t('inquire') : t('inquireShort')}
                     <span className="text-xl">→</span>
                   </Link>
                 </div>

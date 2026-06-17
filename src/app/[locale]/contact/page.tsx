@@ -1,12 +1,14 @@
 'use client'
 
 import { useState } from 'react'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 import { Loader2, Send } from 'lucide-react'
 import { collaborationNote } from '@/content/about'
+import { asLocale } from '@/content/locale'
 
 export default function ContactPage() {
   const t = useTranslations()
+  const locale = asLocale(useLocale())
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -159,7 +161,7 @@ export default function ContactPage() {
       {/* Canales directos */}
       <section className="w-full px-6 pb-20 md:pb-28">
         <div className="mx-auto max-w-xl border-t border-black/10 pt-10">
-          <p className="font-sans italic text-black/70 text-lg mb-8">{collaborationNote}</p>
+          <p className="font-sans italic text-black/70 text-lg mb-8">{collaborationNote[locale]}</p>
           <ul className="space-y-4 font-sans text-sm">
             <li>
               <span className="block text-black/40 uppercase tracking-wider text-xs mb-0.5">Email</span>

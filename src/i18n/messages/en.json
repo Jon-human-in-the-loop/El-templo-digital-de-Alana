@@ -26,6 +26,11 @@
     "tagline": "THE DIGITAL TEMPLE: WHERE MATTER DILUTES AND ENERGY CONDENSES",
     "discover": "Discover"
   },
+  "home": {
+    "artistQuote": "“I can raise my voice loud because God holds it”",
+    "galleryCtaEyebrow": "Available work",
+    "galleryCtaButton": "View gallery"
+  },
   "brand": {
     "heritage": "About the Art",
     "story": "At The Digital Temple, we believe in the fluidity between the material and the immaterial. Each work is a channel for personified energy.",
@@ -36,7 +41,30 @@
     "aboutTitle": "About Alana",
     "contact": "Contact",
     "contactTitle": "Let's Connect",
-    "contactDescription": "Have questions about my work or want to collaborate? Write to me."
+    "contactDescription": "Have questions about my work or want to collaborate? Write to me.",
+    "exhibitions": "Exhibitions",
+    "blog": "Blog",
+    "blogComingSoon": "Coming soon: the first blog posts.",
+    "gallery": "Gallery",
+    "galleryIntro": "Available work. Interested in a piece?",
+    "galleryInquiry": "Write to me for inquiries",
+    "portfolio": "Portfolio",
+    "portfolioWork": "Work",
+    "portfolioSeeAll": "See the full Portfolio",
+    "portfolioExplore": "Explore"
+  },
+  "gallery": {
+    "statusAvailable": "Available",
+    "statusReserved": "Reserved",
+    "statusSold": "Sold",
+    "inquire": "Inquire about this work",
+    "inquireShort": "Inquire",
+    "symbolism": "Symbolism",
+    "comingSoon": "Coming soon: works available in this section.",
+    "communityEyebrow": "Community",
+    "communityTitle": "Join the community",
+    "communityText": "Join the Instagram broadcast channel: follow the process, see new work before anyone else and get updates.",
+    "communityButton": "Join on Instagram"
   },
   "form": {
     "name": "Name",
@@ -65,6 +93,10 @@
   "aboutPage": {
     "title": "About Alana",
     "subtitle": "Matter and Immateriality.",
+    "statementLabel": "Statement",
+    "cvLabel": "Curriculum Vitae.",
+    "talkTitle": "Let's talk",
+    "contactCta": "Contact",
     "content": {
       "p1": "Alana is a full-spectrum artist. She channels, through her different facets, the conception of the world she sees under the concept of 'fluidity'.",
       "p2": "In painting, tattoo, writing, and performance, she shares her holistic-spiritual vision of things with the world.",

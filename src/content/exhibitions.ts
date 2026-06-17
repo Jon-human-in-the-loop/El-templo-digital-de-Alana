@@ -1,6 +1,7 @@
 /**
  * Exhibiciones de la artista — fuente: documento de la artista.
- * Orden cronológico ascendente.
+ * Orden cronológico ascendente. `date` en ISO (YYYY-MM-DD) para localizar el
+ * formato por idioma; los nombres propios (título, espacio, ciudad) no se traducen.
  */
 
 export interface Exhibition {
@@ -8,7 +9,7 @@ export interface Exhibition {
   title: string
   /** Colectivo / contexto, si aplica. */
   collective?: string
-  /** Fecha en texto, p. ej. "11 de noviembre de 2018". */
+  /** Fecha en ISO (YYYY-MM-DD). */
   date: string
   /** Año, para agrupar/ordenar visualmente. */
   year: string
@@ -22,7 +23,7 @@ export const exhibitions: Exhibition[] = [
   {
     title: 'Muy Lunaides',
     collective: 'La Otra Cara · Comunidad LOC',
-    date: '11 de noviembre de 2018',
+    date: '2018-11-11',
     year: '2018',
     venue: 'Centro Cultural Paseo de las Artes',
     city: 'Córdoba Capital, Argentina',
@@ -30,21 +31,21 @@ export const exhibitions: Exhibition[] = [
   {
     title: '¿Cuándo fue la última vez que te sentiste libre?',
     collective: 'La Otra Cara · Comunidad LOC',
-    date: '13 de diciembre de 2018',
+    date: '2018-12-13',
     year: '2018',
     venue: 'Centro Cultural Paseo de las Artes',
     city: 'Córdoba Capital, Argentina',
   },
   {
     title: 'Happening UGD',
-    date: '23 de abril de 2022',
+    date: '2022-04-23',
     year: '2022',
     venue: 'Campus Urbano de la Universidad Gastón Dachary',
     city: 'Posadas, Misiones, Argentina',
   },
   {
     title: 'Arte Impronta Misionera',
-    date: '22 de marzo de 2024',
+    date: '2024-03-22',
     year: '2024',
     venue: 'Salas 1 y 3 del Centro de Arte del Centro del Conocimiento',
     city: 'Posadas, Misiones, Argentina',
@@ -52,7 +53,7 @@ export const exhibitions: Exhibition[] = [
   {
     title: 'Skateboard Gallery',
     collective: 'Tattoo Art Gallery · Além da pele',
-    date: '16 de agosto de 2025',
+    date: '2025-08-16',
     year: '2025',
     venue: 'Lucky Tattoo Porto',
     city: 'Porto, Portugal',
@@ -60,7 +61,7 @@ export const exhibitions: Exhibition[] = [
   {
     title: 'The World Battle',
     collective: 'Tattoo Art Gallery · Além da pele',
-    date: '25 de agosto de 2025',
+    date: '2025-08-25',
     year: '2025',
     venue: 'MXM Art Center',
     city: 'Porto, Portugal',
@@ -68,7 +69,7 @@ export const exhibitions: Exhibition[] = [
   {
     title: 'Exposición Internacional de Arte Além da pele',
     collective: 'Tattoo Art Gallery',
-    date: '25 de junio de 2026',
+    date: '2026-06-25',
     year: '2026',
     venue: 'Galeria Geraldes da Silva',
     city: 'Porto, Portugal',

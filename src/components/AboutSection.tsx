@@ -3,12 +3,16 @@
 import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
 import { useRef } from 'react'
+import { useLocale, useTranslations } from 'next-intl'
 import { Link } from '@/i18n/routing'
 import { statement, cv, collaborationNote } from '@/content/about'
+import { asLocale } from '@/content/locale'
 
 export default function AboutSection() {
   const ref = useRef<HTMLDivElement>(null)
   const inView = useInView(ref, { once: true, margin: '-60px' })
+  const locale = asLocale(useLocale())
+  const t = useTranslations('aboutPage')
 
   return (
     <section ref={ref} id="sobre-mi" className="w-full" style={{ backgroundColor: '#F0EEED' }}>
@@ -41,10 +45,10 @@ export default function AboutSection() {
             animate={inView ? { opacity: 1 } : {}}
             transition={{ duration: 0.6 }}
           >
-            Statement
+            {t('statementLabel')}
           </motion.p>
 
-          {statement.map((para, i) => (
+          {statement[locale].map((para, i) => (
             <motion.p
               key={i}
               className="font-sans text-base md:text-lg text-black/75 leading-relaxed mb-5 last:mb-0 italic"
@@ -64,20 +68,20 @@ export default function AboutSection() {
       {/* ── Row 3: collaboration note + CTA ── */}
       <div className="border-t border-black/10 px-8 md:px-16 py-14 flex flex-col gap-8">
         <p className="font-sans italic text-black/70 text-lg md:text-xl max-w-3xl">
-          {collaborationNote}
+          {collaborationNote[locale]}
         </p>
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <h2
             className="font-heading uppercase leading-none tracking-wider"
             style={{ fontSize: 'clamp(1.8rem, 5vw, 4rem)' }}
           >
-            Hablemos
+            {t('talkTitle')}
           </h2>
           <Link
             href="/contact"
             className="font-heading uppercase text-lg border-b-2 border-black pb-0.5 hover:opacity-40 transition-opacity tracking-widest"
           >
-            Contacto →
+            {t('contactCta')} →
           </Link>
         </div>
       </div>
@@ -88,6 +92,8 @@ export default function AboutSection() {
 function CVSection() {
   const ref = useRef<HTMLDivElement>(null)
   const inView = useInView(ref, { once: true, margin: '-60px' })
+  const locale = asLocale(useLocale())
+  const t = useTranslations('aboutPage')
 
   return (
     <div ref={ref} className="grid grid-cols-1 md:grid-cols-2 border-t border-black/10">
@@ -100,24 +106,24 @@ function CVSection() {
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.5 }}
         >
-          Curriculum Vitae.
+          {t('cvLabel')}
         </motion.p>
         <ul className="space-y-6">
           {cv.map((m, i) => (
             <motion.li
-              key={`${m.period}-${i}`}
+              key={`${m.period.es}-${i}`}
               className="border-t border-black/10 pt-4"
               initial={{ opacity: 0, y: 16 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.06 + i * 0.05 }}
             >
-              <p className="font-sans text-xs text-black/40 uppercase tracking-widest mb-1">{m.period}</p>
+              <p className="font-sans text-xs text-black/40 uppercase tracking-widest mb-1">{m.period[locale]}</p>
               {m.title && (
                 <p className="font-heading uppercase" style={{ fontSize: 'clamp(1rem, 2.5vw, 1.5rem)' }}>
-                  {m.title}
+                  {m.title[locale]}
                 </p>
               )}
-              <p className="font-sans text-sm text-black/60 italic mt-1">{m.description}</p>
+              <p className="font-sans text-sm text-black/60 italic mt-1">{m.description[locale]}</p>
             </motion.li>
           ))}
         </ul>

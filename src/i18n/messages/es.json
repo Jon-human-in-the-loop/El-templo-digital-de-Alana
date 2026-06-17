@@ -26,6 +26,11 @@
     "tagline": "EL TEMPLO DIGITAL: DONDE LA MATERIA SE DILUYE Y LA ENERGÍA SE CONDENSA",
     "discover": "Descubrir"
   },
+  "home": {
+    "artistQuote": "“Puedo alzar mi voz alto porque Dios la sostiene”",
+    "galleryCtaEyebrow": "Obra disponible",
+    "galleryCtaButton": "Ver galería"
+  },
   "brand": {
     "heritage": "Sobre el Arte",
     "story": "En El Templo Digital, creemos en la fluidez entre lo material e inmaterial. Cada obra es un canal de energía personificada.",
@@ -36,7 +41,30 @@
     "aboutTitle": "Sobre Alana",
     "contact": "Contacto",
     "contactTitle": "Conectemos",
-    "contactDescription": "¿Tienes preguntas sobre mi obra o quieres colaborar? Escríbeme."
+    "contactDescription": "¿Tienes preguntas sobre mi obra o quieres colaborar? Escríbeme.",
+    "exhibitions": "Exhibiciones",
+    "blog": "Blog",
+    "blogComingSoon": "Próximamente: las primeras entradas del blog.",
+    "gallery": "Galería",
+    "galleryIntro": "Obra disponible. ¿Te interesa una pieza?",
+    "galleryInquiry": "Escríbeme para consultas",
+    "portfolio": "Portfolio",
+    "portfolioWork": "Obra",
+    "portfolioSeeAll": "Ver todo el Portfolio",
+    "portfolioExplore": "Explorar"
+  },
+  "gallery": {
+    "statusAvailable": "Disponible",
+    "statusReserved": "Reservada",
+    "statusSold": "Vendida",
+    "inquire": "Consultar esta obra",
+    "inquireShort": "Consultar",
+    "symbolism": "Simbolismo",
+    "comingSoon": "Próximamente: obras disponibles en esta sección.",
+    "communityEyebrow": "Comunidad",
+    "communityTitle": "Únete a la comunidad",
+    "communityText": "Sumate al canal de difusión de Instagram: acompañá el proceso, conocé la obra nueva antes que nadie y recibí novedades.",
+    "communityButton": "Unirme en Instagram"
   },
   "form": {
     "name": "Nombre",
@@ -65,6 +93,10 @@
   "aboutPage": {
     "title": "Sobre Alana",
     "subtitle": "Materia e Inmaterialidad.",
+    "statementLabel": "Statement",
+    "cvLabel": "Curriculum Vitae.",
+    "talkTitle": "Hablemos",
+    "contactCta": "Contacto",
     "content": {
       "p1": "Alana es una artista de espectro completo. Canaliza, a través de sus diferentes facetas, la concepción del mundo que ve bajo el concepto de 'fluidez'.",
       "p2": "En la pintura, el tatuaje, la escritura y la performance, da a conocer al mundo su visión holístico-espiritual de las cosas.",

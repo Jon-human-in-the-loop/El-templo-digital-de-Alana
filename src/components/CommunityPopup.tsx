@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { X } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 
 /**
  * Popup "Únete a la comunidad" — invita al canal de difusión de Instagram.
@@ -9,6 +10,7 @@ import { X } from 'lucide-react'
  */
 export default function CommunityPopup() {
   const [open, setOpen] = useState(false)
+  const t = useTranslations('gallery')
 
   useEffect(() => {
     if (typeof window === 'undefined') return
@@ -50,17 +52,14 @@ export default function CommunityPopup() {
         >
           <X size={20} />
         </button>
-        <p className="font-sans uppercase tracking-[0.3em] text-black/40 text-xs mb-3">Comunidad</p>
+        <p className="font-sans uppercase tracking-[0.3em] text-black/40 text-xs mb-3">{t('communityEyebrow')}</p>
         <h3
           className="font-heading uppercase leading-none text-black mb-4"
           style={{ fontSize: 'clamp(1.8rem, 6vw, 2.6rem)' }}
         >
-          Únete a la comunidad
+          {t('communityTitle')}
         </h3>
-        <p className="font-sans text-black/70 italic mb-7 leading-relaxed">
-          Sumate al canal de difusión de Instagram: acompañá el proceso, conocé la obra nueva antes
-          que nadie y recibí novedades.
-        </p>
+        <p className="font-sans text-black/70 italic mb-7 leading-relaxed">{t('communityText')}</p>
         <a
           href="https://www.instagram.com/alanazarzairaeta/"
           target="_blank"
@@ -68,7 +67,7 @@ export default function CommunityPopup() {
           onClick={close}
           className="inline-flex items-center gap-3 font-heading uppercase text-sm border border-black px-8 py-4 hover:bg-black hover:text-white transition-all duration-300"
         >
-          Unirme en Instagram
+          {t('communityButton')}
           <span className="text-xl">→</span>
         </a>
       </div>

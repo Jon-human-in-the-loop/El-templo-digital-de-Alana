@@ -51,3 +51,6 @@ package-lock.json
 
 # Vercel
 .vercel
+
+# TypeScript incremental build info
+tsconfig.tsbuildinfo

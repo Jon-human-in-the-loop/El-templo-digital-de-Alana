@@ -1,17 +1,21 @@
+import { getLocale, getTranslations } from 'next-intl/server'
 import { exhibitions } from '@/content/exhibitions'
+import { asLocale } from '@/content/locale'
 
-export default function ExhibitionsPage() {
+const LOCALE_TAG: Record<string, string> = { es: 'es-ES', en: 'en-GB', pt: 'pt-PT' }
+
+export default async function ExhibitionsPage() {
+  const locale = asLocale(await getLocale())
+  const t = await getTranslations('pages')
+  const fmt = new Intl.DateTimeFormat(LOCALE_TAG[locale], { dateStyle: 'long' })
+
   return (
     <div>
       {/* Hero */}
       <section className="w-full px-6 py-20 md:py-28 bg-alana-grey">
         <div className="mx-auto max-w-5xl">
-          <p className="text-xs font-sans uppercase tracking-[0.3em] text-black/40 mb-4">
-            Exhibiciones
-          </p>
-          <h1 className="text-5xl md:text-7xl font-heading uppercase leading-none text-black">
-            Exhibiciones
-          </h1>
+          <p className="text-xs font-sans uppercase tracking-[0.3em] text-black/40 mb-4">{t('exhibitions')}</p>
+          <h1 className="text-5xl md:text-7xl font-heading uppercase leading-none text-black">{t('exhibitions')}</h1>
         </div>
       </section>
 
@@ -31,7 +35,9 @@ export default function ExhibitionsPage() {
                 )}
                 <p className="font-sans text-sm text-black/70 mt-3">{ex.venue}</p>
                 <p className="font-sans text-sm text-black/50">{ex.city}</p>
-                <p className="font-sans text-xs text-black/40 uppercase tracking-wider mt-2">{ex.date}</p>
+                <p className="font-sans text-xs text-black/40 uppercase tracking-wider mt-2">
+                  {fmt.format(new Date(`${ex.date}T12:00:00`))}
+                </p>
               </div>
             </li>
           ))}

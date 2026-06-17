@@ -1,9 +1,12 @@
+import { getTranslations } from 'next-intl/server'
 import HeroCarousel from '@/components/HeroCarousel'
 import PortfolioSection from '@/components/PortfolioSection'
 import AboutSection from '@/components/AboutSection'
 import GalleryCTA from '@/components/GalleryCTA'
 
-export default function Home() {
+export default async function Home() {
+  const t = await getTranslations('home')
+
   return (
     <main className="w-full">
       <HeroCarousel />
@@ -14,7 +17,7 @@ export default function Home() {
           className="mx-auto max-w-3xl text-center font-sans italic text-black/80 leading-relaxed"
           style={{ fontSize: 'clamp(1.5rem, 4vw, 2.5rem)' }}
         >
-          “Puedo alzar mi voz alto porque Dios la sostiene”
+          {t('artistQuote')}
         </p>
       </section>
 
