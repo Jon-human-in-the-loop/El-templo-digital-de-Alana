@@ -20,7 +20,7 @@ export default function AboutSection() {
     <section ref={ref} id="sobre-mi" className="w-full" style={{ backgroundColor: '#F0EEED' }}>
 
       {/* ── Row 1: image left / statement right — mirrors Canva reference ── */}
-      <div className="grid grid-cols-1 md:grid-cols-2 min-h-[70vh]">
+      <div id="statement" className="grid grid-cols-1 md:grid-cols-2 min-h-[70vh] scroll-mt-24">
 
         {/* Left: key artwork */}
         <motion.div
@@ -86,7 +86,11 @@ function CVSection() {
   ]
 
   return (
-    <div ref={ref} className="grid grid-cols-1 md:grid-cols-2 border-t border-black/10">
+    <div
+      ref={ref}
+      id="cv"
+      className="grid grid-cols-1 md:grid-cols-2 border-t border-black/10 scroll-mt-24"
+    >
       {/* Left: cv list */}
       <div className="px-10 md:px-16 lg:px-20 py-16">
         <motion.p

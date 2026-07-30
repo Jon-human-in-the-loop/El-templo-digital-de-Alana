@@ -1,8 +1,11 @@
 'use client'
 
-import { useState } from 'react'
-import { useTranslations } from 'next-intl'
 import { Loader2, Send } from 'lucide-react'
+import { useTranslations } from 'next-intl'
+import { useState } from 'react'
+
+import CollaborationNote from '@/components/CollaborationNote'
+import PageHeader from '@/components/PageHeader'
 
 export default function ContactPage() {
   const t = useTranslations()
@@ -35,7 +38,7 @@ export default function ContactPage() {
 
       if (!res.ok) {
         if (data.errors) {
-          setErrorMessage(data.errors.map((e: any) => e.message).join(', '))
+          setErrorMessage(data.errors.map((error: { message: string }) => error.message).join(', '))
         } else {
           setErrorMessage(data.error || t('form.error'))
         }
@@ -52,92 +55,89 @@ export default function ContactPage() {
     }
   }
 
-  return (
-    <div>
-      {/* Hero */}
-      <section className="w-full px-6 py-20 md:py-28 bg-cream/50">
-        <div className="mx-auto max-w-5xl text-center">
-          <p className="text-xs font-sans font-semibold tracking-[0.3em] uppercase text-warm-gold mb-4 animate-fade-in-up">
-            {t('pages.contact')}
-          </p>
-          <h1 className="text-5xl md:text-6xl font-serif font-bold text-dark-brown mb-6 animate-fade-in-up-delay-1">
-            {t('pages.contactTitle')}
-          </h1>
-          <p className="text-base md:text-lg text-text-secondary font-sans font-light max-w-xl mx-auto animate-fade-in-up-delay-2">
-            {t('pages.contactDescription')}
-          </p>
-        </div>
-      </section>
+  const fieldClasses =
+    'w-full px-4 py-3.5 bg-white border border-black/20 font-sans text-base text-black placeholder:text-black/30 focus:border-black focus:outline-none transition-colors duration-300'
+  const labelClasses =
+    'block text-[11px] font-sans font-semibold text-black/50 mb-2 uppercase tracking-[0.2em]'
 
-      {/* Contact Form */}
-      <section className="w-full px-6 section-breathe">
+  return (
+    <main className="w-full bg-white">
+      <PageHeader eyebrow={t('pages.contact')} title={t('pages.contactTitle')}>
+        <p className="font-sans text-base md:text-lg text-black/70 leading-relaxed">
+          {t('pages.contactDescription')}
+        </p>
+      </PageHeader>
+
+      {/* Frase de colaboración — sin CTA, ya estamos en contacto */}
+      <CollaborationNote withCta={false} className="border-b border-black/10" />
+
+      <section className="px-6 md:px-12 py-16 md:py-20">
         <div className="mx-auto max-w-xl">
           {status === 'success' && (
-            <div className="mb-8 p-5 bg-sage/10 border border-sage/30 rounded-lg animate-fade-in-up">
-              <p className="text-sage font-sans font-semibold text-sm">{t('form.success')}</p>
+            <div className="mb-8 p-5 border border-black/20 bg-alana-grey">
+              <p className="font-sans text-sm text-black">{t('form.success')}</p>
             </div>
           )}
 
           {status === 'error' && errorMessage && (
-            <div className="mb-8 p-5 bg-red-50 border border-red-200 rounded-lg animate-fade-in-up">
-              <p className="text-red-600 font-sans text-sm">{errorMessage}</p>
+            <div className="mb-8 p-5 border border-red-300 bg-red-50">
+              <p className="font-sans text-sm text-red-700">{errorMessage}</p>
             </div>
           )}
 
           <form onSubmit={handleSubmit} className="space-y-6">
-            {/* Name */}
             <div>
-              <label className="block text-xs font-sans font-semibold text-dark-brown mb-2 uppercase tracking-wider">
+              <label htmlFor="name" className={labelClasses}>
                 {t('form.name')}
               </label>
               <input
+                id="name"
                 type="text"
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full px-5 py-3.5 bg-warm-white border border-border rounded-lg font-sans text-sm text-dark-brown placeholder:text-text-muted transition-all duration-300"
+                className={fieldClasses}
                 placeholder={t('form.namePlaceholder')}
               />
             </div>
 
-            {/* Email */}
             <div>
-              <label className="block text-xs font-sans font-semibold text-dark-brown mb-2 uppercase tracking-wider">
+              <label htmlFor="email" className={labelClasses}>
                 {t('form.email')}
               </label>
               <input
+                id="email"
                 type="email"
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-5 py-3.5 bg-warm-white border border-border rounded-lg font-sans text-sm text-dark-brown placeholder:text-text-muted transition-all duration-300"
+                className={fieldClasses}
                 placeholder={t('form.emailPlaceholder')}
               />
             </div>
 
-            {/* Message */}
             <div>
-              <label className="block text-xs font-sans font-semibold text-dark-brown mb-2 uppercase tracking-wider">
+              <label htmlFor="message" className={labelClasses}>
                 {t('form.message')}
               </label>
               <textarea
+                id="message"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
                 required
                 rows={6}
-                className="w-full px-5 py-3.5 bg-warm-white border border-border rounded-lg font-sans text-sm text-dark-brown placeholder:text-text-muted resize-none transition-all duration-300"
+                className={`${fieldClasses} resize-none`}
                 placeholder={t('form.messagePlaceholder')}
               />
             </div>
 
-            {/* Submit */}
             <button
               type="submit"
               disabled={status === 'submitting'}
-              className="w-full btn-pill btn-primary text-sm flex items-center justify-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed disabled:transform-none"
+              className="w-full flex items-center justify-center gap-2 font-heading uppercase tracking-widest text-base border border-black bg-black text-white px-7 py-4 hover:bg-white hover:text-black transition-colors duration-300 disabled:opacity-40 disabled:cursor-not-allowed"
             >
               {status === 'submitting' ? (
                 <>
@@ -154,6 +154,6 @@ export default function ContactPage() {
           </form>
         </div>
       </section>
-    </div>
+    </main>
   )
 }
