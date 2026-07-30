@@ -66,13 +66,12 @@ export default function Header() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between gap-6 h-20">
-          {/* Logo — sits above the page content, never under the carousel */}
-          <Link href="/" className="relative z-10 shrink-0 transition-opacity hover:opacity-80">
-            <img
-              src="/images/brand/logo.png"
-              alt="El Templo Digital de Alana"
-              className="w-[120px] md:w-[150px] lg:w-[180px] h-auto object-contain"
-            />
+          {/* Wordmark — reemplaza al logo circular, que se retiró del header */}
+          <Link
+            href="/"
+            className="relative z-10 shrink-0 font-heading uppercase tracking-[0.18em] text-sm md:text-base text-black hover:opacity-60 transition-opacity"
+          >
+            Alana Zarzairaeta
           </Link>
 
           {/* Desktop navigation */}
