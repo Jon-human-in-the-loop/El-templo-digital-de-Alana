@@ -1,6 +1,19 @@
-import { Link } from '@/i18n/routing'
 import { useTranslations, useLocale } from 'next-intl'
 import Image from 'next/image'
+
+import { Link } from '@/i18n/routing'
+
+/** Same routes as the header nav, plus the shop and contact. */
+const FOOTER_LINKS = [
+  { label: 'home', href: '/' },
+  { label: 'about', href: '/about' },
+  { label: 'portfolio', href: '/portfolio' },
+  { label: 'gallery', href: '/gallery' },
+  { label: 'exhibitions', href: '/exhibitions' },
+  { label: 'blog', href: '/blog' },
+  { label: 'shop', href: '/shop' },
+  { label: 'contact', href: '/contact' },
+] as const
 
 export default function Footer() {
   const t = useTranslations('footer')
@@ -33,26 +46,16 @@ export default function Footer() {
               {t('quickLinks')}
             </h4>
             <ul className="space-y-3">
-              <li>
-                <Link href="/" className="text-sm font-sans text-white/50 hover:text-white transition-colors duration-300">
-                  {tNav('home')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/gift-packs" className="text-sm font-sans text-white/50 hover:text-white transition-colors duration-300">
-                  {tNav('giftPacks')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="text-sm font-sans text-white/50 hover:text-white transition-colors duration-300">
-                  {tNav('about')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-sm font-sans text-white/50 hover:text-white transition-colors duration-300">
-                  {tNav('contact')}
-                </Link>
-              </li>
+              {FOOTER_LINKS.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm font-sans text-white/50 hover:text-white transition-colors duration-300"
+                  >
+                    {tNav(link.label)}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

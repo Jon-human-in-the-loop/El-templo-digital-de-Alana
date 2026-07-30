@@ -1,35 +1,88 @@
 {
   "nav": {
     "home": "HOME",
-    "giftPacks": "SHOP",
     "about": "ABOUT ME",
+    "portfolio": "PORTFOLIO",
+    "gallery": "GALLERY",
+    "exhibitions": "EXHIBITIONS",
+    "blog": "BLOG",
+    "shop": "SHOP",
     "contact": "CONTACT",
-    "buyNow": "EXPLORE WORK",
+    "statement": "STATEMENT",
+    "cv": "CV",
+    "figurativo": "FIGURATIVE",
+    "fluidArt": "FLUID ART",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
     "announcement": "✦ Alana Zarzairaeta — Multidisciplinary Artist ✦"
   },
   "hero": {
-    "title": "The Digital Temple",
-    "subtitle": "Creative Universe & Art",
-    "description": "Explore a universe where matter and energy meet through art. Painting, tattoo, and performance under the concept of fluidity.",
-    "exploreButton": "View Gallery",
-    "storyButton": "About Me",
-    "brandTitle": "ALANA ZARZAIRAETA",
     "brandSubtitle": "MULTIDISCIPLINARY ARTIST • MEDIUM",
-    "tagline": "THE DIGITAL TEMPLE: WHERE MATTER DILUTES AND ENERGY CONDENSES",
-    "discover": "Discover"
+    "description": "Explore a universe where matter and energy meet through art. Painting, tattoo, and performance under the concept of fluidity.",
+    "previousSlide": "Previous image",
+    "nextSlide": "Next image",
+    "goToSlide": "Go to image {number}"
   },
-  "pistacheSection": {
-    "title": "PURE FLUIDITY",
-    "subtitle": "Art in Motion",
-    "bottomTagline": "ALANA ZARZAIRAETA · CREATIVE UNIVERSE"
+  "home": {
+    "aboutEyebrow": "About the artist",
+    "aboutTitle": "About the artist",
+    "aboutCta": "Read the statement",
+    "galleryEyebrow": "Gallery",
+    "galleryTitle": "See all the work",
+    "galleryCta": "Enter the gallery"
   },
-  "packs": {
-    "featured": "Available Work",
-    "subtitle": "Prints & Originals",
-    "description": "Discover a curated selection of prints, originals, and unique pieces created by Alana.",
-    "classic": "Prints",
-    "premium": "Originals",
-    "special": "Limited Editions"
+  "about": {
+    "eyebrow": "About me",
+    "title": "About Alana",
+    "statement": "Statement",
+    "cv": "Curriculum Vitae."
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Work",
+    "viewWorks": "View works"
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "Work",
+    "year": "Year",
+    "dimensions": "Dimensions",
+    "technique": "Technique",
+    "description": "Description",
+    "details": "Artwork details",
+    "open": "View details",
+    "close": "Close details",
+    "empty": "No works have been added to this section yet."
+  },
+  "exhibitions": {
+    "eyebrow": "Exhibitions",
+    "title": "Exhibitions",
+    "empty": "No exhibitions have been added yet."
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Blog",
+    "comingSoon": "I am preparing this space to share process, writing and creative universe. Come back soon."
+  },
+  "shop": {
+    "eyebrow": "Shop",
+    "title": "Shop",
+    "comingSoon": "The shop is being prepared. In the meantime, if a piece speaks to you, write to me and we'll talk."
+  },
+  "newsletter": {
+    "title": "Newsletter",
+    "description": "Get news about new work, exhibitions and process.",
+    "placeholder": "you@email.com",
+    "submit": "Subscribe",
+    "success": "Thank you! You're on the list.",
+    "error": "We couldn't save your email. Please try again.",
+    "dismiss": "Close"
+  },
+  "instagram": {
+    "title": "Join the community",
+    "description": "I share the studio day to day on Instagram: work in progress, tattoos and fairs.",
+    "cta": "Follow on Instagram",
+    "dismiss": "Close"
   },
   "packDetails": {
     "pieces": "pieces",
@@ -38,69 +91,62 @@
     "weight": "Format",
     "flavors": "Technique",
     "available": "In Stock",
-    "outOfStock": "Sold Out",
+    "outOfStock": "Sold",
     "mostPopular": "Featured",
     "limitedEdition": "Limited Edition"
   },
   "cart": {
     "addToCart": "Add to Cart",
     "cartEmpty": "Your cart is empty",
-    "emptyDescription": "Browse Alana's work and find something that connects with you.",
+    "emptyDescription": "Explore Alana's work and find something that connects with you.",
     "cartTitle": "Shopping Cart",
     "items": "items",
     "total": "Total",
-    "product": "Artwork",
+    "product": "Work",
     "price": "Price",
     "quantity": "Quantity",
     "subtotal": "Subtotal",
     "pieces": "pieces",
-    "continueShopping": "Continue Exploring",
-    "checkout": "Proceed to Checkout"
+    "continueShopping": "Keep Exploring",
+    "checkout": "Checkout"
   },
   "checkout": {
-    "title": "Payment",
+    "title": "Checkout",
     "shippingDetails": "Shipping Details",
     "name": "Full Name",
-    "email": "Email Address",
+    "email": "Email",
     "phone": "Phone Number",
-    "address": "Street Address",
+    "address": "Address",
     "city": "City",
     "postalCode": "Postal Code",
     "orderSummary": "Order Summary",
     "processing": "Processing...",
     "placeOrder": "Place Order",
-    "orderConfirmed": "Order Confirmed!",
-    "orderConfirmedDescription": "Thank you for connecting with my work. A confirmation email has been sent.",
+    "orderConfirmed": "Order Placed!",
+    "orderConfirmedDescription": "Thank you for connecting with my work. I've sent you a confirmation email.",
     "backToHome": "Back to Home",
     "payment": {
       "title": "Payment Method",
       "mbway": "MB WAY",
       "mbwayDesc": "Pay directly with your MB WAY app.",
       "multibanco": "Multibanco",
-      "multibancoDesc": "Pay at an ATM or through home banking.",
-      "pendingMbway": "Check your MB WAY app to approve the payment.",
+      "multibancoDesc": "Pay at your bank or Multibanco ATM.",
+      "pendingMbway": "Check your MB WAY app to confirm the payment.",
       "multibancoEntity": "Entity",
       "multibancoReference": "Reference",
       "multibancoValue": "Value"
     }
   },
-  "brand": {
-    "heritage": "About the Art",
-    "story": "At The Digital Temple, we believe in the fluidity between the material and the immaterial. Each work is a channel for personified energy.",
-    "craftsmanship": "Discover the duality of matter and immateriality in every stroke."
-  },
   "pages": {
-    "about": "About Me",
-    "aboutTitle": "About Alana",
     "contact": "Contact",
     "contactTitle": "Let's Connect",
-    "contactDescription": "Have questions about my work or want to collaborate? Write to me."
+    "contactDescription": "Questions about my work, or would you like to collaborate? Write to me."
   },
   "form": {
     "name": "Name",
     "namePlaceholder": "Your full name",
     "email": "Email",
-    "emailPlaceholder": "your@email.com",
+    "emailPlaceholder": "you@email.com",
     "message": "Message",
     "messagePlaceholder": "Tell me...",
     "send": "Send",
@@ -109,7 +155,7 @@
     "error": "Something went wrong. Please try again."
   },
   "footer": {
-    "brand": "Alana's Digital Temple",
+    "brand": "El Templo Digital de Alana",
     "tagline": "Creative Universe, Portfolio and Shop",
     "quickLinks": "Sections",
     "contact": "Contact",
@@ -117,56 +163,12 @@
     "copyright": "All rights reserved."
   },
   "errors": {
-    "notFound": "Artwork not found",
-    "notFoundDescription": "Sorry, the piece you are looking for doesn't exist."
+    "notFound": "Work not found",
+    "notFoundDescription": "Sorry, the piece you are looking for does not exist."
   },
-  "aboutPage": {
-    "title": "About Alana",
-    "subtitle": "Matter and Immateriality.",
-    "content": {
-      "p1": "Alana is a full-spectrum artist. She channels, through her different facets, the conception of the world she sees under the concept of 'fluidity'.",
-      "p2": "In painting, tattoo, writing, and performance, she shares her holistic-spiritual vision of things with the world.",
-      "p3": "Her work is charged with esoteric self-referential messages, exploring matter and immateriality — personifying the energies she perceives."
-    }
-  },
-  "packsData": {
-    "pistache-intenso": {
-      "name": "Print: Fluidity I",
-      "description": "High-quality paper reproduction.",
-      "longDescription": "A piece exploring movement and vibrant energy."
-    },
-    "chocolate-blanco-nuez": {
-      "name": "Original: The Light",
-      "description": "Original mixed media artwork.",
-      "longDescription": "Exploration of light and contrast in large format."
-    },
-    "vinho-do-porto": {
-      "name": "Print: Porto",
-      "description": "Limited series inspired by the city.",
-      "longDescription": "Local influence and mysticism in every stroke."
-    },
-    "caramelo-salado": {
-      "name": "Series: Contrast",
-      "description": "Special edition artistic print.",
-      "longDescription": "The balance between opposing poles."
-    },
-    "chocolate-intenso": {
-      "name": "Original: Darkness",
-      "description": "Deep and minimalist work.",
-      "longDescription": "Pure energy captured on canvas."
-    }
-  },
-  "packFlavors": {
-    "dulce-leche": "Oil",
-    "chocolate": "Acrylic",
-    "limon": "Ink",
-    "framboesa": "Mixed Media",
-    "cafe": "Digital",
-    "pistacio": "Watercolor",
-    "flor-sal": "Charcoal",
-    "trufa": "Engraving"
-  },
+  "packsData": {},
+  "packFlavors": {},
   "whatsapp": {
-    "message": "Hello! I would like to know more about Alana's artwork and shop."
+    "message": "Hello! I'd like to know more about Alana's work."
   }
 }

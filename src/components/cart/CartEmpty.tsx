@@ -19,8 +19,8 @@ export default function CartEmpty() {
       <p className="text-sm text-text-muted font-sans mb-10 text-center max-w-sm leading-relaxed">
         {t('emptyDescription')}
       </p>
-      <Link href="/gift-packs" className="btn-pill btn-primary text-sm">
-        {navT('giftPacks')}
+      <Link href="/shop" className="btn-pill btn-primary text-sm">
+        {navT('shop')}
       </Link>
     </div>
   )

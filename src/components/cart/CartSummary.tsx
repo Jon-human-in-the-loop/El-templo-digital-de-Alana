@@ -37,7 +37,7 @@ export default function CartSummary() {
                   <span className="text-[10px] text-earth-brown/40 font-sans text-center leading-tight">{packName}</span>
                 </div>
                 <div>
-                  <Link href={`/gift-packs/${item.pack.slug}`} className="font-serif font-semibold text-dark-brown hover:text-earth-brown transition-colors text-sm">
+                  <Link href={`/shop/${item.pack.slug}`} className="font-serif font-semibold text-dark-brown hover:text-earth-brown transition-colors text-sm">
                     {packName}
                   </Link>
                   <p className="text-[11px] text-text-muted font-sans mt-0.5">{item.pack.pieces} {t('pieces')}</p>
@@ -95,7 +95,7 @@ export default function CartSummary() {
           <span className="text-2xl font-serif font-bold text-warm-gold">{formatPrice(totalPrice)}</span>
         </div>
         <div className="mt-7 flex flex-col sm:flex-row gap-4 justify-end">
-          <Link href="/gift-packs" className="btn-pill btn-outline text-sm text-center">
+          <Link href="/shop" className="btn-pill btn-outline text-sm text-center">
             {t('continueShopping')}
           </Link>
           <Link href="/checkout" className="btn-pill btn-primary text-sm text-center">
