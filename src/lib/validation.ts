@@ -3,6 +3,15 @@ export type ValidationError = {
   message: string
 }
 
+const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
+export function validateNewsletterForm(data: { email?: string }): ValidationError[] {
+  if (!data.email || !EMAIL_PATTERN.test(data.email)) {
+    return [{ field: 'email', message: 'Invalid email address' }]
+  }
+  return []
+}
+
 export function validateContactForm(data: {
   name?: string
   email?: string

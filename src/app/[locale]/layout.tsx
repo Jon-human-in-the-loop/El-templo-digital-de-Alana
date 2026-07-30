@@ -6,6 +6,7 @@ import { routing } from '@/i18n/routing'
 import { notFound } from 'next/navigation'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import SitePopups from '@/components/popups/SitePopups'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import { CartProvider } from '@/context/CartContext'
 import { Cormorant_Garamond } from 'next/font/google'
@@ -67,6 +68,7 @@ export default async function LocaleLayout(props: {
             </div>
             <WhatsAppButton phoneNumber="351968493165" />
             <Footer />
+            <SitePopups />
           </CartProvider>
         </NextIntlClientProvider>
       </body>

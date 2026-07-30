@@ -47,6 +47,36 @@ export async function sendContactEmail(data: {
   return { success: true }
 }
 
+/**
+ * Newsletter signup. There is no subscriber database yet, so the address is
+ * forwarded to Alana's inbox — swap this for the mailing-list provider when
+ * there is one.
+ */
+export async function sendNewsletterSubscriptionEmail(data: { email: string }) {
+  const { error } = await getResend().emails.send({
+    from: FROM_EMAIL,
+    to: [TO_EMAIL],
+    replyTo: data.email,
+    subject: '[Alana] Nueva suscripción al newsletter',
+    html: `
+      <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 40px 20px; color: #000; background-color: #fff;">
+        <h1 style="font-size: 22px; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 24px;">Nueva suscripción</h1>
+        <p style="border-top: 1px solid #000; padding-top: 16px;"><strong>Email:</strong> ${data.email}</p>
+        <div style="margin-top: 40px; font-size: 11px; text-transform: uppercase; color: #999;">
+          Enviado desde el popup de newsletter del sitio
+        </div>
+      </div>
+    `,
+  })
+
+  if (error) {
+    console.error('Failed to send newsletter subscription email:', error)
+    throw new Error('Failed to send email')
+  }
+
+  return { success: true }
+}
+
 export async function sendOrderConfirmationEmail(data: {
   orderId: string
   customerName: string
