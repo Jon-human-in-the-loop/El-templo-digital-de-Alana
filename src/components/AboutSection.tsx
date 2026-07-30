@@ -1,28 +1,26 @@
 'use client'
 
 import { motion, useInView } from 'framer-motion'
+import { useLocale, useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { useRef } from 'react'
 
-const STATEMENT_EN = `Alana is a full spectrum artist. She channels, through her different facets, the conception of the world she sees under the concept of "fluidity".
-
-In painting, tattoo, writing and performance art, she makes her holistic-spiritual view of things known to the world. She works on the "materiality-immateriality" binomial, where energy is diluted or condensed, but it always remains, energy.
-
-Her work is charged with esoteric self-referential messages, exploring materiality and immateriality — personifying the energies she perceives and that communicate with her.
-
-Medium.`
+import { localize } from '@/content/locale'
+import { STATEMENT, statementParagraphs } from '@/content/statement'
 
 export default function AboutSection() {
   const ref = useRef<HTMLDivElement>(null)
   const inView = useInView(ref, { once: true, margin: '-60px' })
+  const locale = useLocale()
+  const t = useTranslations('about')
 
-  const paras = STATEMENT_EN.split('\n\n')
+  const paras = statementParagraphs(localize(STATEMENT, locale))
 
   return (
     <section ref={ref} id="sobre-mi" className="w-full" style={{ backgroundColor: '#F0EEED' }}>
 
       {/* ── Row 1: image left / statement right — mirrors Canva reference ── */}
-      <div className="grid grid-cols-1 md:grid-cols-2 min-h-[70vh]">
+      <div id="statement" className="grid grid-cols-1 md:grid-cols-2 min-h-[70vh] scroll-mt-24">
 
         {/* Left: key artwork */}
         <motion.div
@@ -49,7 +47,7 @@ export default function AboutSection() {
             animate={inView ? { opacity: 1 } : {}}
             transition={{ duration: 0.6 }}
           >
-            Statement
+            {t('statement')}
           </motion.p>
 
           {paras.map((para, i) => (
@@ -68,22 +66,6 @@ export default function AboutSection() {
 
       {/* ── Row 2: Curriculum Vitae — text left, images right ── */}
       <CVSection />
-
-      {/* ── Row 3: full-width elegance CTA ── */}
-      <div className="border-t border-black/10 px-8 md:px-16 py-14 flex flex-col md:flex-row items-center justify-between gap-6">
-        <h2
-          className="font-heading uppercase leading-none tracking-wider"
-          style={{ fontSize: 'clamp(1.8rem, 5vw, 4rem)' }}
-        >
-          Sobre Mí
-        </h2>
-        <a
-          href="/es/about"
-          className="font-heading uppercase text-lg border-b-2 border-black pb-0.5 hover:opacity-40 transition-opacity tracking-widest"
-        >
-          Leer más →
-        </a>
-      </div>
     </section>
   )
 }
@@ -91,6 +73,7 @@ export default function AboutSection() {
 function CVSection() {
   const ref = useRef<HTMLDivElement>(null)
   const inView = useInView(ref, { once: true, margin: '-60px' })
+  const t = useTranslations('about')
 
   const milestones = [
     { year: '2012 — 2019', label: 'Arquitectura y Urbanismo', desc: 'Universidad Nacional de Córdoba. Arquitecta y Urbanista.' },
@@ -103,7 +86,11 @@ function CVSection() {
   ]
 
   return (
-    <div ref={ref} className="grid grid-cols-1 md:grid-cols-2 border-t border-black/10">
+    <div
+      ref={ref}
+      id="cv"
+      className="grid grid-cols-1 md:grid-cols-2 border-t border-black/10 scroll-mt-24"
+    >
       {/* Left: cv list */}
       <div className="px-10 md:px-16 lg:px-20 py-16">
         <motion.p
@@ -113,7 +100,7 @@ function CVSection() {
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.5 }}
         >
-          Curriculum Vitae.
+          {t('cv')}
         </motion.p>
         <ul className="space-y-6">
           {milestones.map((m, i) => (

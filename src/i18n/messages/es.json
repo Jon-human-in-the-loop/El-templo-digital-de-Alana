@@ -1,35 +1,88 @@
 {
   "nav": {
     "home": "INICIO",
-    "giftPacks": "TIENDA",
     "about": "SOBRE MÍ",
+    "portfolio": "PORTFOLIO",
+    "gallery": "GALERÍA",
+    "exhibitions": "EXHIBICIONES",
+    "blog": "BLOG",
+    "shop": "TIENDA",
     "contact": "CONTACTO",
-    "buyNow": "EXPLORAR OBRA",
+    "statement": "STATEMENT",
+    "cv": "CURRICULUM",
+    "figurativo": "FIGURATIVO",
+    "fluidArt": "FLUID ART",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
     "announcement": "✦ Alana Zarzairaeta — Artista Multidisciplinar ✦"
   },
   "hero": {
-    "title": "El Templo Digital",
-    "subtitle": "Universo Creativo & Arte",
-    "description": "Explora un universo donde la materia y la energía se encuentran a través del arte. Pintura, tatuaje y performance bajo el concepto de fluidez.",
-    "exploreButton": "Ver Galería",
-    "storyButton": "Sobre Mí",
-    "brandTitle": "ALANA ZARZAIRAETA",
     "brandSubtitle": "ARTISTA MULTIDISCIPLINAR • MÉDIUM",
-    "tagline": "EL TEMPLO DIGITAL: DONDE LA MATERIA SE DILUYE Y LA ENERGÍA SE CONDENSA",
-    "discover": "Descubrir"
+    "description": "Explora un universo donde la materia y la energía se encuentran a través del arte. Pintura, tatuaje y performance bajo el concepto de fluidez.",
+    "previousSlide": "Imagen anterior",
+    "nextSlide": "Imagen siguiente",
+    "goToSlide": "Ir a la imagen {number}"
   },
-  "pistacheSection": {
-    "title": "FLUIDEZ PURA",
-    "subtitle": "Arte en Movimiento",
-    "bottomTagline": "ALANA ZARZAIRAETA · UNIVERSO CREATIVO"
+  "home": {
+    "aboutEyebrow": "Sobre la artista",
+    "aboutTitle": "Sobre la artista",
+    "aboutCta": "Leer el statement",
+    "galleryEyebrow": "Galería",
+    "galleryTitle": "Ver toda la obra",
+    "galleryCta": "Entrar a la galería"
   },
-  "packs": {
-    "featured": "Obra Disponible",
-    "subtitle": "Ediciones & Originales",
-    "description": "Descubre una selección curada de láminas, originales y piezas únicas creadas por Alana.",
-    "classic": "Láminas",
-    "premium": "Originales",
-    "special": "Ediciones Limitadas"
+  "about": {
+    "eyebrow": "Sobre mí",
+    "title": "Sobre Alana",
+    "statement": "Statement",
+    "cv": "Curriculum Vitae."
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Obra",
+    "viewWorks": "Ver obras"
+  },
+  "gallery": {
+    "eyebrow": "Galería",
+    "title": "Obra",
+    "year": "Año",
+    "dimensions": "Medidas",
+    "technique": "Técnica",
+    "description": "Descripción",
+    "details": "Ficha de la obra",
+    "open": "Ver ficha",
+    "close": "Cerrar ficha",
+    "empty": "Todavía no hay obras cargadas en esta sección."
+  },
+  "exhibitions": {
+    "eyebrow": "Exhibiciones",
+    "title": "Exhibiciones",
+    "empty": "Todavía no hay exhibiciones cargadas."
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Blog",
+    "comingSoon": "Estoy preparando este espacio para compartir procesos, escritos y universo creativo. Vuelve pronto."
+  },
+  "shop": {
+    "eyebrow": "Tienda",
+    "title": "Tienda",
+    "comingSoon": "La tienda está en preparación. Mientras tanto, si te interesa alguna obra escríbeme y hablamos."
+  },
+  "newsletter": {
+    "title": "Newsletter",
+    "description": "Recibe novedades sobre obra nueva, exhibiciones y procesos.",
+    "placeholder": "tu@email.com",
+    "submit": "Suscribirme",
+    "success": "¡Gracias! Ya estás en la lista.",
+    "error": "No pudimos guardar tu email. Inténtalo de nuevo.",
+    "dismiss": "Cerrar"
+  },
+  "instagram": {
+    "title": "Únete a la comunidad",
+    "description": "Sigo el día a día del taller en Instagram: obra en proceso, tatuajes y ferias.",
+    "cta": "Seguir en Instagram",
+    "dismiss": "Cerrar"
   },
   "packDetails": {
     "pieces": "piezas",
@@ -84,14 +137,7 @@
       "multibancoValue": "Valor"
     }
   },
-  "brand": {
-    "heritage": "Sobre el Arte",
-    "story": "En El Templo Digital, creemos en la fluidez entre lo material e inmaterial. Cada obra es un canal de energía personificada.",
-    "craftsmanship": "Descubre el binomio materia-inmaterialidad en cada trazo."
-  },
   "pages": {
-    "about": "Sobre Mí",
-    "aboutTitle": "Sobre Alana",
     "contact": "Contacto",
     "contactTitle": "Conectemos",
     "contactDescription": "¿Tienes preguntas sobre mi obra o quieres colaborar? Escríbeme."
@@ -120,53 +166,9 @@
     "notFound": "Obra no encontrada",
     "notFoundDescription": "Lo sentimos, la pieza que buscas no existe."
   },
-  "aboutPage": {
-    "title": "Sobre Alana",
-    "subtitle": "Materia e Inmaterialidad.",
-    "content": {
-      "p1": "Alana es una artista de espectro completo. Canaliza, a través de sus diferentes facetas, la concepción del mundo que ve bajo el concepto de 'fluidez'.",
-      "p2": "En la pintura, el tatuaje, la escritura y la performance, da a conocer al mundo su visión holístico-espiritual de las cosas.",
-      "p3": "Su trabajo está cargado de mensajes esotéricos autorreferenciales, explorando la materia y la inmaterialidad — personificando las energías que percibe."
-    }
-  },
-  "packsData": {
-    "pistache-intenso": {
-      "name": "Lámina: Fluidez I",
-      "description": "Reproducción en papel de alta calidad.",
-      "longDescription": "Una pieza que explora el movimiento y la energía vibrante."
-    },
-    "chocolate-blanco-nuez": {
-      "name": "Original: La Luz",
-      "description": "Obra original técnica mixta.",
-      "longDescription": "Exploración de la luz y el contraste en gran formato."
-    },
-    "vinho-do-porto": {
-      "name": "Lámina: Oporto",
-      "description": "Serie limitada inspirada en la ciudad.",
-      "longDescription": "Influencia local y misticismo en cada trazo."
-    },
-    "caramelo-salado": {
-      "name": "Serie: Contraste",
-      "description": "Lámina artística en edición especial.",
-      "longDescription": "El equilibrio entre los polos opuestos."
-    },
-    "chocolate-intenso": {
-      "name": "Original: Oscuridad",
-      "description": "Obra profunda y minimalista.",
-      "longDescription": "Cacao de energía pura plasmado en el lienzo."
-    }
-  },
-  "packFlavors": {
-    "dulce-leche": "Óleo",
-    "chocolate": "Acrílico",
-    "limon": "Tinta",
-    "framboesa": "Técnica Mixta",
-    "cafe": "Digital",
-    "pistacio": "Acuarela",
-    "flor-sal": "Carboncillo",
-    "trufa": "Grabado"
-  },
+  "packsData": {},
+  "packFlavors": {},
   "whatsapp": {
-    "message": "¡Hola! Me gustaría saber más sobre la obra y la tienda de Alana."
+    "message": "¡Hola! Me gustaría saber más sobre la obra de Alana."
   }
 }
