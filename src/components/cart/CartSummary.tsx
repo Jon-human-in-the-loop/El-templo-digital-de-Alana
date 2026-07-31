@@ -1,12 +1,13 @@
 'use client'
 
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import { useCart } from '@/context/CartContext'
 import { formatPrice } from '@/lib/utils'
 import { Minus, Plus, Trash2 } from 'lucide-react'
 import { Link } from '@/i18n/routing'
 
 export default function CartSummary() {
+  const locale = useLocale()
   const t = useTranslations('cart')
   const tData = useTranslations('packsData')
   const { items, totalPrice, increment, decrement, removeItem } = useCart()
@@ -47,7 +48,7 @@ export default function CartSummary() {
               {/* Price */}
               <div className="md:col-span-2 text-center">
                 <span className="md:hidden text-[11px] text-text-muted font-sans mr-2">{t('price')}:</span>
-                <span className="text-sm text-text-secondary font-sans">{formatPrice(item.pack.price)}</span>
+                <span className="text-sm text-text-secondary font-sans">{formatPrice(item.pack.price, locale)}</span>
               </div>
 
               {/* Quantity */}
@@ -55,7 +56,7 @@ export default function CartSummary() {
                 <button
                   onClick={() => decrement(item.pack.id)}
                   className="w-8 h-8 flex items-center justify-center border border-border rounded-lg hover:bg-cream hover:border-honey transition-all duration-200"
-                  aria-label="Decrease quantity"
+                  aria-label={t('decrease')}
                 >
                   <Minus size={13} />
                 </button>
@@ -63,14 +64,14 @@ export default function CartSummary() {
                 <button
                   onClick={() => increment(item.pack.id)}
                   className="w-8 h-8 flex items-center justify-center border border-border rounded-lg hover:bg-cream hover:border-honey transition-all duration-200"
-                  aria-label="Increase quantity"
+                  aria-label={t('increase')}
                 >
                   <Plus size={13} />
                 </button>
                 <button
                   onClick={() => removeItem(item.pack.id)}
                   className="w-8 h-8 flex items-center justify-center text-text-muted hover:text-red-500 hover:bg-red-50 rounded-lg transition-all duration-200 ml-1"
-                  aria-label="Remove item"
+                  aria-label={t('remove')}
                 >
                   <Trash2 size={13} />
                 </button>
@@ -80,7 +81,7 @@ export default function CartSummary() {
               <div className="md:col-span-2 text-right">
                 <span className="md:hidden text-[11px] text-text-muted font-sans mr-2">{t('subtotal')}:</span>
                 <span className="font-serif font-bold text-warm-gold text-lg">
-                  {formatPrice(item.pack.price * item.quantity)}
+                  {formatPrice(item.pack.price * item.quantity, locale)}
                 </span>
               </div>
             </div>
@@ -92,7 +93,7 @@ export default function CartSummary() {
       <div className="mt-8 bg-white rounded-xl border border-border-light px-6 py-7">
         <div className="flex items-center justify-between">
           <span className="text-lg font-serif font-bold text-dark-brown">{t('total')}</span>
-          <span className="text-2xl font-serif font-bold text-warm-gold">{formatPrice(totalPrice)}</span>
+          <span className="text-2xl font-serif font-bold text-warm-gold">{formatPrice(totalPrice, locale)}</span>
         </div>
         <div className="mt-7 flex flex-col sm:flex-row gap-4 justify-end">
           <Link href="/shop" className="btn-pill btn-outline text-sm text-center">

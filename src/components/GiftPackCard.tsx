@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { formatPrice } from '@/lib/utils'
 import type { GiftPack } from '@/types'
 import { Link } from '@/i18n/routing'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import AddToCartButton from './cart/AddToCartButton'
 
 interface GiftPackCardProps {
@@ -18,6 +18,7 @@ export default function GiftPackCard({
   variant = 'default',
   onAddToCart,
 }: GiftPackCardProps) {
+  const locale = useLocale()
   const t = useTranslations('packDetails')
   const tData = useTranslations('packsData')
   const tFlavors = useTranslations('packFlavors')
@@ -63,7 +64,7 @@ export default function GiftPackCard({
             {/* Price */}
             <div className="mt-auto">
               <p className="text-warm-gold font-serif font-bold text-xl">
-                {pack.available ? formatPrice(pack.price, 'en') : t('outOfStock')}
+                {pack.available ? formatPrice(pack.price, locale) : t('outOfStock')}
               </p>
             </div>
           </div>
@@ -122,7 +123,7 @@ export default function GiftPackCard({
         {/* Price and Button */}
         <div className="flex items-center justify-between pt-4 border-t border-border-light mt-auto">
           <p className="text-warm-gold font-serif font-bold text-xl">
-            {pack.available ? formatPrice(pack.price, 'en') : t('outOfStock')}
+            {pack.available ? formatPrice(pack.price, locale) : t('outOfStock')}
           </p>
           {pack.available && (
             <AddToCartButton pack={pack} onAddToCart={onAddToCart} />

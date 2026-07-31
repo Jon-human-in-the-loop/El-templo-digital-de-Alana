@@ -68,7 +68,7 @@ export default function Footer() {
             <div className="flex items-center gap-4">
               <Image
                 src="/images/brand/qr-instagram.png"
-                alt="Instagram QR"
+                alt={t('instagramQr')}
                 width={72}
                 height={72}
                 className="invert opacity-60"

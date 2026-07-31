@@ -1,13 +1,14 @@
 'use client'
 
 import { useState } from 'react'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import { useCart } from '@/context/CartContext'
 import { formatPrice } from '@/lib/utils'
 import { useRouter } from '@/i18n/routing'
 import { Loader2, CheckCircle, ShieldCheck, Smartphone, Building2, CreditCard } from 'lucide-react'
 
 export default function CheckoutForm() {
+  const locale = useLocale()
   const t = useTranslations('checkout')
   const cartT = useTranslations('cart')
   const tData = useTranslations('packsData')
@@ -55,7 +56,7 @@ export default function CheckoutForm() {
         if (data.errors) {
           setErrorMessage(data.errors.map((e: any) => e.message).join(', '))
         } else {
-          setErrorMessage(data.error || 'Something went wrong')
+          setErrorMessage(data.error || t('error'))
         }
         setStatus('error')
         return
@@ -74,7 +75,7 @@ export default function CheckoutForm() {
       setStatus('success')
       clear()
     } catch {
-      setErrorMessage('Network error. Please try again.')
+      setErrorMessage(t('error'))
       setStatus('error')
     }
   }
@@ -90,7 +91,7 @@ export default function CheckoutForm() {
         </h2>
         <p className="text-sm text-text-muted font-sans mb-2 text-center max-w-sm">{t('orderConfirmedDescription')}</p>
         <p className="text-earth-brown font-serif font-semibold text-lg mb-8">
-          Order #{orderId}
+          {t('orderNumber')} #{orderId}
         </p>
 
         {paymentDetails?.method === 'mbway' && (
@@ -117,7 +118,7 @@ export default function CheckoutForm() {
               </div>
               <div className="flex justify-between pt-1">
                 <span className="text-sm text-text-muted">{t('payment.multibancoValue')}</span>
-                <span className="font-mono font-bold text-warm-gold text-lg">{formatPrice(paymentDetails.valor)}</span>
+                <span className="font-mono font-bold text-warm-gold text-lg">{formatPrice(paymentDetails.valor, locale)}</span>
               </div>
             </div>
           </div>
@@ -285,7 +286,7 @@ export default function CheckoutForm() {
                 </>
               )}
             </button>
-            <p className="text-center text-[10px] text-text-muted/60 font-sans mt-3 uppercase tracking-widest flex items-center justify-center gap-1.5"><ShieldCheck size={12}/> Secure Payment Processing</p>
+            <p className="text-center text-[10px] text-text-muted/60 font-sans mt-3 uppercase tracking-widest flex items-center justify-center gap-1.5"><ShieldCheck size={12}/> {t('securePayment')}</p>
           </div>
         </form>
       </div>
@@ -306,7 +307,7 @@ export default function CheckoutForm() {
                     <span className="text-text-muted ml-1.5">×{item.quantity}</span>
                   </div>
                   <span className="text-earth-brown font-sans font-medium">
-                    {formatPrice(item.pack.price * item.quantity)}
+                    {formatPrice(item.pack.price * item.quantity, locale)}
                   </span>
                 </div>
               )
@@ -315,7 +316,7 @@ export default function CheckoutForm() {
           <hr className="my-5 border-border-light" />
           <div className="flex justify-between items-center">
             <span className="font-serif font-bold text-dark-brown">{cartT('total')}</span>
-            <span className="text-xl font-serif font-bold text-warm-gold">{formatPrice(totalPrice)}</span>
+            <span className="text-xl font-serif font-bold text-warm-gold">{formatPrice(totalPrice, locale)}</span>
           </div>
         </div>
       </div>

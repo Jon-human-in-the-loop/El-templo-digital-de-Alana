@@ -97,6 +97,9 @@
   },
   "cart": {
     "addToCart": "Add to Cart",
+    "decrease": "Remove one unit",
+    "increase": "Add one unit",
+    "remove": "Remove from cart",
     "cartEmpty": "Your cart is empty",
     "emptyDescription": "Explore Alana's work and find something that connects with you.",
     "cartTitle": "Shopping Cart",
@@ -125,6 +128,7 @@
     "orderConfirmed": "Order Placed!",
     "orderConfirmedDescription": "Thank you for connecting with my work. I've sent you a confirmation email.",
     "backToHome": "Back to Home",
+    "securePayment": "Secure payment",
     "payment": {
       "title": "Payment Method",
       "mbway": "MB WAY",
@@ -135,7 +139,9 @@
       "multibancoEntity": "Entity",
       "multibancoReference": "Reference",
       "multibancoValue": "Value"
-    }
+    },
+    "orderNumber": "Order",
+    "error": "Something went wrong. Please try again."
   },
   "pages": {
     "contact": "Contact",
@@ -160,6 +166,7 @@
     "quickLinks": "Sections",
     "contact": "Contact",
     "email": "zarzairaetaalana@gmail.com",
+    "instagramQr": "Instagram QR code",
     "copyright": "All rights reserved."
   },
   "errors": {
@@ -169,6 +176,7 @@
   "packsData": {},
   "packFlavors": {},
   "whatsapp": {
-    "message": "Hello! I'd like to know more about Alana's work."
+    "message": "Hello! I'd like to know more about Alana's work.",
+    "ariaLabel": "Message on WhatsApp"
   }
 }

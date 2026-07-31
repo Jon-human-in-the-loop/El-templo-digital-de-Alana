@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { useRef } from 'react'
 
+import { CV_MILESTONES } from '@/content/cv'
 import { localize } from '@/content/locale'
 import { STATEMENT, statementParagraphs } from '@/content/statement'
 
@@ -73,17 +74,8 @@ export default function AboutSection() {
 function CVSection() {
   const ref = useRef<HTMLDivElement>(null)
   const inView = useInView(ref, { once: true, margin: '-60px' })
+  const locale = useLocale()
   const t = useTranslations('about')
-
-  const milestones = [
-    { year: '2012 — 2019', label: 'Arquitectura y Urbanismo', desc: 'Universidad Nacional de Córdoba. Arquitecta y Urbanista.' },
-    { year: '2018 — 2019', label: 'La Otra Cara', desc: 'Colectivo de artistas autogestionado en Córdoba.' },
-    { year: '2022', label: 'Ciclo Humedales', desc: 'Artista visual en el documental — "Se ondula el éter que ata las superficies".' },
-    { year: '2022 — 2025', label: 'Album Covers', desc: 'Portadas para Saudade, Rodrigo Bobadilla Oliva, Sabina Belén y Liyah Dalani.' },
-    { year: '2023 — 2024', label: 'Libro Sonoro', desc: 'Ilustradora y creadora de video · Con Rodrigo Bobadilla Oliva y Rocío Laria.' },
-    { year: '2023 — hoy', label: 'Tatuadora · The Inky Club', desc: 'Porto. Black work & engraving con temáticas espirituales. "El talismán de poder".' },
-    { year: '2025 — hoy', label: 'Ferias, Flash Days & Exposiciones', desc: 'Activa en el circuito de arte de Porto y Europa.' },
-  ]
 
   return (
     <div
@@ -103,17 +95,23 @@ function CVSection() {
           {t('cv')}
         </motion.p>
         <ul className="space-y-6">
-          {milestones.map((m, i) => (
+          {CV_MILESTONES.map((milestone, i) => (
             <motion.li
-              key={m.year}
+              key={milestone.year}
               className="border-t border-black/10 pt-4"
               initial={{ opacity: 0, y: 16 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.1 + i * 0.08 }}
             >
-              <p className="font-sans text-xs text-black/40 uppercase tracking-widest mb-1">{m.year}</p>
-              <p className="font-heading uppercase" style={{ fontSize: 'clamp(1rem, 2.5vw, 1.5rem)' }}>{m.label}</p>
-              <p className="font-sans text-sm text-black/60 italic mt-1">{m.desc}</p>
+              <p className="font-sans text-xs text-black/40 uppercase tracking-widest mb-1">
+                {milestone.year}
+              </p>
+              <p className="font-heading uppercase" style={{ fontSize: 'clamp(1rem, 2.5vw, 1.5rem)' }}>
+                {localize(milestone.label, locale)}
+              </p>
+              <p className="font-sans text-sm text-black/60 italic mt-1">
+                {localize(milestone.description, locale)}
+              </p>
             </motion.li>
           ))}
         </ul>
