@@ -44,7 +44,7 @@ export default function CategorySection({ category }: CategorySectionProps) {
             className="font-heading uppercase text-white leading-none px-6 md:px-12 pb-10 md:pb-14"
             style={{ fontSize: 'clamp(2.4rem, 9vw, 8rem)' }}
           >
-            {category.title}
+            {localize(category.title, locale)}
           </h2>
         </div>
       </div>

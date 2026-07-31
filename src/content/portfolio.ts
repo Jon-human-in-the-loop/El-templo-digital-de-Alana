@@ -16,7 +16,7 @@ import type { PortfolioCategory } from '@/types/content'
 export const PORTFOLIO_CATEGORIES: PortfolioCategory[] = [
   {
     slug: 'figurativo',
-    title: 'Figurativo',
+    title: { es: 'Figurativo', en: 'Figurative', pt: 'Figurativo' },
     cover: {
       src: '/images/portfolio/figurativo/La-luz-y-la-sombra-equilibran-la-mente-y-el-espiritu-70x100.webp',
       alt: 'Figurativo — obra de Alana Zarzairaeta',
@@ -24,8 +24,9 @@ export const PORTFOLIO_CATEGORIES: PortfolioCategory[] = [
     description: { es: '', en: '', pt: '' },
   },
   {
+    // «Fluid Art» se usa igual en los tres idiomas: es el nombre de la serie.
     slug: 'fluid-art',
-    title: 'Fluid Art',
+    title: { es: 'Fluid Art', en: 'Fluid Art', pt: 'Fluid Art' },
     cover: {
       src: '/images/portfolio/fluid-art/las-aguas-resurreccion.webp',
       alt: 'Fluid Art — obra de Alana Zarzairaeta',

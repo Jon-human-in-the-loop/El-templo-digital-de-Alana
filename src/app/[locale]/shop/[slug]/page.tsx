@@ -27,7 +27,7 @@ export async function generateMetadata({ params: { locale, slug } }: DetailPageP
   const packDesc = tData.has(`${pack.id}.description`) ? tData(`${pack.id}.description`) : pack.description
 
   return {
-    title: `${packName} | Entremares`,
+    title: `${packName} | El Templo Digital de Alana`,
     description: packDesc,
   }
 }
@@ -100,7 +100,7 @@ export default function DetailPage({ params: { locale, slug } }: DetailPageProps
 
               <div className="pb-4">
                 <p className="text-3xl font-serif font-bold text-warm-gold">
-                  {formatPrice(pack.price, 'en')}
+                  {formatPrice(pack.price, locale)}
                 </p>
               </div>
 

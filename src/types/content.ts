@@ -41,7 +41,7 @@ export type Artwork = {
 /** A portfolio category cover + intro copy (Portfolio page). */
 export type PortfolioCategory = {
   slug: PortfolioCategorySlug
-  title: string
+  title: Localized
   /** Full-bleed cover image, used as the section background. */
   cover: ArtworkImage
   description: Localized

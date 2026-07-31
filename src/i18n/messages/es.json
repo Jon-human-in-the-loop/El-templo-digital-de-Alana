@@ -97,6 +97,9 @@
   },
   "cart": {
     "addToCart": "Añadir al Carrito",
+    "decrease": "Quitar una unidad",
+    "increase": "Añadir una unidad",
+    "remove": "Quitar del carrito",
     "cartEmpty": "Tu carrito está vacío",
     "emptyDescription": "Explora la obra de Alana y encuentra algo que conecte contigo.",
     "cartTitle": "Carrito de Compras",
@@ -125,6 +128,7 @@
     "orderConfirmed": "¡Pedido Realizado!",
     "orderConfirmedDescription": "Gracias por conectar con mi obra. Te he enviado un email de confirmación.",
     "backToHome": "Volver al Inicio",
+    "securePayment": "Pago seguro",
     "payment": {
       "title": "Método de Pago",
       "mbway": "MB WAY",
@@ -135,7 +139,9 @@
       "multibancoEntity": "Entidad",
       "multibancoReference": "Referencia",
       "multibancoValue": "Valor"
-    }
+    },
+    "orderNumber": "Pedido",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo."
   },
   "pages": {
     "contact": "Contacto",
@@ -160,6 +166,7 @@
     "quickLinks": "Secciones",
     "contact": "Contacto",
     "email": "zarzairaetaalana@gmail.com",
+    "instagramQr": "Código QR de Instagram",
     "copyright": "Todos los derechos reservados."
   },
   "errors": {
@@ -169,6 +176,7 @@
   "packsData": {},
   "packFlavors": {},
   "whatsapp": {
-    "message": "¡Hola! Me gustaría saber más sobre la obra de Alana."
+    "message": "¡Hola! Me gustaría saber más sobre la obra de Alana.",
+    "ariaLabel": "Escribir por WhatsApp"
   }
 }
