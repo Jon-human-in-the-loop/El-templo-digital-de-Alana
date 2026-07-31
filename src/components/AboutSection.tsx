@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { useRef } from 'react'
 
-import { CV_MILESTONES } from '@/content/cv'
+import { CV_MILESTONES, cvParagraphs } from '@/content/cv'
 import { localize } from '@/content/locale'
 import { STATEMENT, statementParagraphs } from '@/content/statement'
 
@@ -97,21 +97,26 @@ function CVSection() {
         <ul className="space-y-6">
           {CV_MILESTONES.map((milestone, i) => (
             <motion.li
-              key={milestone.year}
+              key={`${localize(milestone.year, locale)}-${localize(milestone.label, locale)}`}
               className="border-t border-black/10 pt-4"
               initial={{ opacity: 0, y: 16 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.1 + i * 0.08 }}
             >
               <p className="font-sans text-xs text-black/40 uppercase tracking-widest mb-1">
-                {milestone.year}
+                {localize(milestone.year, locale)}
               </p>
               <p className="font-heading uppercase" style={{ fontSize: 'clamp(1rem, 2.5vw, 1.5rem)' }}>
                 {localize(milestone.label, locale)}
               </p>
-              <p className="font-sans text-sm text-black/60 italic mt-1">
-                {localize(milestone.description, locale)}
-              </p>
+              {cvParagraphs(localize(milestone.description, locale)).map((paragraph) => (
+                <p
+                  key={paragraph.slice(0, 32)}
+                  className="font-sans text-sm text-black/60 italic mt-2 leading-relaxed"
+                >
+                  {paragraph}
+                </p>
+              ))}
             </motion.li>
           ))}
         </ul>
