@@ -5,11 +5,14 @@ import type { Localized } from '@/types/content'
  * Kept verbatim in the language they were written in and translated for the rest.
  */
 
-/** Home — centred under the carousel. */
+/**
+ * Home — centred under the carousel.
+ * The quotation marks are part of the text so each language can use its own.
+ */
 export const VOICE_QUOTE: Localized = {
-  es: 'Puedo alzar mi voz alto porque Dios la sostiene',
-  en: 'Puedo alzar mi voz alto porque Dios la sostiene',
-  pt: 'Puedo alzar mi voz alto porque Dios la sostiene',
+  es: '«Puedo alzar mi voz alto porque Dios la sostiene»',
+  en: '“I can raise my voice loud because God sustains it”',
+  pt: '«Posso erguer a minha voz alto porque Deus a sustenta»',
 }
 
 /** Home + Contact — open call for collaborations. */
