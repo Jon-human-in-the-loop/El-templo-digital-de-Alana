@@ -55,7 +55,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full">
       {/* Announcement bar */}
       <div className="bg-black text-white text-center py-2.5 px-4">
-        <p className="text-xs font-sans font-medium tracking-widest uppercase">
+        <p className="text-[13px] md:text-sm font-sans font-medium tracking-widest uppercase">
           {t('announcement')}
         </p>
       </div>
@@ -65,11 +65,11 @@ export default function Header() {
           scrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : 'bg-white/80 backdrop-blur-[2px]'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 flex items-center justify-between gap-6 h-20">
+        <div className="max-w-7xl mx-auto px-6 flex items-center justify-between gap-6 h-24">
           {/* Wordmark — reemplaza al logo circular, que se retiró del header */}
           <Link
             href="/"
-            className="relative z-10 shrink-0 font-heading uppercase tracking-[0.18em] text-sm md:text-base text-black hover:opacity-60 transition-opacity"
+            className="relative z-10 shrink-0 font-heading uppercase tracking-[0.18em] text-lg md:text-xl text-black hover:opacity-60 transition-opacity"
           >
             Alana Zarzairaeta
           </Link>
@@ -154,7 +154,7 @@ export default function Header() {
                       <li key={child.href}>
                         <Link
                           href={child.href}
-                          className="font-sans text-base text-black/60 hover:text-black transition-colors"
+                          className="font-sans text-lg text-black/60 hover:text-black transition-colors"
                         >
                           {t(child.label)}
                         </Link>
@@ -183,7 +183,7 @@ interface DesktopNavItemProps {
 function DesktopNavItem({ item, active, open, onOpen, onClose, onToggle }: DesktopNavItemProps) {
   const t = useTranslations('nav')
 
-  const linkClasses = `text-[13px] whitespace-nowrap font-heading font-medium tracking-wide uppercase transition-colors duration-300 ${
+  const linkClasses = `text-lg xl:text-xl whitespace-nowrap font-heading font-medium tracking-[0.06em] uppercase transition-colors duration-300 ${
     active ? 'text-black' : 'text-black/60 hover:text-black'
   }`
 
@@ -218,7 +218,7 @@ function DesktopNavItem({ item, active, open, onOpen, onClose, onToggle }: Deskt
           onClick={onToggle}
         >
           <ChevronDown
-            size={14}
+            size={17}
             className={`transition-transform duration-300 ${open ? 'rotate-180' : ''}`}
           />
         </button>
@@ -232,7 +232,7 @@ function DesktopNavItem({ item, active, open, onOpen, onClose, onToggle }: Deskt
               <li key={child.href}>
                 <Link
                   href={child.href}
-                  className="block px-5 py-2 font-sans text-sm text-black/70 hover:text-black hover:bg-black/5 transition-colors"
+                  className="block px-5 py-2.5 font-sans text-base text-black/70 hover:text-black hover:bg-black/5 transition-colors"
                 >
                   {t(child.label)}
                 </Link>

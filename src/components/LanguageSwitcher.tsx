@@ -24,7 +24,7 @@ export default function LanguageSwitcher() {
         <button
           key={loc.code}
           onClick={() => handleLanguageChange(loc.code)}
-          className={`px-3 py-1.5 rounded-pill text-xs font-sans font-semibold tracking-wider uppercase transition-all duration-300 ${
+          className={`px-3 py-1.5 rounded-pill text-sm font-sans font-semibold tracking-wider uppercase transition-all duration-300 ${
             currentLocale === loc.code
               ? 'bg-dark-brown text-cream shadow-sm'
               : 'text-earth-brown hover:text-dark-brown hover:bg-honey/40'
