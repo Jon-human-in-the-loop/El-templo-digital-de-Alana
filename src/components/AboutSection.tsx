@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { useRef } from 'react'
 
 import { CV_MILESTONES, cvParagraphs } from '@/content/cv'
+import { ARTIST_PHOTO, CV_PHOTOS } from '@/content/home'
 import { localize } from '@/content/locale'
 import { STATEMENT, statementParagraphs } from '@/content/statement'
 
@@ -32,8 +33,8 @@ export default function AboutSection() {
           transition={{ duration: 1, ease: 'easeOut' }}
         >
           <Image
-            src="/images/portfolio/figurativo/la-ceguera-que-viene-por-encandilarse-2.webp"
-            alt="Alana — La Ceguera"
+            src={ARTIST_PHOTO.src}
+            alt={ARTIST_PHOTO.alt}
             fill
             className="object-cover object-top"
             sizes="(max-width: 768px) 100vw, 50vw"
@@ -122,26 +123,19 @@ function CVSection() {
         </ul>
       </div>
 
-      {/* Right: stacked images */}
+      {/* Right: stacked photos — ver CV_PHOTOS en src/content/home.ts */}
       <div className="grid grid-rows-2 gap-0">
-        <div className="relative overflow-hidden" style={{ minHeight: '300px' }}>
-          <Image
-            src="/images/portfolio/fluid-art/re-suscito.webp"
-            alt="Alana — Re-Suscito"
-            fill
-            className="object-cover object-center"
-            sizes="(max-width: 768px) 100vw, 50vw"
-          />
-        </div>
-        <div className="relative overflow-hidden" style={{ minHeight: '300px' }}>
-          <Image
-            src="/images/portfolio/fluid-art/premonicion.webp"
-            alt="Alana — Premonición"
-            fill
-            className="object-cover object-center"
-            sizes="(max-width: 768px) 100vw, 50vw"
-          />
-        </div>
+        {CV_PHOTOS.map((photo) => (
+          <div key={photo.src} className="relative overflow-hidden" style={{ minHeight: '300px' }}>
+            <Image
+              src={photo.src}
+              alt={photo.alt}
+              fill
+              className="object-cover object-center"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
+        ))}
       </div>
     </div>
   )
