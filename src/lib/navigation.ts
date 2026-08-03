@@ -1,5 +1,7 @@
 /**
- * Site navigation — six entries, two of them with a dropdown.
+ * Site navigation — las seis entradas del machete, en su orden: Galería,
+ * Portfolio, Sobre mí, Exhibiciones, Blog y Contacto. A la home se vuelve por
+ * el nombre del sitio en el header, así que no lleva entrada propia.
  *
  * `label` and `children[].label` are keys of the `nav` namespace in
  * src/i18n/messages/*.json. Shared by the header and by the home menu that sits
@@ -17,15 +19,7 @@ export type NavItem = {
 }
 
 export const NAV_ITEMS: NavItem[] = [
-  { label: 'home', href: '/' },
-  {
-    label: 'about',
-    href: '/about',
-    children: [
-      { label: 'statement', href: '/about#statement' },
-      { label: 'cv', href: '/about#cv' },
-    ],
-  },
+  { label: 'gallery', href: '/gallery' },
   {
     label: 'portfolio',
     href: '/portfolio',
@@ -34,7 +28,15 @@ export const NAV_ITEMS: NavItem[] = [
       { label: 'fluidArt', href: '/portfolio#fluid-art' },
     ],
   },
-  { label: 'gallery', href: '/gallery' },
+  {
+    label: 'about',
+    href: '/about',
+    children: [
+      { label: 'statement', href: '/about#statement' },
+      { label: 'cv', href: '/about#cv' },
+    ],
+  },
   { label: 'exhibitions', href: '/exhibitions' },
   { label: 'blog', href: '/blog' },
+  { label: 'contact', href: '/contact' },
 ]
