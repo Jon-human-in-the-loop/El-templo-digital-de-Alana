@@ -34,10 +34,13 @@ export const ARTIST_PHOTO: ArtworkImage = {
   alt: STUDIO_ALT,
 }
 
-/** Curriculum Vitae — dos fotos horizontales, una encima de la otra. */
+/**
+ * Curriculum Vitae — dos fotos horizontales, una encima de la otra.
+ * Viven en `public/images/cv/`.
+ */
 export const CV_PHOTOS: ArtworkImage[] = [
-  { src: '/images/carrucel/5.jpg', alt: STUDIO_ALT },
-  { src: '/images/carrucel/6.jpg', alt: STUDIO_ALT },
+  { src: '/images/cv/CV1.jpg', alt: 'Alana Zarzairaeta pintando en su taller' },
+  { src: '/images/cv/CV2.jpg', alt: 'Alana Zarzairaeta pintando en su taller' },
 ]
 
 /** Imagen de cierre de la home: deriva a la Galería. Acá sí va obra. */
