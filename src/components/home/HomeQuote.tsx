@@ -14,10 +14,10 @@ export default function HomeQuote() {
   const locale = useLocale()
 
   return (
-    <div ref={ref} className="w-full bg-white px-6 py-16 md:py-24">
+    <div ref={ref} className="w-full bg-white px-6 pt-10 pb-12 md:pt-12 md:pb-16">
       <motion.blockquote
-        className="mx-auto max-w-4xl text-center font-sans italic text-black/80 leading-snug"
-        style={{ fontSize: 'clamp(1.5rem, 4vw, 3rem)' }}
+        className="mx-auto max-w-5xl text-center font-sans uppercase text-black/80 leading-tight tracking-[0.06em]"
+        style={{ fontSize: 'clamp(1.15rem, 2.9vw, 2.25rem)' }}
         initial={{ opacity: 0, y: 24 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 1, ease: 'easeOut' }}

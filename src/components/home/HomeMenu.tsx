@@ -13,7 +13,7 @@ export default function HomeMenu() {
   const t = useTranslations('nav')
 
   return (
-    <nav className="w-full border-b border-black bg-white">
+    <nav className="w-full border-b border-black/10 bg-white">
       <ul className="flex flex-col md:flex-row md:flex-wrap md:justify-center items-stretch md:items-center">
         {NAV_ITEMS.map((item) => (
           <li
