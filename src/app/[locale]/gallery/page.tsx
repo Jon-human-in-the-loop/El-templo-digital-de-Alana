@@ -1,7 +1,7 @@
 import { getLocale, getTranslations } from 'next-intl/server'
 
 import ArtworkList from '@/components/gallery/ArtworkList'
-import PageHeader from '@/components/PageHeader'
+import GalleryCover from '@/components/gallery/GalleryCover'
 import { artworksByCategory } from '@/content/artworks'
 import { localize } from '@/content/locale'
 import { PORTFOLIO_CATEGORIES } from '@/content/portfolio'
@@ -12,7 +12,7 @@ export default async function GalleryPage() {
 
   return (
     <main className="w-full bg-white">
-      <PageHeader eyebrow={t('eyebrow')} title={t('title')} />
+      <GalleryCover eyebrow={t('eyebrow')} title={t('title')} />
 
       {/* Una sección por categoría; las fichas viven en src/content/artworks.ts */}
       {PORTFOLIO_CATEGORIES.map((category) => {
