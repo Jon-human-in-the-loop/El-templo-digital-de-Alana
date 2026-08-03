@@ -40,10 +40,15 @@ export default function ExhibitionsList() {
                   {exhibition.title}
                 </p>
               )}
+              {note && <p className="font-sans text-sm text-black/50 italic mt-1.5">{note}</p>}
               <p className="font-sans text-base text-black/70 mt-1">
                 {[exhibition.venue, place].filter(Boolean).join(' · ')}
               </p>
-              {note && <p className="font-sans text-sm text-black/50 italic mt-1">{note}</p>}
+              {localize(exhibition.date, locale) && (
+                <p className="font-sans text-sm text-black/45 mt-0.5">
+                  {localize(exhibition.date, locale)}
+                </p>
+              )}
             </div>
           </li>
         )
