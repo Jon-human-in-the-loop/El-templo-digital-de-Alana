@@ -38,7 +38,8 @@ export default function AboutTheArtist() {
             src={ARTIST_PHOTO.src}
             alt={ARTIST_PHOTO.alt}
             fill
-            className="object-cover object-center"
+            /* object-top: el retrato es vertical y la cara está arriba; centrado la recortaba */
+            className="object-cover object-top"
             sizes="(max-width: 768px) 100vw, 50vw"
           />
         </motion.div>
