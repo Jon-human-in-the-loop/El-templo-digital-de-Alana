@@ -31,3 +31,12 @@ export const ART_INQUIRIES_CTA: Localized = {
 
 export const INSTAGRAM_HANDLE = '@alanazarzairaeta'
 export const INSTAGRAM_URL = 'https://www.instagram.com/alanazarzairaeta/'
+/** Canal de difusión: es el que va en el popup «únete a la comunidad». */
+export const INSTAGRAM_CHANNEL_URL =
+  'https://www.instagram.com/channel/AbbRhWcE-5tT_2IJ/'
+
+/**
+ * Mail de contacto. Cuando esté el dominio alanazarzairaeta, cambiar por el
+ * mail asociado a él: se usa en la página de contacto y en el footer.
+ */
+export const CONTACT_EMAIL = 'zarzairaetaalana@gmail.com'
