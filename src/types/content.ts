@@ -36,6 +36,8 @@ export type Artwork = {
   dimensions: string
   technique: Localized
   description: Localized
+  /** Acotaciones sueltas de la obra. Vacío no se muestra. */
+  notes: Localized
 }
 
 /** A portfolio category cover + intro copy (Portfolio page). */
@@ -50,6 +52,8 @@ export type PortfolioCategory = {
 export type Exhibition = {
   id: string
   year: string
+  /** Fecha completa, localizada porque el mes cambia de idioma. */
+  date: Localized
   title: string
   venue: string
   city: string

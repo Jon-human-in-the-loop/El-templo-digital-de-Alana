@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 
-import { INSTAGRAM_HANDLE, INSTAGRAM_URL } from '@/content/site'
+import { INSTAGRAM_CHANNEL_URL, INSTAGRAM_HANDLE } from '@/content/site'
 
 import PopupShell from './PopupShell'
 
@@ -30,7 +30,7 @@ export default function InstagramPopup({ onClose }: InstagramPopupProps) {
         <div>
           <p className="font-sans text-sm text-black/60">{INSTAGRAM_HANDLE}</p>
           <a
-            href={INSTAGRAM_URL}
+            href={INSTAGRAM_CHANNEL_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-3 inline-flex items-center gap-2 font-heading uppercase tracking-widest text-sm border border-black px-5 py-3 hover:bg-black hover:text-white transition-colors duration-300"

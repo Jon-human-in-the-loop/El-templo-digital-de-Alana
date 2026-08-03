@@ -60,6 +60,7 @@ function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
 
   const technique = localize(artwork.technique, locale)
   const description = localize(artwork.description, locale)
+  const notes = localize(artwork.notes, locale)
 
   const facts = [
     { label: t('year'), value: artwork.year },
@@ -137,6 +138,17 @@ function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
                   <p className="font-sans text-base md:text-lg text-black/75 leading-relaxed italic">
                     {description}
                   </p>
+                )}
+
+                {notes && (
+                  <div className="mt-6 border-t border-black/10 pt-4">
+                    <p className="font-sans text-xs uppercase tracking-widest text-black/40 mb-2">
+                      {t('notes')}
+                    </p>
+                    <p className="font-sans text-base text-black/70 leading-relaxed italic">
+                      {notes}
+                    </p>
+                  </div>
                 )}
 
                 {/* Imágenes de detalle */}

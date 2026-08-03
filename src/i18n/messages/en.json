@@ -52,7 +52,8 @@
     "details": "Artwork details",
     "open": "View details",
     "close": "Close details",
-    "empty": "No works have been added to this section yet."
+    "empty": "No works have been added to this section yet.",
+    "notes": "Notes"
   },
   "exhibitions": {
     "eyebrow": "Exhibitions",
@@ -165,7 +166,6 @@
     "tagline": "Creative Universe, Portfolio and Shop",
     "quickLinks": "Sections",
     "contact": "Contact",
-    "email": "zarzairaetaalana@gmail.com",
     "instagramQr": "Instagram QR code",
     "copyright": "All rights reserved."
   },

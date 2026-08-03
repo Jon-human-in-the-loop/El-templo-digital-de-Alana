@@ -1,6 +1,7 @@
 import { useTranslations, useLocale } from 'next-intl'
 import Image from 'next/image'
 
+import { CONTACT_EMAIL } from '@/content/site'
 import { Link } from '@/i18n/routing'
 
 /** Same routes as the header nav, plus the shop and contact. */
@@ -64,7 +65,12 @@ export default function Footer() {
             <h4 className="font-heading text-white uppercase text-xl mb-5">
               {t('contact')}
             </h4>
-            <p className="text-sm font-sans text-white/50 mb-6">{t('email')}</p>
+            <a
+              href={`mailto:${CONTACT_EMAIL}`}
+              className="block text-sm font-sans text-white/50 hover:text-white transition-colors duration-300 mb-6"
+            >
+              {CONTACT_EMAIL}
+            </a>
             <div className="flex items-center gap-4">
               <Image
                 src="/images/brand/qr-instagram.png"

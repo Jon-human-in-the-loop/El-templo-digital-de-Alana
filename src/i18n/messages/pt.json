@@ -52,7 +52,8 @@
     "details": "Ficha da obra",
     "open": "Ver ficha",
     "close": "Fechar ficha",
-    "empty": "Ainda não há obras carregadas nesta secção."
+    "empty": "Ainda não há obras carregadas nesta secção.",
+    "notes": "Notas"
   },
   "exhibitions": {
     "eyebrow": "Exposições",
@@ -165,7 +166,6 @@
     "tagline": "Universo Criativo, Portfolio e Loja",
     "quickLinks": "Secções",
     "contact": "Contacto",
-    "email": "zarzairaetaalana@gmail.com",
     "instagramQr": "Código QR do Instagram",
     "copyright": "Todos os direitos reservados."
   },

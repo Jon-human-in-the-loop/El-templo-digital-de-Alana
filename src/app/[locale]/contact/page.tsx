@@ -6,6 +6,7 @@ import { useState } from 'react'
 
 import CollaborationNote from '@/components/CollaborationNote'
 import PageHeader from '@/components/PageHeader'
+import { CONTACT_EMAIL } from '@/content/site'
 
 export default function ContactPage() {
   const t = useTranslations()
@@ -66,6 +67,13 @@ export default function ContactPage() {
         <p className="font-sans text-base md:text-lg text-black/70 leading-relaxed">
           {t('pages.contactDescription')}
         </p>
+        {/* Mail de contacto — CONTACT_EMAIL en src/content/site.ts */}
+        <a
+          href={`mailto:${CONTACT_EMAIL}`}
+          className="mt-6 inline-block font-heading uppercase tracking-[0.08em] text-lg md:text-xl border-b border-black pb-1 hover:opacity-50 transition-opacity"
+        >
+          {CONTACT_EMAIL}
+        </a>
       </PageHeader>
 
       {/* Frase de colaboración — sin CTA, ya estamos en contacto */}
