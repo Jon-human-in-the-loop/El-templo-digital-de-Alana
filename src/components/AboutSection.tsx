@@ -123,10 +123,15 @@ function CVSection() {
         </ul>
       </div>
 
-      {/* Right: stacked photos — ver CV_PHOTOS en src/content/home.ts */}
-      <div className="grid grid-rows-2 gap-0">
+      {/*
+        Right: stacked photos — ver CV_PHOTOS en src/content/home.ts.
+        Van en su proporción real (3:2) en vez de estirarse a la mitad de la
+        columna del CV, que es mucho más alta y las dejaba ampliadas y recortadas.
+        En escritorio quedan fijas mientras se recorre la lista.
+      */}
+      <div className="flex flex-col md:self-start md:sticky md:top-28">
         {CV_PHOTOS.map((photo) => (
-          <div key={photo.src} className="relative overflow-hidden" style={{ minHeight: '300px' }}>
+          <div key={photo.src} className="relative w-full overflow-hidden aspect-[3/2]">
             <Image
               src={photo.src}
               alt={photo.alt}
