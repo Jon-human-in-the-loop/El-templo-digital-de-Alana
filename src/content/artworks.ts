@@ -5,8 +5,9 @@ import type { Artwork, PortfolioCategorySlug } from '@/types/content'
  * CATÁLOGO DE OBRA — editable
  * ─────────────────────────────────────────────────────────────────────────────
  * Cada entrada es una ficha de obra. Los campos `year`, `dimensions`,
- * `technique` y `description` se pueden dejar vacíos: la ficha sólo muestra los
- * datos que existen, así que la galería se puede publicar y completar después.
+ * `technique`, `description` y `notes` se pueden dejar vacíos: la ficha sólo
+ * muestra los datos que existen, así que la galería se puede publicar y
+ * completar después.
  *
  * Cómo cargar una obra:
  *   1. `title`     → nombre de la obra.
@@ -14,6 +15,7 @@ import type { Artwork, PortfolioCategorySlug } from '@/types/content'
  *   3. `detailImages` → fotos de detalle, en el orden en que deben mostrarse.
  *   4. `year` / `dimensions` → texto libre, p. ej. '2024' y '70 × 100 cm'.
  *   5. `technique` / `description` → un texto por idioma (es / en / pt).
+ *   6. `notes` → acotaciones sueltas, también por idioma.
  *
  * Las medidas ya cargadas provienen del nombre de archivo de la foto.
  * ─────────────────────────────────────────────────────────────────────────────
@@ -41,6 +43,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '70 × 100 cm',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'el-llanto-del-rey-expectante',
@@ -60,6 +63,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '100 × 80 cm',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'el-registro-del-poder-heredado',
@@ -79,6 +83,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'la-ceguera-que-viene-por-encandilarse',
@@ -98,6 +103,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '50 × 30 cm',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'unibesos',
@@ -115,6 +121,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
 
   /* ── Fluid Art ──────────────────────────────────────────────────────────── */
@@ -128,6 +135,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 're-suscito',
@@ -139,6 +147,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'como-es-arriba-es-abajo',
@@ -158,6 +167,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'se-ondula-el-eter',
@@ -172,6 +182,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'las-aguas-de-la-resurreccion',
@@ -189,6 +200,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'las-olas-que-se-espejaban',
@@ -203,6 +215,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'la-raiz',
@@ -216,6 +229,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'en-el-oceano-divise-al-inframundo',
@@ -235,6 +249,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'it-might-be-a-mess',
@@ -248,6 +263,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'ya-no-se-oye-el-ultimo-suspiro',
@@ -265,6 +281,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
   {
     slug: 'un-petalo-un-mensaje-y-una-chispa',
@@ -288,6 +305,7 @@ export const ARTWORKS: Artwork[] = [
     dimensions: '',
     technique: { ...EMPTY },
     description: { ...EMPTY },
+    notes: { ...EMPTY },
   },
 ]
 
