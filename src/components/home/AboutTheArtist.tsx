@@ -23,7 +23,7 @@ export default function AboutTheArtist() {
     <section
       ref={ref}
       id="about-the-artist"
-      className="w-full border-t border-black"
+      className="w-full border-t border-black/10"
       style={{ backgroundColor: '#F0EEED' }}
     >
       <div className="grid grid-cols-1 md:grid-cols-2">
