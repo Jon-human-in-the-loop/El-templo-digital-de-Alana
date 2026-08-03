@@ -82,10 +82,12 @@ export default function HomeCarousel() {
           <br />
           de Alana
         </h1>
-        <p className="font-sans text-white/80 text-xs md:text-sm tracking-[0.3em] uppercase mt-6">
-          {t('brandSubtitle')}
-        </p>
       </div>
+
+      {/* Bajada: pegada al borde inferior, justo encima de los puntos */}
+      <p className="absolute bottom-12 md:bottom-14 left-1/2 -translate-x-1/2 z-20 w-full px-6 text-center font-sans text-white/80 text-xs md:text-sm tracking-[0.3em] uppercase pointer-events-none">
+        {t('brandSubtitle')}
+      </p>
 
       {/* Controls */}
       {total > 1 && (
