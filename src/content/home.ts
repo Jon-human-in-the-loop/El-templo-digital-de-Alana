@@ -25,9 +25,12 @@ export const CAROUSEL_SLIDES: CarouselSlide[] = [
   { src: '/images/carrucel/6.2.jpg', alt: STUDIO_ALT },
 ]
 
-/** «About the artist» — retrato vertical que acompaña al statement. */
+/**
+ * «About the artist» — retrato vertical que acompaña al statement.
+ * Vive en `public/images/artist/`.
+ */
 export const ARTIST_PHOTO: ArtworkImage = {
-  src: '/images/carrucel/1.jpg',
+  src: '/images/artist/about the artist.jpg',
   alt: STUDIO_ALT,
 }
 
