@@ -6,14 +6,18 @@ import { Link } from '@/i18n/routing'
 import { NAV_ITEMS } from '@/lib/navigation'
 
 /**
- * Home menu — sits right under the carousel, in large type, always open.
- * This is what replaces the burger on the home page (see Header: `isHome`).
+ * Home menu — las secciones debajo del carrusel, en tamaño grande.
+ *
+ * Sólo se muestra por debajo de `lg`, que es donde el header esconde su
+ * navegación y, en la home, tampoco hay hamburguesa: este menú es la única
+ * navegación en celular y tablet. Desde `lg` el header ya la muestra, así que
+ * repetirla acá no sumaba nada.
  */
 export default function HomeMenu() {
   const t = useTranslations('nav')
 
   return (
-    <nav className="w-full border-b border-black/10 bg-white">
+    <nav className="lg:hidden w-full border-b border-black/10 bg-white">
       <ul className="flex flex-col md:flex-row md:flex-wrap md:justify-center items-stretch md:items-center">
         {NAV_ITEMS.map((item) => (
           <li
