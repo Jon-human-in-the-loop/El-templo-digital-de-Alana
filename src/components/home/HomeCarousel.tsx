@@ -56,7 +56,10 @@ export default function HomeCarousel() {
             src={slide.src}
             alt={slide.alt}
             fill
-            className="object-cover object-center"
+            className="object-cover"
+            style={{
+              objectPosition: `50% ${slide.focusY ?? 50}%`,
+            }}
             sizes="100vw"
             priority={index === 0}
           />

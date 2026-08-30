@@ -65,4 +65,12 @@ export type Exhibition = {
 export type CarouselSlide = {
   src: string
   alt: string
+  /**
+   * Vertical focal point for the `object-cover` crop, 0-100 (percent from the
+   * top). Omit to keep the default center crop. Portrait photos where the
+   * subject's face sits in the upper part of the frame need this set — on a
+   * wide desktop viewport the hero section is much wider than it is tall, so
+   * a plain center crop of a tall photo can cut the face off entirely.
+   */
+  focusY?: number
 }

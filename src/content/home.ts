@@ -12,8 +12,12 @@ import type { ArtworkImage, CarouselSlide } from '@/types/content'
 const STUDIO_ALT = 'Alana Zarzairaeta en su taller'
 
 export const CAROUSEL_SLIDES: CarouselSlide[] = [
-  { src: '/images/carrucel/1.jpg', alt: STUDIO_ALT },
-  { src: '/images/carrucel/2.jpg', alt: STUDIO_ALT },
+  // Retratos verticales de Alana: la cara queda en el tercio superior de la
+  // foto, así que en pantallas anchas (donde el carrusel es mucho más ancho
+  // que alto) un recorte centrado la corta. `focusY` fija el punto de
+  // recorte más arriba para que la cara siempre quede visible.
+  { src: '/images/carrucel/1.jpg', alt: STUDIO_ALT, focusY: 27 },
+  { src: '/images/carrucel/2.jpg', alt: STUDIO_ALT, focusY: 27 },
   { src: '/images/carrucel/2.1.jpg', alt: STUDIO_ALT },
   { src: '/images/carrucel/3.jpg', alt: STUDIO_ALT },
   { src: '/images/carrucel/4.jpg', alt: STUDIO_ALT },
