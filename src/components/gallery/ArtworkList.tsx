@@ -135,7 +135,7 @@ function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
                 )}
 
                 {description && (
-                  <p className="font-sans text-base md:text-lg text-black/75 leading-relaxed italic">
+                  <p className="font-sans text-base md:text-lg text-black/75 leading-relaxed italic whitespace-pre-line">
                     {description}
                   </p>
                 )}

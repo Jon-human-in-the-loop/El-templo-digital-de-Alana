@@ -60,7 +60,7 @@ export const ARTWORKS: Artwork[] = [
       },
     ],
     year: '',
-    dimensions: '100 × 80 cm',
+    dimensions: '70 × 30 cm',
     technique: { ...EMPTY },
     description: { ...EMPTY },
     notes: { ...EMPTY },
@@ -139,9 +139,9 @@ export const ARTWORKS: Artwork[] = [
   },
   {
     slug: 're-suscito',
-    title: 'Re-Suscito',
+    title: 'RE-suscito',
     category: 'fluid-art',
-    wallImage: { src: '/images/portfolio/fluid-art/re-suscito.webp', alt: 'Re-Suscito' },
+    wallImage: { src: '/images/portfolio/fluid-art/re-suscito.webp', alt: 'RE-suscito' },
     detailImages: [],
     year: '',
     dimensions: '',
@@ -204,11 +204,11 @@ export const ARTWORKS: Artwork[] = [
   },
   {
     slug: 'las-olas-que-se-espejaban',
-    title: 'Las olas que se espejaban',
+    title: 'Las olas que se esperaban en las nubes',
     category: 'fluid-art',
     wallImage: {
       src: '/images/portfolio/fluid-art/las-olas.webp',
-      alt: 'Las olas que se espejaban',
+      alt: 'Las olas que se esperaban en las nubes',
     },
     detailImages: [],
     year: '',
@@ -254,7 +254,7 @@ export const ARTWORKS: Artwork[] = [
   {
     slug: 'it-might-be-a-mess',
     title: 'It might be a mess',
-    category: 'fluid-art',
+    category: 'figurativo',
     wallImage: { src: '/images/portfolio/fluid-art/mess-mine-1.webp', alt: 'It might be a mess' },
     detailImages: [
       { src: '/images/portfolio/fluid-art/mess-mine-2.webp', alt: 'It might be a mess — detalle' },
