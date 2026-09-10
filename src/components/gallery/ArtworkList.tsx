@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Minus, Plus } from 'lucide-react'
 import { useLocale, useTranslations } from 'next-intl'
 import Image from 'next/image'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 import { localize } from '@/content/locale'
 import type { Artwork } from '@/types/content'
@@ -57,6 +57,23 @@ interface ArtworkSheetProps {
 function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
   const t = useTranslations('gallery')
   const locale = useLocale()
+  const sheetRef = useRef<HTMLLIElement>(null)
+
+  /**
+   * Al abrir, subir la ficha al tope de la pantalla.
+   *
+   * La ficha se despliega hacia abajo y el scroll se queda donde estaba, así
+   * que si la obra estaba a media pantalla su imagen quedaba debajo del
+   * pliegue: se abría mostrando la descripción y había que scrollear para ver
+   * el cuadro. El `scroll-mt-28` del <li> deja el sitio del header fijo.
+   */
+  useEffect(() => {
+    if (!open) return
+    const timer = window.setTimeout(() => {
+      sheetRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 50)
+    return () => window.clearTimeout(timer)
+  }, [open])
 
   const technique = localize(artwork.technique, locale)
   const description = localize(artwork.description, locale)
@@ -69,7 +86,11 @@ function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
   ].filter((fact) => fact.value)
 
   return (
-    <li id={`obra-${artwork.slug}`} className="border-b border-black/10 scroll-mt-28">
+    <li
+      ref={sheetRef}
+      id={`obra-${artwork.slug}`}
+      className="border-b border-black/10 scroll-mt-28"
+    >
       <button
         type="button"
         onClick={onToggle}
