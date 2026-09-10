@@ -18,7 +18,7 @@ export const PORTFOLIO_CATEGORIES: PortfolioCategory[] = [
     title: { es: 'Figurativo', en: 'Figurative', pt: 'Figurativo' },
     cover: {
       src: '/images/portfolio/figurativo/unibesos-2.webp',
-      alt: 'Figurativo — obra de Alana Zarzairaeta',
+      alt: 'Figurativo — obra de Alana Zarza Iraeta',
     },
     description: {
       es: 'Siempre mi arte se comunicó primero conmigo. Es como si seres que están en otro lugar toquen la puerta de mi ser para darme su mensaje sagrado. Estos seres existen. No sé cómo se ven. Mi misión es traducir su brillante energía en una imagen que haga perdurar su mensaje por los siglos de los siglos. Todas mis pinturas tienen una energía viva que habita en ellas y no muere jamás. Estos personajes son parte mía, parte de mi vida. Son un diario íntimo de sanación.',
@@ -32,7 +32,7 @@ export const PORTFOLIO_CATEGORIES: PortfolioCategory[] = [
     title: { es: 'Fluid Art', en: 'Fluid Art', pt: 'Fluid Art' },
     cover: {
       src: '/images/portfolio/fluid-art/re-suscito.webp',
-      alt: 'Fluid Art — obra de Alana Zarzairaeta',
+      alt: 'Fluid Art — obra de Alana Zarza Iraeta',
     },
     description: {
       es: 'En estas obras me descubro, descubro la naturaleza de lo potencial. La pintura está viva porque su medio es el agua, y el agua es lo más cercano a Dios. El agua, lo líquido, carga un comportamiento propio, que puedo guiar pero no controlar. Estas obras son el resultado en conjunto con Dios (como toda mi obra), siendo muy gráfica nuestra colaboración a lo largo de esta colección.',
