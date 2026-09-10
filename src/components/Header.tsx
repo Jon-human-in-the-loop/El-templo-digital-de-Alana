@@ -71,7 +71,7 @@ export default function Header() {
             href="/"
             className="relative z-10 shrink-0 font-heading uppercase tracking-[0.18em] text-lg md:text-xl text-black hover:opacity-60 transition-opacity"
           >
-            Alana Zarzairaeta
+            Alana Zarza Iraeta
           </Link>
 
           {/* Desktop navigation */}

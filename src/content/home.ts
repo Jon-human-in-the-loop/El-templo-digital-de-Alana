@@ -9,7 +9,7 @@ import type { ArtworkImage, CarouselSlide } from '@/types/content'
  * lista; no hay que tocar ningún componente.
  * ─────────────────────────────────────────────────────────────────────────────
  */
-const STUDIO_ALT = 'Alana Zarzairaeta en su taller'
+const STUDIO_ALT = 'Alana Zarza Iraeta en su taller'
 
 export const CAROUSEL_SLIDES: CarouselSlide[] = [
   // Retratos verticales de Alana: la cara queda en el tercio superior de la
@@ -43,8 +43,8 @@ export const ARTIST_PHOTO: ArtworkImage = {
  * Viven en `public/images/cv/`.
  */
 export const CV_PHOTOS: ArtworkImage[] = [
-  { src: '/images/cv/CV1.jpg', alt: 'Alana Zarzairaeta pintando en su taller' },
-  { src: '/images/cv/CV2.jpg', alt: 'Alana Zarzairaeta pintando en su taller' },
+  { src: '/images/cv/CV1.jpg', alt: 'Alana Zarza Iraeta pintando en su taller' },
+  { src: '/images/cv/CV2.jpg', alt: 'Alana Zarza Iraeta pintando en su taller' },
 ]
 
 /** Imagen de cierre de la home: deriva a la Galería. Acá sí va obra. */

@@ -27,13 +27,13 @@ const helveticaUltra = localFont({
 
 export const metadata: Metadata = {
   title: 'El Templo Digital de Alana',
-  description: 'Universo Creativo, Portfolio y Tienda Virtual de Alana Zarzairaeta.',
+  description: 'Universo Creativo, Portfolio y Tienda Virtual de Alana Zarza Iraeta.',
   icons: {
     icon: '/favicon.ico',
   },
   openGraph: {
     title: 'El Templo Digital de Alana',
-    description: 'Universo Creativo, Portfolio y Tienda Virtual de Alana Zarzairaeta.',
+    description: 'Universo Creativo, Portfolio y Tienda Virtual de Alana Zarza Iraeta.',
     type: 'website',
   },
 }

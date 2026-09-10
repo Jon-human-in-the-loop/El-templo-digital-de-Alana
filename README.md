@@ -1,6 +1,6 @@
 # El Templo Digital de Alana
 
-Portfolio digital y tienda de arte multidisciplinar de **Alana Zarzairaeta** — artista Argentina radicada en Porto.
+Portfolio digital y tienda de arte multidisciplinar de **Alana Zarza Iraeta** — artista Argentina radicada en Porto.
 
 Pintura, fluid art, ilustración, tatuajes y mucho más. Una ventana a su universo creativo.
 
@@ -164,4 +164,4 @@ Los textos se gestionan en `src/i18n/messages/`.
 
 ---
 
-© 2025 Alana Zarzairaeta — Todos los derechos reservados.
+© 2025 Alana Zarza Iraeta — Todos los derechos reservados.

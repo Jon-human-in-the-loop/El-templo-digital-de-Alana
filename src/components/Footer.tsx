@@ -92,7 +92,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-6xl mx-auto px-6 md:px-12 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs font-sans text-white/25 tracking-wider">
-            © {currentYear} Alana Zarzairaeta. {t('copyright')}
+            © {currentYear} Alana Zarza Iraeta. {t('copyright')}
           </p>
           <p className="text-xs font-sans text-white/25">
             {locale === 'es' ? 'Desarrollado por' : locale === 'pt' ? 'Desenvolvido por' : 'Developed by'}{' '}
