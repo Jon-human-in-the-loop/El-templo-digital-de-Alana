@@ -1,4 +1,4 @@
-import type { Artwork, PortfolioCategorySlug } from '@/types/content'
+import type { Artwork, ArtworkCategorySlug } from '@/types/content'
 
 /**
  * ─────────────────────────────────────────────────────────────────────────────
@@ -24,11 +24,11 @@ import type { Artwork, PortfolioCategorySlug } from '@/types/content'
 const EMPTY = { es: '', en: '', pt: '' }
 
 export const ARTWORKS: Artwork[] = [
-  /* ── Figurativo ─────────────────────────────────────────────────────────── */
+  /* ── Galería · Obras originales ─────────────────────────────────────────── */
   {
     slug: 'puedo-alzar-mi-voz-alto',
     title: 'Puedo alzar mi voz alto',
-    category: 'figurativo',
+    category: 'obras-originales',
     wallImage: {
       src: '/images/portfolio/obras de la galeria/Puedo alzar mi voz alto/01-Puedo-alzar-mi-voz-alto.webp',
       alt: 'Puedo alzar mi voz alto',
@@ -109,7 +109,7 @@ Aqueles que não estão preparados para a tua grandeza partirão. Não te apoque
   {
     slug: 'el-destino-inexorable',
     title: 'El destino inexorable',
-    category: 'figurativo',
+    category: 'obras-originales',
     wallImage: {
       src: '/images/portfolio/obras de la galeria/El destino inexorable/1_Cuadro El destino inexorable.webp',
       alt: 'El destino inexorable',
@@ -253,6 +253,8 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     },
     notes: { es: 'Porto, Portugal', en: 'Porto, Portugal', pt: 'Porto, Portugal' },
   },
+
+  /* ── Portfolio · Figurativo ─────────────────────────────────────────────── */
   {
     slug: 'la-luz-y-la-sombra',
     title: 'La luz y la sombra equilibran la mente y el espíritu',
@@ -537,7 +539,7 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
   },
 ]
 
-export function artworksByCategory(category: PortfolioCategorySlug): Artwork[] {
+export function artworksByCategory(category: ArtworkCategorySlug): Artwork[] {
   return ARTWORKS.filter((artwork) => artwork.category === category)
 }
 

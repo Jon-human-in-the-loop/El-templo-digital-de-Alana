@@ -11,6 +11,15 @@ export type Localized<T = string> = Record<Locale, T>
 
 export type PortfolioCategorySlug = 'figurativo' | 'fluid-art'
 
+/**
+ * Secciones de la Galería. Son distintas de las del Portfolio: el Portfolio
+ * divide la obra por lenguaje (Figurativo / Fluid Art) y la Galería por lo que
+ * se ofrece (originales, acuarelas). Una obra pertenece a una u otra.
+ */
+export type GalleryCategorySlug = 'obras-originales' | 'acuarelas-originales'
+
+export type ArtworkCategorySlug = PortfolioCategorySlug | GalleryCategorySlug
+
 /** A single image of an artwork: either the piece on a wall or a close-up detail. */
 export type ArtworkImage = {
   src: string
@@ -27,7 +36,7 @@ export type ArtworkImage = {
 export type Artwork = {
   slug: string
   title: string
-  category: PortfolioCategorySlug
+  category: ArtworkCategorySlug
   /** Main image — the piece hanging on a wall. */
   wallImage: ArtworkImage
   /** Close-ups and secondary shots. */
@@ -47,6 +56,12 @@ export type PortfolioCategory = {
   /** Full-bleed cover image, used as the section background. */
   cover: ArtworkImage
   description: Localized
+}
+
+/** Una sección de la Galería: título y las obras que le corresponden. */
+export type GalleryCategory = {
+  slug: GalleryCategorySlug
+  title: Localized
 }
 
 export type Exhibition = {

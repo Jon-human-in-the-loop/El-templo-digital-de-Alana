@@ -22,7 +22,14 @@ export type NavItem = {
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'home', href: '/' },
-  { label: 'gallery', href: '/gallery' },
+  {
+    label: 'gallery',
+    href: '/gallery',
+    children: [
+      { label: 'obrasOriginales', href: '/gallery#obras-originales' },
+      { label: 'acuarelasOriginales', href: '/gallery#acuarelas-originales' },
+    ],
+  },
   {
     label: 'portfolio',
     href: '/portfolio',

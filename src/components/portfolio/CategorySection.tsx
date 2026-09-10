@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { useRef } from 'react'
 
+import ArtworkList from '@/components/gallery/ArtworkList'
 import { artworksByCategory } from '@/content/artworks'
 import { localize } from '@/content/locale'
 import { Link } from '@/i18n/routing'
@@ -16,7 +17,11 @@ interface CategorySectionProps {
 
 /**
  * One portfolio category: cover image acting as a section front page, the
- * category description, and the works it contains.
+ * category description, the grid of works and their sheets.
+ *
+ * La grilla es el índice visual y las fichas viven debajo, en esta misma
+ * página: al tocar una obra se salta a `#obra-<slug>`, que es el ancla de su
+ * ficha y la abre.
  */
 export default function CategorySection({ category }: CategorySectionProps) {
   const ref = useRef<HTMLDivElement>(null)
@@ -68,7 +73,7 @@ export default function CategorySection({ category }: CategorySectionProps) {
             transition={{ duration: 0.7, ease: 'easeOut', delay: i * 0.06 }}
           >
             <Link
-              href={`/gallery#obra-${work.slug}`}
+              href={`/portfolio#obra-${work.slug}`}
               className="group relative block h-[380px] md:h-[520px] overflow-hidden"
             >
               <Image
@@ -95,6 +100,9 @@ export default function CategorySection({ category }: CategorySectionProps) {
           </motion.div>
         ))}
       </div>
+
+      {/* Fichas de las obras de la sección */}
+      {works.length > 0 && <ArtworkList artworks={works} />}
     </section>
   )
 }
