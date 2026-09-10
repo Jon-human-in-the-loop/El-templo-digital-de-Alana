@@ -33,7 +33,7 @@ export async function sendContactEmail(data: {
           <p style="white-space: pre-wrap; margin: 0;">${data.message}</p>
         </div>
         <div style="margin-top: 40px; font-size: 11px; text-transform: uppercase; color: #999;">
-          Enviado desde el formulario de contacto de Alana Zarzairaeta
+          Enviado desde el formulario de contacto de Alana Zarza Iraeta
         </div>
       </div>
     `,
@@ -108,7 +108,7 @@ export async function sendOrderConfirmationEmail(data: {
   const { error: customerError } = await getResend().emails.send({
     from: FROM_EMAIL,
     to: [data.customerEmail],
-    subject: `Confirmación de Pedido - Alana Zarzairaeta #${data.orderId}`,
+    subject: `Confirmación de Pedido - Alana Zarza Iraeta #${data.orderId}`,
     html: `
       <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 40px 20px; color: #000;">
         <h1 style="font-size: 28px; text-transform: uppercase; letter-spacing: 0.2em; text-align: center; margin-bottom: 8px;">ALANA</h1>

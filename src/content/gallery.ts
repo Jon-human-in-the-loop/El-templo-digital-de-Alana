@@ -9,5 +9,5 @@ import type { ArtworkImage } from '@/types/content'
  */
 export const GALLERY_COVER: ArtworkImage = {
   src: '/images/artist/para.poner.en.portada.en.galeria.jpg',
-  alt: 'Alana Zarzairaeta con su obra',
+  alt: 'Alana Zarza Iraeta con su obra',
 }
