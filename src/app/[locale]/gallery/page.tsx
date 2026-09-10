@@ -4,7 +4,7 @@ import ArtworkList from '@/components/gallery/ArtworkList'
 import GalleryCover from '@/components/gallery/GalleryCover'
 import { artworksByCategory } from '@/content/artworks'
 import { localize } from '@/content/locale'
-import { PORTFOLIO_CATEGORIES } from '@/content/portfolio'
+import { GALLERY_CATEGORIES } from '@/content/gallery'
 
 export default async function GalleryPage() {
   const t = await getTranslations('gallery')
@@ -14,8 +14,8 @@ export default async function GalleryPage() {
     <main className="w-full bg-white">
       <GalleryCover eyebrow={t('eyebrow')} title={t('title')} />
 
-      {/* Una sección por categoría; las fichas viven en src/content/artworks.ts */}
-      {PORTFOLIO_CATEGORIES.map((category) => {
+      {/* Una sección por categoría de galería; las fichas viven en src/content/artworks.ts */}
+      {GALLERY_CATEGORIES.map((category) => {
         const artworks = artworksByCategory(category.slug)
 
         return (
