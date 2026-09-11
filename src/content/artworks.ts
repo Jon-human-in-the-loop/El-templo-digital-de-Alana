@@ -376,13 +376,47 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     notes: { ...EMPTY },
   },
 
-  /* ── Fluid Art ──────────────────────────────────────────────────────────── */
+  /* ── Portfolio · Fluid Art ──────────────────────────────────────────────── */
+  /*
+   * En el orden del machete. «Como es arriba es abajo» y «Las aguas de la
+   * resurrección» no figuran en él: quedan al final, publicadas con su foto y
+   * sin ficha.
+   */
+  {
+    slug: 'las-olas-que-se-espejaban',
+    title: 'Las olas que se esperaban en las nubes',
+    category: 'fluid-art',
+    wallImage: {
+      src: '/images/portfolio/fluid-art/las-olas.webp',
+      alt: 'Las olas que se esperaban en las nubes',
+    },
+    detailImages: [],
+    year: '',
+    dimensions: '',
+    technique: { ...EMPTY },
+    description: { ...EMPTY },
+    notes: { ...EMPTY },
+  },
   {
     slug: 'premonicion',
     title: 'Premonición',
     category: 'fluid-art',
     wallImage: { src: '/images/portfolio/fluid-art/premonicion.webp', alt: 'Premonición' },
     detailImages: [],
+    year: '',
+    dimensions: '',
+    technique: { ...EMPTY },
+    description: { ...EMPTY },
+    notes: { ...EMPTY },
+  },
+  {
+    slug: 'la-raiz',
+    title: 'La raíz',
+    category: 'fluid-art',
+    wallImage: { src: '/images/portfolio/fluid-art/la-raiz-1.webp', alt: 'La raíz' },
+    detailImages: [
+      { src: '/images/portfolio/fluid-art/la-raiz-2.webp', alt: 'La raíz — detalle' },
+    ],
     year: '',
     dimensions: '',
     technique: { ...EMPTY },
@@ -402,17 +436,21 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     notes: { ...EMPTY },
   },
   {
-    slug: 'como-es-arriba-es-abajo',
-    title: 'Como es arriba es abajo',
+    slug: 'un-petalo-un-mensaje-y-una-chispa',
+    title: 'Un pétalo, un mensaje y una chispa',
     category: 'fluid-art',
     wallImage: {
-      src: '/images/portfolio/fluid-art/como-es-arriba.webp',
-      alt: 'Como es arriba es abajo',
+      src: '/images/portfolio/fluid-art/un-petalo-1.webp',
+      alt: 'Un pétalo, un mensaje y una chispa — panel I',
     },
     detailImages: [
       {
-        src: '/images/portfolio/acuarela/como-es-arriba.webp',
-        alt: 'Como es arriba es abajo — detalle',
+        src: '/images/portfolio/fluid-art/un-petalo-2.webp',
+        alt: 'Un pétalo, un mensaje y una chispa — panel II',
+      },
+      {
+        src: '/images/portfolio/fluid-art/un-petalo-3.webp',
+        alt: 'Un pétalo, un mensaje y una chispa — panel III',
       },
     ],
     year: '',
@@ -437,45 +475,16 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     notes: { ...EMPTY },
   },
   {
-    slug: 'las-aguas-de-la-resurreccion',
-    title: 'Las aguas de la resurrección',
+    slug: 'ya-no-se-oye-el-ultimo-suspiro',
+    title: 'Ya no se oye el último suspiro',
     category: 'fluid-art',
     wallImage: {
-      src: '/images/portfolio/fluid-art/las-aguas-resurreccion.webp',
-      alt: 'Las aguas de la resurrección',
+      src: '/images/portfolio/fluid-art/ya-no-se-oye-1.webp',
+      alt: 'Ya no se oye el último suspiro',
     },
     detailImages: [
-      { src: '/images/portfolio/fluid-art/las-aguas-2.webp', alt: 'Las aguas de la resurrección — detalle' },
-      { src: '/images/portfolio/fluid-art/las-aguas-3.webp', alt: 'Las aguas de la resurrección — detalle' },
-    ],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
-  },
-  {
-    slug: 'las-olas-que-se-espejaban',
-    title: 'Las olas que se esperaban en las nubes',
-    category: 'fluid-art',
-    wallImage: {
-      src: '/images/portfolio/fluid-art/las-olas.webp',
-      alt: 'Las olas que se esperaban en las nubes',
-    },
-    detailImages: [],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
-  },
-  {
-    slug: 'la-raiz',
-    title: 'La raíz',
-    category: 'fluid-art',
-    wallImage: { src: '/images/portfolio/fluid-art/la-raiz-1.webp', alt: 'La raíz' },
-    detailImages: [
-      { src: '/images/portfolio/fluid-art/la-raiz-2.webp', alt: 'La raíz — detalle' },
+      { src: '/images/portfolio/fluid-art/ya-no-se-oye-2.webp', alt: 'Ya no se oye el último suspiro — detalle' },
+      { src: '/images/portfolio/fluid-art/ya-no-se-oye-3.webp', alt: 'Ya no se oye el último suspiro — detalle' },
     ],
     year: '',
     dimensions: '',
@@ -518,16 +527,18 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     notes: { ...EMPTY },
   },
   {
-    slug: 'ya-no-se-oye-el-ultimo-suspiro',
-    title: 'Ya no se oye el último suspiro',
+    slug: 'como-es-arriba-es-abajo',
+    title: 'Como es arriba es abajo',
     category: 'fluid-art',
     wallImage: {
-      src: '/images/portfolio/fluid-art/ya-no-se-oye-1.webp',
-      alt: 'Ya no se oye el último suspiro',
+      src: '/images/portfolio/fluid-art/como-es-arriba.webp',
+      alt: 'Como es arriba es abajo',
     },
     detailImages: [
-      { src: '/images/portfolio/fluid-art/ya-no-se-oye-2.webp', alt: 'Ya no se oye el último suspiro — detalle' },
-      { src: '/images/portfolio/fluid-art/ya-no-se-oye-3.webp', alt: 'Ya no se oye el último suspiro — detalle' },
+      {
+        src: '/images/portfolio/acuarela/como-es-arriba.webp',
+        alt: 'Como es arriba es abajo — detalle',
+      },
     ],
     year: '',
     dimensions: '',
@@ -536,22 +547,16 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     notes: { ...EMPTY },
   },
   {
-    slug: 'un-petalo-un-mensaje-y-una-chispa',
-    title: 'Un pétalo, un mensaje y una chispa',
+    slug: 'las-aguas-de-la-resurreccion',
+    title: 'Las aguas de la resurrección',
     category: 'fluid-art',
     wallImage: {
-      src: '/images/portfolio/fluid-art/un-petalo-1.webp',
-      alt: 'Un pétalo, un mensaje y una chispa — panel I',
+      src: '/images/portfolio/fluid-art/las-aguas-resurreccion.webp',
+      alt: 'Las aguas de la resurrección',
     },
     detailImages: [
-      {
-        src: '/images/portfolio/fluid-art/un-petalo-2.webp',
-        alt: 'Un pétalo, un mensaje y una chispa — panel II',
-      },
-      {
-        src: '/images/portfolio/fluid-art/un-petalo-3.webp',
-        alt: 'Un pétalo, un mensaje y una chispa — panel III',
-      },
+      { src: '/images/portfolio/fluid-art/las-aguas-2.webp', alt: 'Las aguas de la resurrección — detalle' },
+      { src: '/images/portfolio/fluid-art/las-aguas-3.webp', alt: 'Las aguas de la resurrección — detalle' },
     ],
     year: '',
     dimensions: '',
