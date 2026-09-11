@@ -255,46 +255,10 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
   },
 
   /* ── Portfolio · Figurativo ─────────────────────────────────────────────── */
-  {
-    slug: 'la-luz-y-la-sombra',
-    title: 'La luz y la sombra equilibran la mente y el espíritu',
-    category: 'figurativo',
-    wallImage: {
-      src: '/images/portfolio/figurativo/La-luz-y-la-sombra-equilibran-la-mente-y-el-espiritu-70x100-vertical.webp',
-      alt: 'La luz y la sombra equilibran la mente y el espíritu',
-    },
-    detailImages: [
-      {
-        src: '/images/portfolio/figurativo/La-luz-y-la-sombra-equilibran-la-mente-y-el-espiritu-70x100.webp',
-        alt: 'La luz y la sombra equilibran la mente y el espíritu — detalle',
-      },
-    ],
-    year: '',
-    dimensions: '70 × 100 cm',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
-  },
-  {
-    slug: 'el-llanto-del-rey-expectante',
-    title: 'El llanto del rey expectante',
-    category: 'figurativo',
-    wallImage: {
-      src: '/images/portfolio/figurativo/el-llanto-del-rey-expectante-2-100x80.webp',
-      alt: 'El llanto del rey expectante',
-    },
-    detailImages: [
-      {
-        src: '/images/portfolio/fluid-art/el-llanto-rey.webp',
-        alt: 'El llanto del rey expectante — detalle',
-      },
-    ],
-    year: '',
-    dimensions: '70 × 30 cm',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
-  },
+  /*
+   * En el orden del machete. «De cuando fuimos pantera con Obsidiana» todavía
+   * no tiene técnica ni descripción: falta su texto en el machete.
+   */
   {
     slug: 'el-registro-del-poder-heredado',
     title: 'El registro del poder heredado',
@@ -311,6 +275,26 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     ],
     year: '',
     dimensions: '',
+    technique: { ...EMPTY },
+    description: { ...EMPTY },
+    notes: { ...EMPTY },
+  },
+  {
+    slug: 'la-luz-y-la-sombra',
+    title: 'La luz y la sombra equilibran la mente y el espíritu',
+    category: 'figurativo',
+    wallImage: {
+      src: '/images/portfolio/figurativo/La-luz-y-la-sombra-equilibran-la-mente-y-el-espiritu-70x100-vertical.webp',
+      alt: 'La luz y la sombra equilibran la mente y el espíritu',
+    },
+    detailImages: [
+      {
+        src: '/images/portfolio/figurativo/La-luz-y-la-sombra-equilibran-la-mente-y-el-espiritu-70x100.webp',
+        alt: 'La luz y la sombra equilibran la mente y el espíritu — detalle',
+      },
+    ],
+    year: '',
+    dimensions: '70 × 100 cm',
     technique: { ...EMPTY },
     description: { ...EMPTY },
     notes: { ...EMPTY },
@@ -349,6 +333,44 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     ],
     year: '',
     dimensions: '',
+    technique: { ...EMPTY },
+    description: { ...EMPTY },
+    notes: { ...EMPTY },
+  },
+  {
+    slug: 'de-cuando-fuimos-pantera-con-obsidiana',
+    title: 'De cuando fuimos pantera con Obsidiana',
+    category: 'figurativo',
+    wallImage: {
+      src: '/images/portfolio/figurativo/05 De cuando fuimos pantera con Obsidiana/PORTADA EN PORTFOLIO.webp',
+      alt: 'De cuando fuimos pantera con Obsidiana',
+    },
+    detailImages: [
+      { src: '/images/portfolio/figurativo/05 De cuando fuimos pantera con Obsidiana/IMG_7762.webp', alt: 'De cuando fuimos pantera con Obsidiana — detalle' },
+      { src: '/images/portfolio/figurativo/05 De cuando fuimos pantera con Obsidiana/IMG_7764.webp', alt: 'De cuando fuimos pantera con Obsidiana — detalle' },
+    ],
+    year: '2021',
+    dimensions: '100 × 80 cm',
+    technique: { ...EMPTY },
+    description: { ...EMPTY },
+    notes: { ...EMPTY },
+  },
+  {
+    slug: 'el-llanto-del-rey-expectante',
+    title: 'El llanto del rey expectante',
+    category: 'figurativo',
+    wallImage: {
+      src: '/images/portfolio/figurativo/el-llanto-del-rey-expectante-2-100x80.webp',
+      alt: 'El llanto del rey expectante',
+    },
+    detailImages: [
+      {
+        src: '/images/portfolio/fluid-art/el-llanto-rey.webp',
+        alt: 'El llanto del rey expectante — detalle',
+      },
+    ],
+    year: '',
+    dimensions: '70 × 30 cm',
     technique: { ...EMPTY },
     description: { ...EMPTY },
     notes: { ...EMPTY },
