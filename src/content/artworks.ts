@@ -256,10 +256,8 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
 
   /* ── Portfolio · Figurativo ─────────────────────────────────────────────── */
   /*
-   * En el orden del machete. Falta la 5.ª, «De cuando fuimos pantera con
-   * Obsidiana» (100x80, 2021): está en el machete pero todavía no tiene foto
-   * en el repositorio, así que no se publica. Va entre «Unibesos» y «El llanto
-   * del rey expectante» cuando llegue su imagen.
+   * En el orden del machete. «De cuando fuimos pantera con Obsidiana» todavía
+   * no tiene técnica ni descripción: falta su texto en el machete.
    */
   {
     slug: 'el-registro-del-poder-heredado',
@@ -335,6 +333,24 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     ],
     year: '',
     dimensions: '',
+    technique: { ...EMPTY },
+    description: { ...EMPTY },
+    notes: { ...EMPTY },
+  },
+  {
+    slug: 'de-cuando-fuimos-pantera-con-obsidiana',
+    title: 'De cuando fuimos pantera con Obsidiana',
+    category: 'figurativo',
+    wallImage: {
+      src: '/images/portfolio/figurativo/05 De cuando fuimos pantera con Obsidiana/PORTADA EN PORTFOLIO.webp',
+      alt: 'De cuando fuimos pantera con Obsidiana',
+    },
+    detailImages: [
+      { src: '/images/portfolio/figurativo/05 De cuando fuimos pantera con Obsidiana/IMG_7762.webp', alt: 'De cuando fuimos pantera con Obsidiana — detalle' },
+      { src: '/images/portfolio/figurativo/05 De cuando fuimos pantera con Obsidiana/IMG_7764.webp', alt: 'De cuando fuimos pantera con Obsidiana — detalle' },
+    ],
+    year: '2021',
+    dimensions: '100 × 80 cm',
     technique: { ...EMPTY },
     description: { ...EMPTY },
     notes: { ...EMPTY },
