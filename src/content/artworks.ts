@@ -30,32 +30,32 @@ export const ARTWORKS: Artwork[] = [
     title: 'Puedo alzar mi voz alto',
     category: 'obras-originales',
     wallImage: {
-      src: '/images/portfolio/obras de la galeria/Puedo alzar mi voz alto/01-Puedo-alzar-mi-voz-alto.webp',
+      src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/01-Puedo-alzar-mi-voz-alto.webp',
       alt: 'Puedo alzar mi voz alto',
     },
     detailImages: [
       {
-        src: '/images/portfolio/obras de la galeria/Puedo alzar mi voz alto/02-Puedo-alzar-mi-voz-alto.webp',
+        src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/02-Puedo-alzar-mi-voz-alto.webp',
         alt: 'Puedo alzar mi voz alto — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/Puedo alzar mi voz alto/03-Puedo-alzar-mi-voz-alto.webp',
+        src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/03-Puedo-alzar-mi-voz-alto.webp',
         alt: 'Puedo alzar mi voz alto — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/Puedo alzar mi voz alto/04-Puedo-alzar-mi-voz-alto.webp',
+        src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/04-Puedo-alzar-mi-voz-alto.webp',
         alt: 'Puedo alzar mi voz alto — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/Puedo alzar mi voz alto/05-Puedo-alzar-mi-voz-alto.webp',
+        src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/05-Puedo-alzar-mi-voz-alto.webp',
         alt: 'Puedo alzar mi voz alto — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/Puedo alzar mi voz alto/06-Puedo-alzar-mi-voz-alto.webp',
+        src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/06-Puedo-alzar-mi-voz-alto.webp',
         alt: 'Puedo alzar mi voz alto — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/Puedo alzar mi voz alto/07-Puedo-alzar-mi-voz-alto.webp',
+        src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/07-Puedo-alzar-mi-voz-alto.webp',
         alt: 'Puedo alzar mi voz alto — detalle',
       },
     ],
@@ -111,32 +111,32 @@ Aqueles que não estão preparados para a tua grandeza partirão. Não te apoque
     title: 'El destino inexorable',
     category: 'obras-originales',
     wallImage: {
-      src: '/images/portfolio/obras de la galeria/El destino inexorable/1_Cuadro El destino inexorable.webp',
+      src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/1_Cuadro El destino inexorable.webp',
       alt: 'El destino inexorable',
     },
     detailImages: [
       {
-        src: '/images/portfolio/obras de la galeria/El destino inexorable/2_El destino inexorable.webp',
+        src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/2_El destino inexorable.webp',
         alt: 'El destino inexorable — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/El destino inexorable/3_El destino inexorable.webp',
+        src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/3_El destino inexorable.webp',
         alt: 'El destino inexorable — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/El destino inexorable/4_El destino inexorable.webp',
+        src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/4_El destino inexorable.webp',
         alt: 'El destino inexorable — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/El destino inexorable/5_El destino inexorable.webp',
+        src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/5_El destino inexorable.webp',
         alt: 'El destino inexorable — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/El destino inexorable/6_El destino inexorable.webp',
+        src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/6_El destino inexorable.webp',
         alt: 'El destino inexorable — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/El destino inexorable/7_El destino inexorable.webp',
+        src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/7_El destino inexorable.webp',
         alt: 'El destino inexorable — detalle',
       },
     ],
