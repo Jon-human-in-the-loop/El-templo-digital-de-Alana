@@ -929,10 +929,23 @@ Faz-me lembrar a minha mãe; ambas me ensinaram que com amor tudo floresce e que
     title: 'Las olas que se esperaban en las nubes',
     category: 'fluid-art',
     wallImage: {
-      src: '/images/portfolio/fluid-art/01 Las olas que se esperaban en las nubes/las-olas.webp',
+      src: '/images/portfolio/fluid-art/01 Las olas que se esperaban en las nubes/PORTADA EN PORTFOLIO.webp',
       alt: 'Las olas que se esperaban en las nubes',
     },
-    detailImages: [],
+    detailImages: [
+      {
+        src: '/images/portfolio/fluid-art/01 Las olas que se esperaban en las nubes/OBRA comparativa 1.webp',
+        alt: 'Las olas que se esperaban en las nubes — detalle',
+      },
+      {
+        src: '/images/portfolio/fluid-art/01 Las olas que se esperaban en las nubes/PhotoGrid_1548531682150.webp',
+        alt: 'Las olas que se esperaban en las nubes — detalle',
+      },
+      {
+        src: '/images/portfolio/fluid-art/01 Las olas que se esperaban en las nubes/PhotoGrid_1548598351956.webp',
+        alt: 'Las olas que se esperaban en las nubes — detalle',
+      },
+    ],
     year: '2018',
     dimensions: '100 × 100 cm',
     technique: {
@@ -976,8 +989,16 @@ Esta é a verdadeira verdade de Deus.”`,
     slug: 'premonicion',
     title: 'Premonición',
     category: 'fluid-art',
-    wallImage: { src: '/images/portfolio/fluid-art/02 Premonicion/premonicion.webp', alt: 'Premonición' },
-    detailImages: [],
+    wallImage: {
+      src: '/images/portfolio/fluid-art/02 Premonicion/PORTADA EN PORTFOLIO.webp',
+      alt: 'Premonición',
+    },
+    detailImages: [
+      {
+        src: '/images/portfolio/fluid-art/02 Premonicion/premonicion.webp',
+        alt: 'Premonición — detalle',
+      },
+    ],
     year: '2018',
     dimensions: '100 × 100 cm',
     technique: {
@@ -1033,9 +1054,19 @@ Confia”`,
     slug: 'la-raiz',
     title: 'La raíz',
     category: 'fluid-art',
-    wallImage: { src: '/images/portfolio/fluid-art/03 La raiz/la-raiz-1.webp', alt: 'La raíz' },
+    wallImage: {
+      src: '/images/portfolio/fluid-art/03 La raiz/PORTADA EN PORTFOLIO.webp',
+      alt: 'La raíz',
+    },
     detailImages: [
-      { src: '/images/portfolio/fluid-art/03 La raiz/la-raiz-2.webp', alt: 'La raíz — detalle' },
+      {
+        src: '/images/portfolio/fluid-art/03 La raiz/la-raiz-1.webp',
+        alt: 'La raíz — detalle',
+      },
+      {
+        src: '/images/portfolio/fluid-art/03 La raiz/la-raiz-2.webp',
+        alt: 'La raíz — detalle',
+      },
     ],
     year: '2018',
     dimensions: '100 × 100 cm',
@@ -1080,8 +1111,24 @@ A magia acontece quando os teus pés se atrevem a dar o passo, o passo que abrir
     slug: 're-suscito',
     title: 'RE-suscito',
     category: 'fluid-art',
-    wallImage: { src: '/images/portfolio/fluid-art/04 RE-suscito/re-suscito.webp', alt: 'RE-suscito' },
-    detailImages: [],
+    wallImage: {
+      src: '/images/portfolio/fluid-art/04 RE-suscito/PORTADA EN PORTFOLIO.jpg',
+      alt: 'RE-suscito',
+    },
+    detailImages: [
+      {
+        src: '/images/portfolio/fluid-art/04 RE-suscito/cuadro.webp',
+        alt: 'RE-suscito — detalle',
+      },
+      {
+        src: '/images/portfolio/fluid-art/04 RE-suscito/ALANA ZARZA IRAETA-  RE-SUSCITO 1.jpg',
+        alt: 'RE-suscito — detalle',
+      },
+      {
+        src: '/images/portfolio/fluid-art/04 RE-suscito/ALANA ZARZA IRAETA-  RE-SUSCITO 2.jpg',
+        alt: 'RE-suscito — detalle',
+      },
+    ],
     year: '2020',
     // El machete deja las medidas en blanco: la ficha no muestra el dato.
     dimensions: '',
@@ -1130,17 +1177,21 @@ Voa”.`,
     title: 'Un pétalo, un mensaje y una chispa',
     category: 'fluid-art',
     wallImage: {
-      src: '/images/portfolio/fluid-art/05 Un petalo, un mensaje y una chispa/un-petalo-1.webp',
-      alt: 'Un pétalo, un mensaje y una chispa — panel I',
+      src: '/images/portfolio/fluid-art/05 Un petalo, un mensaje y una chispa/PORTADA EN PORTFOLIO.webp',
+      alt: 'Un pétalo, un mensaje y una chispa',
     },
     detailImages: [
       {
-        src: '/images/portfolio/fluid-art/05 Un petalo, un mensaje y una chispa/un-petalo-2.webp',
-        alt: 'Un pétalo, un mensaje y una chispa — panel II',
+        src: '/images/portfolio/fluid-art/05 Un petalo, un mensaje y una chispa/cuadro.webp',
+        alt: 'Un pétalo, un mensaje y una chispa — detalle',
+      },
+      {
+        src: '/images/portfolio/fluid-art/05 Un petalo, un mensaje y una chispa/un-petalo-1.webp',
+        alt: 'Un pétalo, un mensaje y una chispa — detalle',
       },
       {
         src: '/images/portfolio/fluid-art/05 Un petalo, un mensaje y una chispa/un-petalo-3.webp',
-        alt: 'Un pétalo, un mensaje y una chispa — panel III',
+        alt: 'Un pétalo, un mensaje y una chispa — detalle',
       },
     ],
     year: '2020',
@@ -1181,10 +1232,31 @@ Sê feliz.”`,
     title: 'Se ondula el éter que ata las superficies',
     category: 'fluid-art',
     wallImage: {
-      src: '/images/portfolio/fluid-art/06 Se ondula el eter que ata las superficies/se-ondula-el-eter.webp',
+      src: '/images/portfolio/fluid-art/06 Se ondula el eter que ata las superficies/PORTADA EN PORTFOLIO.webp',
       alt: 'Se ondula el éter que ata las superficies',
     },
-    detailImages: [],
+    detailImages: [
+      {
+        src: '/images/portfolio/fluid-art/06 Se ondula el eter que ata las superficies/cuadro.webp',
+        alt: 'Se ondula el éter que ata las superficies — detalle',
+      },
+      {
+        src: '/images/portfolio/fluid-art/06 Se ondula el eter que ata las superficies/IMG_20220604_090558_715-01.webp',
+        alt: 'Se ondula el éter que ata las superficies — detalle',
+      },
+      {
+        src: '/images/portfolio/fluid-art/06 Se ondula el eter que ata las superficies/IMG_20220604_125358_012-01.webp',
+        alt: 'Se ondula el éter que ata las superficies — detalle',
+      },
+      {
+        src: '/images/portfolio/fluid-art/06 Se ondula el eter que ata las superficies/IMG_20220604_125410_428-01.webp',
+        alt: 'Se ondula el éter que ata las superficies — detalle',
+      },
+      {
+        src: '/images/portfolio/fluid-art/06 Se ondula el eter que ata las superficies/IMG_20220604_134901_057-01.webp',
+        alt: 'Se ondula el éter que ata las superficies — detalle',
+      },
+    ],
     year: '2022',
     dimensions: '80 × 100 cm',
     technique: {
@@ -1226,12 +1298,22 @@ Obrigada pelas minhas palavras, amo-vos.”`,
     title: 'Ya no se oye el último suspiro',
     category: 'fluid-art',
     wallImage: {
-      src: '/images/portfolio/fluid-art/07 Ya no se oye el ultimo suspiro/ya-no-se-oye-1.webp',
+      src: '/images/portfolio/fluid-art/07 Ya no se oye el ultimo suspiro/PORTADA EN PORTFOLIO.webp',
       alt: 'Ya no se oye el último suspiro',
     },
     detailImages: [
-      { src: '/images/portfolio/fluid-art/07 Ya no se oye el ultimo suspiro/ya-no-se-oye-2.webp', alt: 'Ya no se oye el último suspiro — detalle' },
-      { src: '/images/portfolio/fluid-art/07 Ya no se oye el ultimo suspiro/ya-no-se-oye-3.webp', alt: 'Ya no se oye el último suspiro — detalle' },
+      {
+        src: '/images/portfolio/fluid-art/07 Ya no se oye el ultimo suspiro/ya-no-se-oye-1.webp',
+        alt: 'Ya no se oye el último suspiro — detalle',
+      },
+      {
+        src: '/images/portfolio/fluid-art/07 Ya no se oye el ultimo suspiro/ya-no-se-oye-2.webp',
+        alt: 'Ya no se oye el último suspiro — detalle',
+      },
+      {
+        src: '/images/portfolio/fluid-art/07 Ya no se oye el ultimo suspiro/ya-no-se-oye-3.webp',
+        alt: 'Ya no se oye el último suspiro — detalle',
+      },
     ],
     year: '2022',
     dimensions: '30 × 30 cm',
@@ -1271,10 +1353,14 @@ Contempla a sós nalgum canto e perceberás a sua verdade eloquente.”`,
     title: 'En el océano divisé al inframundo',
     category: 'fluid-art',
     wallImage: {
-      src: '/images/portfolio/fluid-art/08 En el oceano divise al inframundo/en-el-oceano-1.webp',
+      src: '/images/portfolio/fluid-art/08 En el oceano divise al inframundo/portada para portfolio.webp',
       alt: 'En el océano divisé al inframundo',
     },
     detailImages: [
+      {
+        src: '/images/portfolio/fluid-art/08 En el oceano divise al inframundo/en-el-oceano-1.webp',
+        alt: 'En el océano divisé al inframundo — detalle',
+      },
       {
         src: '/images/portfolio/fluid-art/08 En el oceano divise al inframundo/en-el-oceano-2.webp',
         alt: 'En el océano divisé al inframundo — detalle',
