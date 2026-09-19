@@ -269,6 +269,196 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     notes: { ...EMPTY },
   },
 
+  /* ── Galería · Acuarelas originales ─────────────────────────────────────── */
+  /*
+   * Llegaron con su ficha antes que sus fotos: hasta que se carguen las
+   * imágenes, la ficha se abre con el aviso de «Próximamente» en el lugar del
+   * cuadro y el texto debajo.
+   */
+  {
+    slug: 'al-fin-y-al-cabo-esa-es-la-chispa',
+    title: 'Al fin y al cabo, esa es la chispa.',
+    category: 'acuarelas-originales',
+    detailImages: [],
+    year: '',
+    dimensions: '18 × 23,8 cm',
+    technique: {
+      es: 'Acuarela y lápiz',
+      en: 'Watercolour and pencil',
+      pt: 'Aguarela e lápis',
+    },
+    description: {
+      es: `Ella en realidad siempre fue poderosa. Su interior albergaba semejante fulgor, su fuego interno era su superpoder. La verdadera fuerza estaba tan solo detrás de elegir ser ella misma.
+Al fin y al cabo, esa es la chispa.`,
+      en: `She was in fact always powerful. Her insides held such a glow; her inner fire was her superpower. True strength lay only behind choosing to be herself.
+After all, that is the spark.`,
+      pt: `Ela na verdade sempre foi poderosa. O seu interior albergava tamanho fulgor, o seu fogo interno era o seu superpoder. A verdadeira força estava apenas atrás de escolher ser ela mesma.
+No fim de contas, essa é a faísca.`,
+    },
+    notes: {
+      es: 'Papel texturado 300 gr',
+      en: 'Textured paper, 300 gsm',
+      pt: 'Papel texturado 300 gr',
+    },
+  },
+  {
+    slug: 'el-primer-verdadero-amor',
+    title: 'El primer verdadero amor',
+    category: 'acuarelas-originales',
+    detailImages: [],
+    year: '',
+    dimensions: '14,5 × 21 cm (A5)',
+    technique: {
+      es: 'Acuarela y lápiz',
+      en: 'Watercolour and pencil',
+      pt: 'Aguarela e lápis',
+    },
+    description: {
+      es: `El primer verdadero amor que enciende la chispa del alma más nostálgica.
+El primer verdadero amor que ablanda hasta el temperamento más terco. El primer verdadero amor que le da sentido a todo otra vez.`,
+      en: `The first true love that lights the spark of the most wistful soul.
+The first true love that softens even the most stubborn temper. The first true love that gives everything meaning again.`,
+      pt: `O primeiro amor verdadeiro que acende a faísca da alma mais nostálgica.
+O primeiro amor verdadeiro que abranda até o temperamento mais teimoso. O primeiro amor verdadeiro que dá sentido a tudo outra vez.`,
+    },
+    notes: {
+      es: 'Papel texturado 300 gr',
+      en: 'Textured paper, 300 gsm',
+      pt: 'Papel texturado 300 gr',
+    },
+  },
+  {
+    slug: 'la-ilusion-de-un-futuro-prometedor',
+    title: 'La ilusion de un futuro prometedor',
+    category: 'acuarelas-originales',
+    detailImages: [],
+    year: '',
+    dimensions: '18 × 23,8 cm',
+    technique: {
+      es: 'Acuarela y lápiz',
+      en: 'Watercolour and pencil',
+      pt: 'Aguarela e lápis',
+    },
+    description: {
+      es: `Un futuro prometedor.
+La ternura que anida en los nuevos comienzos.
+La expectativa, el puro deseo de progresar, la fe y la esperanza. La ilusión.`,
+      en: `A promising future.
+The tenderness that nests in new beginnings.
+The expectation, the pure wish to move forward, faith and hope. The longing.`,
+      pt: `Um futuro promissor.
+A ternura que se aninha nos novos começos.
+A expectativa, o puro desejo de progredir, a fé e a esperança. A ilusão.`,
+    },
+    notes: {
+      es: 'Papel texturado 300 gr',
+      en: 'Textured paper, 300 gsm',
+      pt: 'Papel texturado 300 gr',
+    },
+  },
+  {
+    slug: 'mi-templo',
+    title: 'Mi templo.',
+    category: 'acuarelas-originales',
+    detailImages: [],
+    year: '',
+    dimensions: '14,5 × 21 cm (A5)',
+    technique: {
+      es: 'Acuarela y lápiz',
+      en: 'Watercolour and pencil',
+      pt: 'Aguarela e lápis',
+    },
+    description: {
+      es: `El Templo
+La certeza de haber dejado atrás todas las realidades donde fuimos oprimidas y ya no nos dejaban florecer. Elegirse es entender que en vos, en tu propio cuerpo, está el cobijo que necesitamos sin importar qué espacio habitamos.
+El templo.
+La casa, el cuerpo es el árbol mejor plantado en la tierra.
+Solo mi presencia es suficientemente válida.
+Todo el resto es un paisaje difuso e insignificante. Me sostengo con alegría, seguridad y amor.`,
+      en: `The Temple
+The certainty of having left behind every reality where we were oppressed and were no longer allowed to bloom. To choose yourself is to understand that in you, in your own body, is the shelter we need no matter what space we inhabit.
+The temple.
+The home, the body is the tree best planted in the earth.
+My presence alone is valid enough.
+All the rest is a blurred, insignificant landscape. I hold myself up with joy, safety and love.`,
+      pt: `O Templo
+A certeza de ter deixado para trás todas as realidades onde fomos oprimidas e já não nos deixavam florescer. Escolher-se é entender que em ti, no teu próprio corpo, está o abrigo de que precisamos, não importa que espaço habitemos.
+O templo.
+A casa, o corpo é a árvore melhor plantada na terra.
+Só a minha presença é suficientemente válida.
+Todo o resto é uma paisagem difusa e insignificante. Sustento-me com alegria, segurança e amor.`,
+    },
+    notes: {
+      es: 'Papel texturado 300 gr',
+      en: 'Textured paper, 300 gsm',
+      pt: 'Papel texturado 300 gr',
+    },
+  },
+  {
+    slug: 'the-one-who-wasnt-meant-to-be',
+    title: 'The one who wasn´t meant to be',
+    category: 'acuarelas-originales',
+    detailImages: [],
+    year: '',
+    dimensions: '18 × 23,8 cm',
+    technique: {
+      es: 'Acuarela y lápiz',
+      en: 'Watercolour and pencil',
+      pt: 'Aguarela e lápis',
+    },
+    description: {
+      es: `El Alma más pura.
+Su misión fue no venir.`,
+      en: `The purest Soul.
+Its mission was not to come.`,
+      pt: `A Alma mais pura.
+A sua missão foi não vir.`,
+    },
+    notes: {
+      es: 'Papel texturado 300 gr',
+      en: 'Textured paper, 300 gsm',
+      pt: 'Papel texturado 300 gr',
+    },
+  },
+  {
+    slug: 'vemos-a-dios-al-permanecer',
+    title: 'Vemos a Dios al permanecer',
+    category: 'acuarelas-originales',
+    detailImages: [],
+    year: '',
+    dimensions: '18 × 23,8 cm',
+    technique: {
+      es: 'Acuarela y lápiz',
+      en: 'Watercolour and pencil',
+      pt: 'Aguarela e lápis',
+    },
+    description: {
+      es: `La quietud de la simpleza.
+La verdadera vida reside en el existir.
+Solo con existir, respirar, estar… Dios nos bendice.
+La simpleza de respirar. La simpleza de permanecer. La magia de permanecer.
+Permanecer, un poco más, en cada momento devela la magia detrás de la vida.
+Detrás de cada momento que evadimos está Dios. Vemos a Dios al permanecer.`,
+      en: `The stillness of simplicity.
+True life resides in existing.
+Just by existing, breathing, being… God blesses us.
+The simplicity of breathing. The simplicity of staying. The magic of staying.
+Staying, a little longer, in each moment unveils the magic behind life.
+Behind every moment we dodge is God. We see God by staying.`,
+      pt: `A quietude da simplicidade.
+A verdadeira vida reside no existir.
+Só com existir, respirar, estar… Deus abençoa-nos.
+A simplicidade de respirar. A simplicidade de permanecer. A magia de permanecer.
+Permanecer, um pouco mais, em cada momento revela a magia por detrás da vida.
+Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
+    },
+    notes: {
+      es: 'Papel texturado 300 gr',
+      en: 'Textured paper, 300 gsm',
+      pt: 'Papel texturado 300 gr',
+    },
+  },
+
   /* ── Portfolio · Figurativo ─────────────────────────────────────────────── */
   /*
    * En el orden del machete. «De cuando fuimos pantera con Obsidiana» todavía
