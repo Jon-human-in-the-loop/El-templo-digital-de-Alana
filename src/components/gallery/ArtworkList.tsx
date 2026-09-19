@@ -85,6 +85,14 @@ function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
     { label: t('technique'), value: technique },
   ].filter((fact) => fact.value)
 
+  /**
+   * Una obra sin fotografiar puede tener ficha igual: las acuarelas llegaron
+   * con técnica, medidas y descripción antes que sus imágenes. Sólo cuando no
+   * hay ni imagen ni datos la ficha se reduce al aviso de «Próximamente».
+   */
+  const hasSheet = facts.length > 0 || Boolean(description) || Boolean(notes)
+  const onlyComingSoon = !artwork.wallImage && !hasSheet
+
   return (
     <li
       ref={sheetRef}
@@ -124,8 +132,8 @@ function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
             transition={{ duration: 0.45, ease: 'easeInOut' }}
             className="overflow-hidden"
           >
-            {/* Obra anunciada pero todavía sin fotografiar */}
-            {!artwork.wallImage ? (
+            {/* Anunciada, sin fotografiar y sin ficha todavía */}
+            {onlyComingSoon ? (
               <div className="px-6 md:px-12 pb-16 pt-4">
                 <p className="font-sans text-sm uppercase tracking-[0.3em] text-black/40">
                   {t('comingSoon')}
@@ -133,16 +141,24 @@ function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
               </div>
             ) : (
             <div className="px-6 md:px-12 pb-12 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-              {/* Imagen en pared */}
-              <div className="relative w-full h-[60vh] lg:h-[70vh] bg-alana-grey">
-                <Image
-                  src={artwork.wallImage.src}
-                  alt={artwork.wallImage.alt}
-                  fill
-                  className="object-contain"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-              </div>
+              {/* Imagen en pared; si todavía no hay foto, el aviso ocupa su lugar */}
+              {artwork.wallImage ? (
+                <div className="relative w-full h-[60vh] lg:h-[70vh] bg-alana-grey">
+                  <Image
+                    src={artwork.wallImage.src}
+                    alt={artwork.wallImage.alt}
+                    fill
+                    className="object-contain"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                </div>
+              ) : (
+                <div className="flex min-h-[12rem] items-center justify-center bg-alana-grey">
+                  <p className="font-sans text-sm uppercase tracking-[0.3em] text-black/40">
+                    {t('comingSoon')}
+                  </p>
+                </div>
+              )}
 
               {/* Ficha */}
               <div className="flex flex-col">
