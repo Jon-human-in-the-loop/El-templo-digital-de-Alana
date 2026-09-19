@@ -31,7 +31,7 @@ export const PORTFOLIO_CATEGORIES: PortfolioCategory[] = [
     slug: 'fluid-art',
     title: { es: 'Fluid Art', en: 'Fluid Art', pt: 'Fluid Art' },
     cover: {
-      src: '/images/portfolio/fluid-art/04 RE-suscito/re-suscito.webp',
+      src: '/images/portfolio/fluid-art/04 RE-suscito/cuadro.webp',
       alt: 'Fluid Art — obra de Alana Zarza Iraeta',
     },
     description: {
