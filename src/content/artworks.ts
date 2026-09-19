@@ -279,7 +279,20 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     slug: 'al-fin-y-al-cabo-esa-es-la-chispa',
     title: 'Al fin y al cabo, esa es la chispa.',
     category: 'acuarelas-originales',
-    detailImages: [],
+    wallImage: {
+      src: '/images/portfolio/obras de la galeria/acuarelas originales/01 Al fin y al cabo, esa es la chispa/IMG_9168.webp',
+      alt: 'Al fin y al cabo, esa es la chispa.',
+    },
+    detailImages: [
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/01 Al fin y al cabo, esa es la chispa/IMG_9171.webp',
+        alt: 'Al fin y al cabo, esa es la chispa. — detalle',
+      },
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/01 Al fin y al cabo, esa es la chispa/IMG_9172.webp',
+        alt: 'Al fin y al cabo, esa es la chispa. — detalle',
+      },
+    ],
     year: '',
     dimensions: '18 × 23,8 cm',
     technique: {
@@ -305,7 +318,20 @@ No fim de contas, essa é a faísca.`,
     slug: 'el-primer-verdadero-amor',
     title: 'El primer verdadero amor',
     category: 'acuarelas-originales',
-    detailImages: [],
+    wallImage: {
+      src: '/images/portfolio/obras de la galeria/acuarelas originales/02 El primer verdadero amor/IMG_9139.webp',
+      alt: 'El primer verdadero amor',
+    },
+    detailImages: [
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/02 El primer verdadero amor/IMG_9140.webp',
+        alt: 'El primer verdadero amor — detalle',
+      },
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/02 El primer verdadero amor/IMG_9141.webp',
+        alt: 'El primer verdadero amor — detalle',
+      },
+    ],
     year: '',
     dimensions: '14,5 × 21 cm (A5)',
     technique: {
@@ -331,7 +357,24 @@ O primeiro amor verdadeiro que abranda até o temperamento mais teimoso. O prime
     slug: 'la-ilusion-de-un-futuro-prometedor',
     title: 'La ilusion de un futuro prometedor',
     category: 'acuarelas-originales',
-    detailImages: [],
+    wallImage: {
+      src: '/images/portfolio/obras de la galeria/acuarelas originales/03 La ilusion de un futuro prometedor/IMG_9144.webp',
+      alt: 'La ilusion de un futuro prometedor',
+    },
+    detailImages: [
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/03 La ilusion de un futuro prometedor/IMG_9145.webp',
+        alt: 'La ilusion de un futuro prometedor — detalle',
+      },
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/03 La ilusion de un futuro prometedor/IMG_9151.webp',
+        alt: 'La ilusion de un futuro prometedor — detalle',
+      },
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/03 La ilusion de un futuro prometedor/IMG_9152.webp',
+        alt: 'La ilusion de un futuro prometedor — detalle',
+      },
+    ],
     year: '',
     dimensions: '18 × 23,8 cm',
     technique: {
@@ -360,7 +403,20 @@ A expectativa, o puro desejo de progredir, a fé e a esperança. A ilusão.`,
     slug: 'mi-templo',
     title: 'Mi templo.',
     category: 'acuarelas-originales',
-    detailImages: [],
+    wallImage: {
+      src: '/images/portfolio/obras de la galeria/acuarelas originales/04 Mi templo/IMG_9135.webp',
+      alt: 'Mi templo.',
+    },
+    detailImages: [
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/04 Mi templo/IMG_9136.webp',
+        alt: 'Mi templo. — detalle',
+      },
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/04 Mi templo/IMG_9137.webp',
+        alt: 'Mi templo. — detalle',
+      },
+    ],
     year: '',
     dimensions: '14,5 × 21 cm (A5)',
     technique: {
@@ -398,7 +454,20 @@ Todo o resto é uma paisagem difusa e insignificante. Sustento-me com alegria, s
     slug: 'the-one-who-wasnt-meant-to-be',
     title: 'The one who wasn´t meant to be',
     category: 'acuarelas-originales',
-    detailImages: [],
+    wallImage: {
+      src: '/images/portfolio/obras de la galeria/acuarelas originales/05 The one who wasnt meant to be/IMG_9162.webp',
+      alt: 'The one who wasn´t meant to be',
+    },
+    detailImages: [
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/05 The one who wasnt meant to be/IMG_9164.webp',
+        alt: 'The one who wasn´t meant to be — detalle',
+      },
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/05 The one who wasnt meant to be/IMG_9165.webp',
+        alt: 'The one who wasn´t meant to be — detalle',
+      },
+    ],
     year: '',
     dimensions: '18 × 23,8 cm',
     technique: {
@@ -424,7 +493,24 @@ A sua missão foi não vir.`,
     slug: 'vemos-a-dios-al-permanecer',
     title: 'Vemos a Dios al permanecer',
     category: 'acuarelas-originales',
-    detailImages: [],
+    wallImage: {
+      src: '/images/portfolio/obras de la galeria/acuarelas originales/06 Vemos a Dios al permanecer/IMG_9154.webp',
+      alt: 'Vemos a Dios al permanecer',
+    },
+    detailImages: [
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/06 Vemos a Dios al permanecer/IMG_9155.webp',
+        alt: 'Vemos a Dios al permanecer — detalle',
+      },
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/06 Vemos a Dios al permanecer/IMG_9156.webp',
+        alt: 'Vemos a Dios al permanecer — detalle',
+      },
+      {
+        src: '/images/portfolio/obras de la galeria/acuarelas originales/06 Vemos a Dios al permanecer/IMG_9159.webp',
+        alt: 'Vemos a Dios al permanecer — detalle',
+      },
+    ],
     year: '',
     dimensions: '18 × 23,8 cm',
     technique: {
