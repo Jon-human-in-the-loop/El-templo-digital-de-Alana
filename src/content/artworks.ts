@@ -259,7 +259,7 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     // mostrando sólo «Próximamente». Al cargar sus fotos y su texto queda como
     // cualquier otra.
     slug: 'la-somba',
-    title: 'La Somba',
+    title: 'La sombra',
     category: 'obras-originales',
     detailImages: [],
     year: '',
