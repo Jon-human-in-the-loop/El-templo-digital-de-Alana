@@ -1,0 +1,26 @@
+Fotos que hoy no usa ninguna obra del sitio.
+
+Estaban sueltas en las carpetas de Fluid Art y de Figurativo. Se guardan acá
+para no perderlas al ordenar cada categoría por obra; se pueden borrar sin
+que nada deje de funcionar.
+
+De dónde viene cada una:
+
+  como-es-arriba.webp        «Como es arriba es abajo», obra que se quitó de
+                             Fluid Art. Estaba duplicada, en fluid-art/ y en
+                             acuarela/; eran el mismo archivo y quedó una.
+
+  las-aguas-resurreccion.webp  «Las aguas de la resurrección», la otra obra
+  las-aguas-2.webp             que se quitó de Fluid Art.
+  las-aguas-3.webp
+
+  la-luz-y-la-sombra.webp    Otra foto de «La luz y la sombra equilibran la
+                             mente y el espíritu» (Figurativo). No es igual a
+                             ninguna de las dos que ya usa la obra.
+
+  unibesos-1.webp            Fotos de «Unibesos» (Figurativo). La 1 es igual
+  unibesos-2.webp            a la que ya usa la obra; la 2 y la 3 son fotos
+  unibesos-3.webp            distintas de las que están publicadas.
+
+Si alguna de estas tiene que aparecer en su obra, va a la subcarpeta de esa
+obra y se agrega su ruta en src/content/artworks.ts.
