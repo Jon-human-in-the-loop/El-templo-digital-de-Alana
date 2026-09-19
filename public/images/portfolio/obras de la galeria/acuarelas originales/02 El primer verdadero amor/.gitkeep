@@ -1,0 +1,8 @@
+Carpeta preparada para las fotos de esta acuarela.
+
+La primera imagen que subas será la de la obra (la que abre la ficha) y el
+resto quedan como detalles. Si una foto es la de la obra completa, nombrala
+empezando con 1 o con «Cuadro», como en las carpetas anteriores.
+
+Este archivo existe sólo para que git conserve la carpeta vacía; se borra al
+cargar las imágenes en src/content/artworks.ts.
