@@ -124,6 +124,14 @@ function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
             transition={{ duration: 0.45, ease: 'easeInOut' }}
             className="overflow-hidden"
           >
+            {/* Obra anunciada pero todavía sin fotografiar */}
+            {!artwork.wallImage ? (
+              <div className="px-6 md:px-12 pb-16 pt-4">
+                <p className="font-sans text-sm uppercase tracking-[0.3em] text-black/40">
+                  {t('comingSoon')}
+                </p>
+              </div>
+            ) : (
             <div className="px-6 md:px-12 pb-12 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
               {/* Imagen en pared */}
               <div className="relative w-full h-[60vh] lg:h-[70vh] bg-alana-grey">
@@ -190,6 +198,7 @@ function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
                 )}
               </div>
             </div>
+            )}
           </motion.div>
         )}
       </AnimatePresence>
