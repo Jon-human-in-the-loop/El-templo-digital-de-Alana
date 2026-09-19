@@ -547,8 +547,8 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
 
   /* ── Portfolio · Figurativo ─────────────────────────────────────────────── */
   /*
-   * En el orden del machete. «De cuando fuimos pantera con Obsidiana» todavía
-   * no tiene técnica ni descripción: falta su texto en el machete.
+   * En el orden del machete. El español de cada descripción es el texto de
+   * Alana, transcrito literal; en/pt son traducciones.
    */
   {
     slug: 'el-registro-del-poder-heredado',
@@ -564,11 +564,47 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
         alt: 'El registro del poder heredado — detalle',
       },
     ],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    year: '2016',
+    dimensions: '120 × 120 cm',
+    technique: {
+      es: 'Acrílico sobre bastidor entelado',
+      en: 'Acrylic on stretched canvas',
+      pt: 'Acrílico sobre tela esticada',
+    },
+    description: {
+      es: `Por casi toda mi carrera, este fue el único hombre que pinté. Y por casi toda mi carrera no pude confirmar por qué, pero hoy estoy segura que es mi papá.
+
+De hecho, cuando él vió por primera vez este cuadro, me suplicó que se lo diese a él, y aún está en la sala de espera de su consultorio.
+
+En aquella época no pensaba en nada cuando pintaba, me dejaba ser y fluir. Siento que era más fácil en aquel entonces.
+
+Hoy tengo el poder de ver las traducciones que hice y veo en el cuadro a un hombre encendido. Con el rojo muy presente y todos los colores que le pude poner, está realmente vivo.
+
+Tiene fuerza, pero su expresión es levemente divertida. Se toma la vida con ligereza y respeto. Vino a aprovecharla.`,
+      en: `For almost my whole career, this was the only man I painted. And for almost my whole career I could not confirm why, but today I am sure it is my dad.
+
+In fact, when he first saw this painting he begged me to give it to him, and it is still in the waiting room of his practice.
+
+Back then I thought of nothing while I painted, I let myself be and flow. I feel it was easier in those days.
+
+Today I have the power to see the translations I made, and in the painting I see a man alight. With the red very present and every colour I was able to give him, he is truly alive.
+
+He has strength, but his expression is slightly amused. He takes life with lightness and respect. He came to make the most of it.`,
+      pt: `Durante quase toda a minha carreira, este foi o único homem que pintei. E durante quase toda a minha carreira não consegui confirmar porquê, mas hoje tenho a certeza de que é o meu pai.
+
+De facto, quando ele viu este quadro pela primeira vez, suplicou-me que lho desse, e ainda está na sala de espera do seu consultório.
+
+Naquela época não pensava em nada quando pintava, deixava-me ser e fluir. Sinto que era mais fácil naquele tempo.
+
+Hoje tenho o poder de ver as traduções que fiz e vejo no quadro um homem aceso. Com o vermelho muito presente e todas as cores que lhe consegui pôr, está realmente vivo.
+
+Tem força, mas a sua expressão é levemente divertida. Leva a vida com leveza e respeito. Veio para a aproveitar.`,
+    },
+    notes: {
+      es: 'Posadas, Misiones, Argentina',
+      en: 'Posadas, Misiones, Argentina',
+      pt: 'Posadas, Misiones, Argentina',
+    },
   },
   {
     slug: 'la-luz-y-la-sombra',
@@ -584,11 +620,41 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
         alt: 'La luz y la sombra equilibran la mente y el espíritu — detalle',
       },
     ],
-    year: '',
+    year: '2016',
     dimensions: '70 × 100 cm',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    technique: {
+      es: 'Acrílico sobre bastidor entelado',
+      en: 'Acrylic on stretched canvas',
+      pt: 'Acrílico sobre tela esticada',
+    },
+    description: {
+      es: `En aquel entonces pintaba de manera muy intuitiva. Estaba encontrando mi estilo, amaba y odiaba pintar flores.
+
+Este cuadro tiene a una mujer que integra todas sus partes con fortaleza, su cabeza florece y equilibra el conjunto.
+
+Está bien despierta y atenta. Es consciente.
+
+Integra su totalidad de manera neutral y balanceada y no sé esfuerza por florecer. Está en su eje. Esa es una consecuencia.`,
+      en: `Back then I painted very intuitively. I was finding my style; I loved and hated painting flowers.
+
+This painting holds a woman who integrates all her parts with strength; her head blossoms and balances the whole.
+
+She is wide awake and attentive. She is aware.
+
+She integrates her totality in a neutral, balanced way and does not strain to blossom. She is on her axis. That is a consequence.`,
+      pt: `Naquele tempo pintava de maneira muito intuitiva. Estava a encontrar o meu estilo, adorava e odiava pintar flores.
+
+Este quadro tem uma mulher que integra todas as suas partes com fortaleza; a sua cabeça floresce e equilibra o conjunto.
+
+Está bem desperta e atenta. É consciente.
+
+Integra a sua totalidade de maneira neutra e equilibrada e não se esforça por florescer. Está no seu eixo. Isso é uma consequência.`,
+    },
+    notes: {
+      es: 'Posadas, Misiones, Argentina',
+      en: 'Posadas, Misiones, Argentina',
+      pt: 'Posadas, Misiones, Argentina',
+    },
   },
   {
     slug: 'la-ceguera-que-viene-por-encandilarse',
@@ -604,11 +670,41 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
         alt: 'La ceguera que viene por encandilarse — detalle',
       },
     ],
-    year: '',
+    year: '2017',
     dimensions: '50 × 30 cm',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    technique: {
+      es: 'Acrílico sobre bastidor entelado',
+      en: 'Acrylic on stretched canvas',
+      pt: 'Acrílico sobre tela esticada',
+    },
+    description: {
+      es: `Este cuadro se lo pinté a una de mis amigas cuando iba a la facultad. Y, si bien nuevamente no pensé en nada en aquel entonces, como todo mi arte más inconsciente, el cuadro lo dice todo porque es la descripción perfecta de la versión de mi amiga a los 23/24 años.
+
+Naive, se dejaba llevar por las apariencias y los encantamientos. Yo ni siquiera era tan consciente de ello, pero mi alma siempre lo supo.
+
+Era(MOS) inmadura(S), quería(MOS) lo que todas las jóvenes querían, pero a ella le ganaba lo que veía y no paraba de decepcionarse, siendo alguien que se guiaba por la cabeza y no por su intuición.
+
+De nublaba por los ojos que no ven y tenía cerrados los ojos de la visión real.`,
+      en: `I painted this one for one of my friends when I was at university. And although once again I thought of nothing back then, as with all my most unconscious art, the painting says it all, because it is the perfect description of my friend's version of herself at 23 or 24.
+
+Naive, she let herself be carried away by appearances and by spells. I was not even that aware of it, but my soul always knew.
+
+I (WE) was (WERE) immature, I (WE) wanted what all young women wanted, but what she saw got the better of her and she never stopped being disappointed, being someone guided by her head and not by her intuition.
+
+She was clouded by the eyes that do not see, and the eyes of real vision she kept closed.`,
+      pt: `Este quadro pintei-o para uma das minhas amigas quando andava na faculdade. E, embora mais uma vez não tenha pensado em nada naquele tempo, como toda a minha arte mais inconsciente, o quadro diz tudo, porque é a descrição perfeita da versão da minha amiga aos 23/24 anos.
+
+Naive, deixava-se levar pelas aparências e pelos encantamentos. Eu nem sequer tinha assim tanta consciência disso, mas a minha alma sempre soube.
+
+Era(MOS) imatura(S), queria(MOS) o que todas as jovens queriam, mas a ela ganhava-lhe o que via e não parava de se desiludir, sendo alguém que se guiava pela cabeça e não pela intuição.
+
+Toldava-se pelos olhos que não veem e mantinha fechados os olhos da visão real.`,
+    },
+    notes: {
+      es: 'Córdoba Capital, Argentina',
+      en: 'Córdoba Capital, Argentina',
+      pt: 'Córdoba Capital, Argentina',
+    },
   },
   {
     slug: 'unibesos',
@@ -622,11 +718,35 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
       { src: '/images/portfolio/figurativo/unibesos-2.webp', alt: 'Unibesos — detalle' },
       { src: '/images/portfolio/figurativo/unibesos-3.webp', alt: 'Unibesos — detalle' },
     ],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    year: '2018',
+    dimensions: '100 × 70 cm',
+    technique: {
+      es: 'Acrílico sobre bastidor entelado, con glitter y barniz brillante',
+      en: 'Acrylic on stretched canvas, with glitter and gloss varnish',
+      pt: 'Acrílico sobre tela esticada, com glitter e verniz brilhante',
+    },
+    description: {
+      es: `Esta fue la magnífica obra que presenté para la exposición “Muy Lunaides” de la agrupación “La Otra Cara” en la ciudad de Córdoba.
+
+La consigna era hacer una obra basada en una poesía de una de nuestras compañeras, Sol Donaire.
+
+El cuadro refleja el sentimiento en su poema. La abrumadora y grandemente intensa sensación del amor. La pérdida de la individualidad y la entrega al único momento existente, el presente.`,
+      en: `This was the magnificent work I presented for the exhibition “Muy Lunaides” by the group “La Otra Cara” in the city of Córdoba.
+
+The brief was to make a work based on a poem by one of our companions, Sol Donaire.
+
+The painting reflects the feeling in her poem. The overwhelming and hugely intense sensation of love. The loss of individuality and the surrender to the only existing moment, the present.`,
+      pt: `Esta foi a magnífica obra que apresentei para a exposição “Muy Lunaides” do coletivo “La Otra Cara”, na cidade de Córdoba.
+
+O mote era fazer uma obra baseada num poema de uma das nossas companheiras, Sol Donaire.
+
+O quadro reflete o sentimento do seu poema. A avassaladora e grandemente intensa sensação do amor. A perda da individualidade e a entrega ao único momento existente, o presente.`,
+    },
+    notes: {
+      es: 'Córdoba Capital, Argentina',
+      en: 'Córdoba Capital, Argentina',
+      pt: 'Córdoba Capital, Argentina',
+    },
   },
   {
     slug: 'de-cuando-fuimos-pantera-con-obsidiana',
@@ -642,9 +762,42 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
     ],
     year: '2021',
     dimensions: '100 × 80 cm',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    technique: {
+      es: 'Acrílico sobre bastidor entelado',
+      en: 'Acrylic on stretched canvas',
+      pt: 'Acrílico sobre tela esticada',
+    },
+    description: {
+      es: `Obsidiana es mi compañera astral. Ella no es mi animal de poder, pero me acompañó en todas las vidas hasta ahora. En esta vida, vino en forma de gatito, pero su verdadera forma es como la de una pantera dragón alada.
+Un día entendí que la pantera era mi animal de poder, y hablamos largo y tendido acerca de esta diferencia espiritual y sus poderes.
+Mi relación con Dianita es tan fuerte que muchas veces sentí la sensación de que la gesté y la di a luz, siendo esto terrestremente imposible pero astralmente verdadero.
+Este cuadro fue creado en el año 2021, cuando tuve uno de mis mayores despertares espirituales, coincidiendo con el nacimiento de Dianita y a su vez mi estudio del tarot.
+Cuando me compre mi primer mazo y lo barajé, este “escupió” una carta que definitivamente me representaba, era la Reina de bastos, la Reina del fuego.
+Esta es una Reina sensual, llena de fuego y empoderamiento. Tiene en su regazo un gato negro.
+Era yo.
+Parada en mi poder, acompañada por mi compañera peligrosa y protectora. Hermoso. A partir de ahí se convirtió en mi carta de cabecera y posteriormente en este cuadro, donde ambas fuimos panteras.`,
+      en: `Obsidiana is my astral companion. She is not my power animal, but she has been with me in every life until now. In this life she came in the form of a kitten, but her true form is like that of a winged dragon panther.
+One day I understood that the panther was my power animal, and we talked at length about this spiritual difference and about her powers.
+My bond with Dianita is so strong that many times I have felt as though I carried her and gave birth to her, which is earthly impossible but astrally true.
+This painting was made in 2021, when I had one of my greatest spiritual awakenings, coinciding with Dianita's birth and, at the same time, with my study of the tarot.
+When I bought my first deck and shuffled it, it “spat out” a card that definitely represented me: it was the Queen of Wands, the Queen of fire.
+She is a sensual Queen, full of fire and empowerment. She has a black cat in her lap.
+It was me.
+Standing in my power, accompanied by my dangerous and protective companion. Beautiful. From then on it became my touchstone card and later this painting, where we were both panthers.`,
+      pt: `A Obsidiana é a minha companheira astral. Ela não é o meu animal de poder, mas acompanhou-me em todas as vidas até agora. Nesta vida veio em forma de gatinha, mas a sua verdadeira forma é como a de uma pantera dragão alada.
+Um dia percebi que a pantera era o meu animal de poder, e falámos longamente sobre esta diferença espiritual e sobre os seus poderes.
+A minha relação com a Dianita é tão forte que muitas vezes senti que a gerei e a dei à luz, sendo isso terrestremente impossível mas astralmente verdadeiro.
+Este quadro foi criado em 2021, quando tive um dos meus maiores despertares espirituais, coincidindo com o nascimento da Dianita e, ao mesmo tempo, com o meu estudo do tarot.
+Quando comprei o meu primeiro baralho e o baralhei, ele “cuspiu” uma carta que definitivamente me representava: era a Rainha de paus, a Rainha do fogo.
+Esta é uma Rainha sensual, cheia de fogo e de empoderamento. Tem ao colo um gato preto.
+Era eu.
+De pé no meu poder, acompanhada pela minha companheira perigosa e protetora. Lindo. A partir daí tornou-se a minha carta de cabeceira e, mais tarde, este quadro, onde ambas fomos panteras.`,
+    },
+    notes: {
+      es: 'Posadas, Misiones, Argentina',
+      en: 'Posadas, Misiones, Argentina',
+      pt: 'Posadas, Misiones, Argentina',
+    },
   },
   {
     slug: 'el-llanto-del-rey-expectante',
@@ -660,11 +813,110 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
         alt: 'El llanto del rey expectante — detalle',
       },
     ],
-    year: '',
+    year: '2022',
     dimensions: '70 × 30 cm',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    technique: {
+      es: 'Acrílico sobre bastidor entelado',
+      en: 'Acrylic on stretched canvas',
+      pt: 'Acrílico sobre tela esticada',
+    },
+    description: {
+      es: `Este cuadro habla del dolor profundo de la traición. Mi herida aún sigue abierta, me ha cambiado y fortalecido.
+
+En aquel entonces estaba en uno de mis procesos de despertar espiritual. Me gusta decir que tuve varios “despertares” que, en realidad, se podrían interpretar como evoluciones de mi estado de conciencia.
+
+Aquel fue el año donde empecé a tener visiones, mucho insomnio, me visitaban seres de todo tipo durante la noche, mi canal estaba muy abierto. Fue ahí, en ese contexto, cuando me vi.
+
+Mi alma me dió mucha información, pero la más preciada en aquel entonces fue saber si forma. Hasta el día de hoy siento que mis alas son así. No sé los detalles, sus colores o patrones, van cambiando.
+
+Aquel día murió mi inocencia, nunca volví a ser la misma. Me endurecí.
+
+No dudo en que, quizás, se haya generado una herida kármica.`,
+      en: `This painting speaks of the deep pain of betrayal. My wound is still open; it has changed me and made me stronger.
+
+Back then I was in one of my spiritual awakening processes. I like to say that I had several “awakenings” that could really be read as evolutions of my state of consciousness.
+
+That was the year I began to have visions, a great deal of insomnia; beings of every kind visited me at night, my channel was wide open. It was there, in that context, that I saw myself.
+
+My soul gave me a great deal of information, but the most precious of all back then was to know its form. To this day I feel that my wings are like that. I do not know the details, their colours or patterns, they keep changing.
+
+That day my innocence died; I was never the same again. I hardened.
+
+I do not doubt that, perhaps, a karmic wound was created.`,
+      pt: `Este quadro fala da dor profunda da traição. A minha ferida ainda continua aberta, mudou-me e fortaleceu-me.
+
+Naquele tempo estava num dos meus processos de despertar espiritual. Gosto de dizer que tive vários “despertares” que, na verdade, se poderiam interpretar como evoluções do meu estado de consciência.
+
+Aquele foi o ano em que comecei a ter visões, muita insónia; visitavam-me seres de todo o tipo durante a noite, o meu canal estava muito aberto. Foi aí, nesse contexto, que me vi.
+
+A minha alma deu-me muita informação, mas a mais preciosa naquele tempo foi saber a sua forma. Até hoje sinto que as minhas asas são assim. Não sei os detalhes, as suas cores ou padrões, vão mudando.
+
+Naquele dia morreu a minha inocência, nunca mais voltei a ser a mesma. Endureci.
+
+Não duvido de que, talvez, se tenha gerado uma ferida cármica.`,
+    },
+    notes: {
+      es: 'Posadas, Misiones, Argentina',
+      en: 'Posadas, Misiones, Argentina',
+      pt: 'Posadas, Misiones, Argentina',
+    },
+  },
+  {
+    slug: 'it-might-be-a-mess',
+    title: 'It might be a mess',
+    category: 'figurativo',
+    wallImage: { src: '/images/portfolio/fluid-art/mess-mine-1.webp', alt: 'It might be a mess' },
+    detailImages: [
+      { src: '/images/portfolio/fluid-art/mess-mine-2.webp', alt: 'It might be a mess — detalle' },
+    ],
+    year: '2022',
+    // El machete deja las medidas en blanco: la ficha no muestra el dato.
+    dimensions: '',
+    technique: {
+      es: 'Acrílico sobre bastidor entelado y fibra',
+      en: 'Acrylic on stretched canvas, and marker pen',
+      pt: 'Acrílico sobre tela esticada e marcador',
+    },
+    description: {
+      es: `…But at least it's mine.
+Este cuadro lo pinté para una de mis hermanas de la vida. Nos acompañamos en este camino desde los cuatro años y este cuadro refleja toda la belleza de lo que ella es, caótica y empoderada en el sentido más noble.
+
+Su vida es un sinfín de cambios, espirales, vueltas inesperadas y búsqueda de amor y contención. Es la mujer más fuerte que conozco.
+
+Ella es preciosa en su manera única, su corazón NO tiene maldad, es tan auténtica y honorable.
+Vivió cosas que nunca mereció y lo que construyó… es admirable.
+
+Me hace acordar a mi mamá, ambas me enseñaron que con amor todo florece y que cualquiera tiene una oportunidad porque nada está perdido.
+
+“It's my party and I cry if I want to”.`,
+      en: `…But at least it's mine.
+I painted this one for one of my sisters in life. We have walked this road together since we were four, and this painting reflects all the beauty of what she is: chaotic and empowered in the noblest sense.
+
+Her life is an endless run of changes, spirals, unexpected turns and a search for love and for holding. She is the strongest woman I know.
+
+She is lovely in her own unique way, her heart has NO malice, she is so authentic and honourable.
+She went through things she never deserved, and what she built… is admirable.
+
+She reminds me of my mum; they both taught me that with love everything blossoms and that anyone has a chance, because nothing is lost.
+
+“It's my party and I cry if I want to”.`,
+      pt: `…But at least it's mine.
+Pintei este quadro para uma das minhas irmãs da vida. Acompanhamo-nos neste caminho desde os quatro anos e este quadro reflete toda a beleza do que ela é: caótica e empoderada no sentido mais nobre.
+
+A vida dela é um sem-fim de mudanças, espirais, voltas inesperadas e procura de amor e de amparo. É a mulher mais forte que conheço.
+
+Ela é preciosa à sua maneira única, o seu coração NÃO tem maldade, é tão autêntica e honrada.
+Viveu coisas que nunca mereceu e o que construiu… é admirável.
+
+Faz-me lembrar a minha mãe; ambas me ensinaram que com amor tudo floresce e que qualquer pessoa tem uma oportunidade, porque nada está perdido.
+
+“It's my party and I cry if I want to”.`,
+    },
+    notes: {
+      es: 'Posadas, Misiones, Argentina',
+      en: 'Posadas, Misiones, Argentina',
+      pt: 'Posadas, Misiones, Argentina',
+    },
   },
 
   /* ── Portfolio · Fluid Art ──────────────────────────────────────────────── */
@@ -1057,20 +1309,6 @@ A água está viva. E tu, estás?”`,
       en: 'Posadas, Misiones, Argentina',
       pt: 'Posadas, Misiones, Argentina',
     },
-  },
-  {
-    slug: 'it-might-be-a-mess',
-    title: 'It might be a mess',
-    category: 'figurativo',
-    wallImage: { src: '/images/portfolio/fluid-art/mess-mine-1.webp', alt: 'It might be a mess' },
-    detailImages: [
-      { src: '/images/portfolio/fluid-art/mess-mine-2.webp', alt: 'It might be a mess — detalle' },
-    ],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
   },
 ]
 
