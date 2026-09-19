@@ -32,6 +32,22 @@ export default function ArtworkList({ artworks }: ArtworkListProps) {
     return () => window.removeEventListener('hashchange', openFromHash)
   }, [artworks])
 
+  /**
+   * Abrir una ficha queda anotado en la URL.
+   *
+   * Es lo que hace que cambiar de idioma no pierda la lectura: la página se
+   * vuelve a montar en el idioma nuevo y el efecto de arriba reabre la ficha
+   * que dice el hash. De paso, el enlace a una obra abierta se puede copiar
+   * y compartir. `replaceState` no navega ni dispara `hashchange`, así que no
+   * llena el historial ni se pisa con el efecto.
+   */
+  const toggle = (slug: string) => {
+    const siguiente = openSlug === slug ? null : slug
+    setOpenSlug(siguiente)
+    const { pathname, search } = window.location
+    window.history.replaceState(null, '', siguiente ? `#obra-${siguiente}` : `${pathname}${search}`)
+  }
+
   return (
     <ul className="w-full border-t border-black/10">
       {artworks.map((artwork) => (
@@ -39,9 +55,7 @@ export default function ArtworkList({ artworks }: ArtworkListProps) {
           key={artwork.slug}
           artwork={artwork}
           open={openSlug === artwork.slug}
-          onToggle={() =>
-            setOpenSlug((current) => (current === artwork.slug ? null : artwork.slug))
-          }
+          onToggle={() => toggle(artwork.slug)}
         />
       ))}
     </ul>

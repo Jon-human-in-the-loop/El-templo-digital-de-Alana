@@ -8,8 +8,17 @@ export default function LanguageSwitcher() {
   const pathname = usePathname()
   const currentLocale = useLocale()
 
+  /**
+   * Cambiar de idioma no debería costar el lugar donde se estaba leyendo.
+   *
+   * `router.replace(pathname)` perdía dos cosas: el scroll, porque Next sube
+   * al tope en cada navegación, y el hash, que es lo que recuerda qué ficha
+   * de obra estaba abierta. Se conservan los dos y la lectura sigue donde
+   * estaba.
+   */
   const handleLanguageChange = (locale: 'en' | 'pt' | 'es') => {
-    router.replace(pathname, { locale })
+    const { search, hash } = window.location
+    router.replace(`${pathname}${search}${hash}`, { locale, scroll: false })
   }
 
   const locales = [
