@@ -17,7 +17,7 @@ export const PORTFOLIO_CATEGORIES: PortfolioCategory[] = [
     slug: 'figurativo',
     title: { es: 'Figurativo', en: 'Figurative', pt: 'Figurativo' },
     cover: {
-      src: '/images/portfolio/figurativo/unibesos-2.webp',
+      src: '/images/portfolio/figurativo/04 Unibesos/unibesos-2.webp',
       alt: 'Figurativo — obra de Alana Zarza Iraeta',
     },
     description: {
