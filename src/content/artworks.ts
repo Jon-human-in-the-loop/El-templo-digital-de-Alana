@@ -30,32 +30,32 @@ export const ARTWORKS: Artwork[] = [
     title: 'Puedo alzar mi voz alto',
     category: 'obras-originales',
     wallImage: {
-      src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/01-Puedo-alzar-mi-voz-alto.webp',
+      src: '/images/galeria/obras originales/Puedo alzar mi voz alto/01-Puedo-alzar-mi-voz-alto.webp',
       alt: 'Puedo alzar mi voz alto',
     },
     detailImages: [
       {
-        src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/02-Puedo-alzar-mi-voz-alto.webp',
+        src: '/images/galeria/obras originales/Puedo alzar mi voz alto/02-Puedo-alzar-mi-voz-alto.webp',
         alt: 'Puedo alzar mi voz alto — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/03-Puedo-alzar-mi-voz-alto.webp',
+        src: '/images/galeria/obras originales/Puedo alzar mi voz alto/03-Puedo-alzar-mi-voz-alto.webp',
         alt: 'Puedo alzar mi voz alto — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/04-Puedo-alzar-mi-voz-alto.webp',
+        src: '/images/galeria/obras originales/Puedo alzar mi voz alto/04-Puedo-alzar-mi-voz-alto.webp',
         alt: 'Puedo alzar mi voz alto — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/05-Puedo-alzar-mi-voz-alto.webp',
+        src: '/images/galeria/obras originales/Puedo alzar mi voz alto/05-Puedo-alzar-mi-voz-alto.webp',
         alt: 'Puedo alzar mi voz alto — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/06-Puedo-alzar-mi-voz-alto.webp',
+        src: '/images/galeria/obras originales/Puedo alzar mi voz alto/06-Puedo-alzar-mi-voz-alto.webp',
         alt: 'Puedo alzar mi voz alto — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/obras originales/Puedo alzar mi voz alto/07-Puedo-alzar-mi-voz-alto.webp',
+        src: '/images/galeria/obras originales/Puedo alzar mi voz alto/07-Puedo-alzar-mi-voz-alto.webp',
         alt: 'Puedo alzar mi voz alto — detalle',
       },
     ],
@@ -111,32 +111,32 @@ Aqueles que não estão preparados para a tua grandeza partirão. Não te apoque
     title: 'El destino inexorable',
     category: 'obras-originales',
     wallImage: {
-      src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/1_Cuadro El destino inexorable.webp',
+      src: '/images/galeria/obras originales/El destino inexorable/1_Cuadro El destino inexorable.webp',
       alt: 'El destino inexorable',
     },
     detailImages: [
       {
-        src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/2_El destino inexorable.webp',
+        src: '/images/galeria/obras originales/El destino inexorable/2_El destino inexorable.webp',
         alt: 'El destino inexorable — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/3_El destino inexorable.webp',
+        src: '/images/galeria/obras originales/El destino inexorable/3_El destino inexorable.webp',
         alt: 'El destino inexorable — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/4_El destino inexorable.webp',
+        src: '/images/galeria/obras originales/El destino inexorable/4_El destino inexorable.webp',
         alt: 'El destino inexorable — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/5_El destino inexorable.webp',
+        src: '/images/galeria/obras originales/El destino inexorable/5_El destino inexorable.webp',
         alt: 'El destino inexorable — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/6_El destino inexorable.webp',
+        src: '/images/galeria/obras originales/El destino inexorable/6_El destino inexorable.webp',
         alt: 'El destino inexorable — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/obras originales/El destino inexorable/7_El destino inexorable.webp',
+        src: '/images/galeria/obras originales/El destino inexorable/7_El destino inexorable.webp',
         alt: 'El destino inexorable — detalle',
       },
     ],
@@ -280,16 +280,16 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     title: 'Al fin y al cabo, esa es la chispa',
     category: 'acuarelas-originales',
     wallImage: {
-      src: '/images/portfolio/obras de la galeria/acuarelas originales/01 Al fin y al cabo, esa es la chispa/IMG_9168.webp',
+      src: '/images/galeria/acuarelas originales/01 Al fin y al cabo, esa es la chispa/IMG_9168.webp',
       alt: 'Al fin y al cabo, esa es la chispa',
     },
     detailImages: [
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/01 Al fin y al cabo, esa es la chispa/IMG_9171.webp',
+        src: '/images/galeria/acuarelas originales/01 Al fin y al cabo, esa es la chispa/IMG_9171.webp',
         alt: 'Al fin y al cabo, esa es la chispa — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/01 Al fin y al cabo, esa es la chispa/IMG_9172.webp',
+        src: '/images/galeria/acuarelas originales/01 Al fin y al cabo, esa es la chispa/IMG_9172.webp',
         alt: 'Al fin y al cabo, esa es la chispa — detalle',
       },
     ],
@@ -319,16 +319,16 @@ No fim de contas, essa é a faísca.`,
     title: 'El primer verdadero amor',
     category: 'acuarelas-originales',
     wallImage: {
-      src: '/images/portfolio/obras de la galeria/acuarelas originales/02 El primer verdadero amor/IMG_9139.webp',
+      src: '/images/galeria/acuarelas originales/02 El primer verdadero amor/IMG_9139.webp',
       alt: 'El primer verdadero amor',
     },
     detailImages: [
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/02 El primer verdadero amor/IMG_9140.webp',
+        src: '/images/galeria/acuarelas originales/02 El primer verdadero amor/IMG_9140.webp',
         alt: 'El primer verdadero amor — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/02 El primer verdadero amor/IMG_9141.webp',
+        src: '/images/galeria/acuarelas originales/02 El primer verdadero amor/IMG_9141.webp',
         alt: 'El primer verdadero amor — detalle',
       },
     ],
@@ -358,20 +358,20 @@ O primeiro amor verdadeiro que abranda até o temperamento mais teimoso. O prime
     title: 'La ilusion de un futuro prometedor',
     category: 'acuarelas-originales',
     wallImage: {
-      src: '/images/portfolio/obras de la galeria/acuarelas originales/03 La ilusion de un futuro prometedor/IMG_9144.webp',
+      src: '/images/galeria/acuarelas originales/03 La ilusion de un futuro prometedor/IMG_9144.webp',
       alt: 'La ilusion de un futuro prometedor',
     },
     detailImages: [
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/03 La ilusion de un futuro prometedor/IMG_9145.webp',
+        src: '/images/galeria/acuarelas originales/03 La ilusion de un futuro prometedor/IMG_9145.webp',
         alt: 'La ilusion de un futuro prometedor — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/03 La ilusion de un futuro prometedor/IMG_9151.webp',
+        src: '/images/galeria/acuarelas originales/03 La ilusion de un futuro prometedor/IMG_9151.webp',
         alt: 'La ilusion de un futuro prometedor — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/03 La ilusion de un futuro prometedor/IMG_9152.webp',
+        src: '/images/galeria/acuarelas originales/03 La ilusion de un futuro prometedor/IMG_9152.webp',
         alt: 'La ilusion de un futuro prometedor — detalle',
       },
     ],
@@ -404,16 +404,16 @@ A expectativa, o puro desejo de progredir, a fé e a esperança. A ilusão.`,
     title: 'Mi templo',
     category: 'acuarelas-originales',
     wallImage: {
-      src: '/images/portfolio/obras de la galeria/acuarelas originales/04 Mi templo/IMG_9135.webp',
+      src: '/images/galeria/acuarelas originales/04 Mi templo/IMG_9135.webp',
       alt: 'Mi templo',
     },
     detailImages: [
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/04 Mi templo/IMG_9136.webp',
+        src: '/images/galeria/acuarelas originales/04 Mi templo/IMG_9136.webp',
         alt: 'Mi templo — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/04 Mi templo/IMG_9137.webp',
+        src: '/images/galeria/acuarelas originales/04 Mi templo/IMG_9137.webp',
         alt: 'Mi templo — detalle',
       },
     ],
@@ -455,16 +455,16 @@ Todo o resto é uma paisagem difusa e insignificante. Sustento-me com alegria, s
     title: 'The one who wasn´t meant to be',
     category: 'acuarelas-originales',
     wallImage: {
-      src: '/images/portfolio/obras de la galeria/acuarelas originales/05 The one who wasnt meant to be/IMG_9162.webp',
+      src: '/images/galeria/acuarelas originales/05 The one who wasnt meant to be/IMG_9162.webp',
       alt: 'The one who wasn´t meant to be',
     },
     detailImages: [
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/05 The one who wasnt meant to be/IMG_9164.webp',
+        src: '/images/galeria/acuarelas originales/05 The one who wasnt meant to be/IMG_9164.webp',
         alt: 'The one who wasn´t meant to be — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/05 The one who wasnt meant to be/IMG_9165.webp',
+        src: '/images/galeria/acuarelas originales/05 The one who wasnt meant to be/IMG_9165.webp',
         alt: 'The one who wasn´t meant to be — detalle',
       },
     ],
@@ -494,20 +494,20 @@ A sua missão foi não vir.`,
     title: 'Vemos a Dios al permanecer',
     category: 'acuarelas-originales',
     wallImage: {
-      src: '/images/portfolio/obras de la galeria/acuarelas originales/06 Vemos a Dios al permanecer/IMG_9154.webp',
+      src: '/images/galeria/acuarelas originales/06 Vemos a Dios al permanecer/IMG_9154.webp',
       alt: 'Vemos a Dios al permanecer',
     },
     detailImages: [
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/06 Vemos a Dios al permanecer/IMG_9155.webp',
+        src: '/images/galeria/acuarelas originales/06 Vemos a Dios al permanecer/IMG_9155.webp',
         alt: 'Vemos a Dios al permanecer — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/06 Vemos a Dios al permanecer/IMG_9156.webp',
+        src: '/images/galeria/acuarelas originales/06 Vemos a Dios al permanecer/IMG_9156.webp',
         alt: 'Vemos a Dios al permanecer — detalle',
       },
       {
-        src: '/images/portfolio/obras de la galeria/acuarelas originales/06 Vemos a Dios al permanecer/IMG_9159.webp',
+        src: '/images/galeria/acuarelas originales/06 Vemos a Dios al permanecer/IMG_9159.webp',
         alt: 'Vemos a Dios al permanecer — detalle',
       },
     ],
