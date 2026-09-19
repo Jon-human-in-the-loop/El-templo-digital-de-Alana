@@ -817,44 +817,6 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
     description: { ...EMPTY },
     notes: { ...EMPTY },
   },
-  {
-    slug: 'como-es-arriba-es-abajo',
-    title: 'Como es arriba es abajo',
-    category: 'fluid-art',
-    wallImage: {
-      src: '/images/portfolio/fluid-art/como-es-arriba.webp',
-      alt: 'Como es arriba es abajo',
-    },
-    detailImages: [
-      {
-        src: '/images/portfolio/acuarela/como-es-arriba.webp',
-        alt: 'Como es arriba es abajo — detalle',
-      },
-    ],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
-  },
-  {
-    slug: 'las-aguas-de-la-resurreccion',
-    title: 'Las aguas de la resurrección',
-    category: 'fluid-art',
-    wallImage: {
-      src: '/images/portfolio/fluid-art/las-aguas-resurreccion.webp',
-      alt: 'Las aguas de la resurrección',
-    },
-    detailImages: [
-      { src: '/images/portfolio/fluid-art/las-aguas-2.webp', alt: 'Las aguas de la resurrección — detalle' },
-      { src: '/images/portfolio/fluid-art/las-aguas-3.webp', alt: 'Las aguas de la resurrección — detalle' },
-    ],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
-  },
 ]
 
 export function artworksByCategory(category: ArtworkCategorySlug): Artwork[] {
