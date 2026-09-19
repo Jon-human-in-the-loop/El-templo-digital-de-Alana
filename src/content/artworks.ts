@@ -277,20 +277,20 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
    */
   {
     slug: 'al-fin-y-al-cabo-esa-es-la-chispa',
-    title: 'Al fin y al cabo, esa es la chispa.',
+    title: 'Al fin y al cabo, esa es la chispa',
     category: 'acuarelas-originales',
     wallImage: {
       src: '/images/portfolio/obras de la galeria/acuarelas originales/01 Al fin y al cabo, esa es la chispa/IMG_9168.webp',
-      alt: 'Al fin y al cabo, esa es la chispa.',
+      alt: 'Al fin y al cabo, esa es la chispa',
     },
     detailImages: [
       {
         src: '/images/portfolio/obras de la galeria/acuarelas originales/01 Al fin y al cabo, esa es la chispa/IMG_9171.webp',
-        alt: 'Al fin y al cabo, esa es la chispa. — detalle',
+        alt: 'Al fin y al cabo, esa es la chispa — detalle',
       },
       {
         src: '/images/portfolio/obras de la galeria/acuarelas originales/01 Al fin y al cabo, esa es la chispa/IMG_9172.webp',
-        alt: 'Al fin y al cabo, esa es la chispa. — detalle',
+        alt: 'Al fin y al cabo, esa es la chispa — detalle',
       },
     ],
     year: '',
@@ -401,20 +401,20 @@ A expectativa, o puro desejo de progredir, a fé e a esperança. A ilusão.`,
   },
   {
     slug: 'mi-templo',
-    title: 'Mi templo.',
+    title: 'Mi templo',
     category: 'acuarelas-originales',
     wallImage: {
       src: '/images/portfolio/obras de la galeria/acuarelas originales/04 Mi templo/IMG_9135.webp',
-      alt: 'Mi templo.',
+      alt: 'Mi templo',
     },
     detailImages: [
       {
         src: '/images/portfolio/obras de la galeria/acuarelas originales/04 Mi templo/IMG_9136.webp',
-        alt: 'Mi templo. — detalle',
+        alt: 'Mi templo — detalle',
       },
       {
         src: '/images/portfolio/obras de la galeria/acuarelas originales/04 Mi templo/IMG_9137.webp',
-        alt: 'Mi templo. — detalle',
+        alt: 'Mi templo — detalle',
       },
     ],
     year: '',
