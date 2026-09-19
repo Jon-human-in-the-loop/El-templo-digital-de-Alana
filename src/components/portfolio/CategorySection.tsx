@@ -60,7 +60,7 @@ export default function CategorySection({ category }: CategorySectionProps) {
       {/* Descripción — vacía hasta que se cargue desde el documento */}
       {description && (
         <div className="px-6 md:px-12 py-14 md:py-20 border-t border-black/10">
-          <p className="max-w-3xl font-sans text-base md:text-xl text-black/75 leading-relaxed italic">
+          <p className="max-w-3xl font-sans text-base md:text-xl text-black/75 leading-relaxed italic whitespace-pre-line">
             {description}
           </p>
         </div>

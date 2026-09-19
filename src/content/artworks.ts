@@ -669,9 +669,8 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
 
   /* ── Portfolio · Fluid Art ──────────────────────────────────────────────── */
   /*
-   * En el orden del machete. «Como es arriba es abajo» y «Las aguas de la
-   * resurrección» no figuran en él: quedan al final, publicadas con su foto y
-   * sin ficha.
+   * En el orden del machete. El español de cada descripción es el mensaje tal
+   * como lo canalizó Alana, transcrito literal; en/pt son traducciones.
    */
   {
     slug: 'las-olas-que-se-espejaban',
@@ -682,11 +681,44 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
       alt: 'Las olas que se esperaban en las nubes',
     },
     detailImages: [],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    year: '2018',
+    dimensions: '100 × 100 cm',
+    technique: {
+      es: 'Acrílico y cola vinílica sobre bastidor entelado',
+      en: 'Acrylic and PVA glue on stretched canvas',
+      pt: 'Acrílico e cola vinílica sobre tela esticada',
+    },
+    description: {
+      es: `Mi primera obra de fluid art, y por mucho tiempo, la más hermosa y verdadera.
+
+¿Qué mensaje te gustaría dar al mundo?
+“Admirar la grandeza de la Creación que los rodea, no pierdan el tiempo pensando que aquellos que ya no logran ver se han marchado, mi fuero interno, mi vientre sagrado los alberga a todos.
+Es una danza de almas “remolinosas” que circunda el abismo de esta Creación nadando al unísono por un bien mayor, generando un enorme cúmulo de energía purificadora sobre esta tierra.
+La lucha contra las mareas no es más que explosiones de energía purificadora, descargas de grandes cúmulos de energía que debían ser liberadas.
+El balance de la Creación está, siempre estuvo y siempre estará en las tormentas chocando con los océanos.
+Esta es la verdadera verdad de Dios.”`,
+      en: `My first fluid art work, and for a long time the most beautiful and the truest.
+
+What message would you like to give the world?
+“Admire the greatness of the Creation around you, do not waste time thinking that those you can no longer see have gone away; my innermost self, my sacred womb holds them all.
+It is a dance of “swirling” souls that circles the abyss of this Creation, swimming in unison towards a greater good, gathering an enormous mass of purifying energy over this earth.
+The struggle against the tides is nothing but bursts of purifying energy, discharges of great masses of energy that had to be released.
+The balance of Creation is, always was and always will be in the storms crashing into the oceans.
+This is the true truth of God.”`,
+      pt: `A minha primeira obra de fluid art e, durante muito tempo, a mais bela e a mais verdadeira.
+
+Que mensagem gostarias de dar ao mundo?
+“Admirem a grandeza da Criação que vos rodeia, não percam tempo a pensar que aqueles que já não conseguem ver partiram; o meu foro íntimo, o meu ventre sagrado alberga-os a todos.
+É uma dança de almas “rodopiantes” que circunda o abismo desta Criação, nadando em uníssono por um bem maior, gerando um enorme cúmulo de energia purificadora sobre esta terra.
+A luta contra as marés não é mais do que explosões de energia purificadora, descargas de grandes cúmulos de energia que tinham de ser libertados.
+O equilíbrio da Criação está, sempre esteve e sempre estará nas tempestades a chocar com os oceanos.
+Esta é a verdadeira verdade de Deus.”`,
+    },
+    notes: {
+      es: 'Posadas, Misiones, Argentina',
+      en: 'Posadas, Misiones, Argentina',
+      pt: 'Posadas, Misiones, Argentina',
+    },
   },
   {
     slug: 'premonicion',
@@ -694,11 +726,56 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
     category: 'fluid-art',
     wallImage: { src: '/images/portfolio/fluid-art/premonicion.webp', alt: 'Premonición' },
     detailImages: [],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    year: '2018',
+    dimensions: '100 × 100 cm',
+    technique: {
+      es: 'Acrílico y cola vinílica sobre bastidor entelado',
+      en: 'Acrylic and PVA glue on stretched canvas',
+      pt: 'Acrílico e cola vinílica sobre tela esticada',
+    },
+    description: {
+      es: `¿Qué mensaje te gustaría dar al mundo?
+“El eje está en saber que Dios sabe lo que hace.
+La esperanza es la clave en esta tierra.
+No hay nada sin esperanza y sin fé.
+¿Qué te queda si esperas lo peor cada día?
+¡¿Qué?! ¿Qué te espera si no esperas nada de tu día?
+No habrá destino para un alma que olvida vivir, no habrá regalos para aquel que no extiende sus brazos para tomarlos.
+No habrá consuelo cuando alguien se caiga y se raspe las rodillas y las manos.
+No habrá nada sin la certeza del mañana feliz.
+No habrá destino ni regalos.
+Solo aquellos que tienen la certeza de la buena vida pueden recibir las buenas nuevas de su destino.
+Confía”`,
+      en: `What message would you like to give the world?
+“It all turns on knowing that God knows what He is doing.
+Hope is the key on this earth.
+There is nothing without hope and without faith.
+What is left for you if you expect the worst every day?
+What?! What awaits you if you expect nothing of your day?
+There will be no destiny for a soul that forgets to live, no gifts for the one who does not reach out their arms to take them.
+There will be no comfort when someone falls and scrapes their knees and their hands.
+There will be nothing without the certainty of a happy tomorrow.
+There will be no destiny and no gifts.
+Only those who hold the certainty of the good life can receive the good news of their destiny.
+Trust”`,
+      pt: `Que mensagem gostarias de dar ao mundo?
+“O eixo está em saber que Deus sabe o que faz.
+A esperança é a chave nesta terra.
+Não há nada sem esperança e sem fé.
+O que te resta se esperas o pior todos os dias?
+O quê?! O que te espera se não esperas nada do teu dia?
+Não haverá destino para uma alma que se esquece de viver, não haverá presentes para aquele que não estende os braços para os receber.
+Não haverá consolo quando alguém cair e esfolar os joelhos e as mãos.
+Não haverá nada sem a certeza do amanhã feliz.
+Não haverá destino nem presentes.
+Só aqueles que têm a certeza da boa vida podem receber as boas novas do seu destino.
+Confia”`,
+    },
+    notes: {
+      es: 'Posadas, Misiones, Argentina',
+      en: 'Posadas, Misiones, Argentina',
+      pt: 'Posadas, Misiones, Argentina',
+    },
   },
   {
     slug: 'la-raiz',
@@ -708,11 +785,44 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
     detailImages: [
       { src: '/images/portfolio/fluid-art/la-raiz-2.webp', alt: 'La raíz — detalle' },
     ],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    year: '2018',
+    dimensions: '100 × 100 cm',
+    technique: {
+      es: 'Acrílico y cola vinílica sobre bastidor entelado',
+      en: 'Acrylic and PVA glue on stretched canvas',
+      pt: 'Acrílico e cola vinílica sobre tela esticada',
+    },
+    description: {
+      es: `¿Qué mensaje te gustaría dar al mundo?
+“El destino, la vida, se van a encargar de tejer tu camino en la dirección que den tus pasos.
+Tú decides cuándo se abren las puertas. Tú decides cuándo te abrirás a los acontecimientos, no puedes apresurar la vida porque eso es apresurar la propia muerte y… ¿quién quiere eso?
+La vida se trata de vivir.
+La vida se trata de aprender.
+La vida se trata de estar.
+Si no puedes hacer esto, ¿qué estás esperando?
+La magia se da cuando tus pies se animan a dar el paso, el paso que abrirá lo predestinado. Respira.”`,
+      en: `What message would you like to give the world?
+“Destiny, life, will take care of weaving your path in the direction your steps take.
+You decide when the doors open. You decide when you will open yourself to what happens; you cannot hurry life, because that is hurrying your own death and… who wants that?
+Life is about living.
+Life is about learning.
+Life is about being here.
+If you cannot do this, what are you waiting for?
+The magic happens when your feet dare to take the step, the step that will open what is destined. Breathe.”`,
+      pt: `Que mensagem gostarias de dar ao mundo?
+“O destino, a vida, vão encarregar-se de tecer o teu caminho na direção que derem os teus passos.
+És tu que decides quando se abrem as portas. És tu que decides quando te abrirás aos acontecimentos; não podes apressar a vida, porque isso é apressar a própria morte e… quem é que quer isso?
+A vida é para viver.
+A vida é para aprender.
+A vida é para estar.
+Se não consegues fazer isto, de que estás à espera?
+A magia acontece quando os teus pés se atrevem a dar o passo, o passo que abrirá o que está predestinado. Respira.”`,
+    },
+    notes: {
+      es: 'Posadas, Misiones, Argentina',
+      en: 'Posadas, Misiones, Argentina',
+      pt: 'Posadas, Misiones, Argentina',
+    },
   },
   {
     slug: 're-suscito',
@@ -720,11 +830,48 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
     category: 'fluid-art',
     wallImage: { src: '/images/portfolio/fluid-art/re-suscito.webp', alt: 'RE-suscito' },
     detailImages: [],
-    year: '',
+    year: '2020',
+    // El machete deja las medidas en blanco: la ficha no muestra el dato.
     dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    technique: {
+      es: 'Flotter medium, acrílico y cola vinílica sobre bastidor entelado y cola glitter',
+      en: 'Flotter medium, acrylic and PVA glue on stretched canvas, and glitter glue',
+      pt: 'Flotter medium, acrílico e cola vinílica sobre tela esticada e cola com glitter',
+    },
+    description: {
+      es: `¿Qué mensaje te gustaría dar al mundo?
+“La evolución y la transgresión de límites no es negociable, hay que cruzar todas las barreras que limitan el existir.
+Existir se trata de expresar tu versión más poderosa. Viniste a darlo todo. ¿Qué estás haciendo con este aturdimiento?
+La reinvención es la clave para encontrar la versión más original, la más real, el adulto está destinado a individualizarse dentro de su manada para encontrar el respeto real de sus pares. ¿Qué quiero decir con esto? Tu rol es único y hay que ganarse ese lugar empoderándote.
+No hay como ocupar el lugar que te es propio si no te enpoderás en tu verdad primero.
+Dicho esto, es menester buscar todas las mentiras y derribarlas. Para esto hay que gestar la verdadera valentía.
+La audacia de hablar en voz alta, fuerte y claro tu creencia y tu verdad está más allá de discusión.
+Solo los cobardes se esconden en las modas, son aquellos que no saben que en sí mismos está todo lo que es preciso.
+Vuela”.`,
+      en: `What message would you like to give the world?
+“Evolution and the crossing of limits are not negotiable, every barrier that limits existing has to be crossed.
+To exist is to express your most powerful version. You came here to give everything. What are you doing with this daze?
+Reinvention is the key to finding the most original version, the most real one; the adult is meant to become an individual within the pack in order to earn the real respect of their peers. What do I mean by this? Your role is unique and that place has to be won by empowering yourself.
+There is no way to occupy the place that is yours if you do not empower yourself in your truth first.
+That said, it is necessary to seek out every lie and bring it down. For that, true courage has to be brought into being.
+The daring to speak your belief and your truth out loud, loud and clear, is beyond discussion.
+Only cowards hide in fashions, they are the ones who do not know that everything needed is within themselves.
+Fly”.`,
+      pt: `Que mensagem gostarias de dar ao mundo?
+“A evolução e a transgressão de limites não são negociáveis, é preciso atravessar todas as barreiras que limitam o existir.
+Existir é exprimir a tua versão mais poderosa. Vieste para dar tudo. O que estás a fazer com este atordoamento?
+A reinvenção é a chave para encontrar a versão mais original, a mais real; o adulto está destinado a individualizar-se dentro da sua alcateia para encontrar o respeito real dos seus pares. O que quero dizer com isto? O teu papel é único e esse lugar ganha-se com o teu próprio poder.
+Não há como ocupar o lugar que te é próprio se não te apoderares primeiro da tua verdade.
+Dito isto, é mister procurar todas as mentiras e derrubá-las. Para isso é preciso gerar a verdadeira coragem.
+A ousadia de dizer em voz alta, forte e clara a tua crença e a tua verdade está para além de discussão.
+Só os cobardes se escondem nas modas, são aqueles que não sabem que dentro de si está tudo o que é preciso.
+Voa”.`,
+    },
+    notes: {
+      es: 'Posadas, Misiones, Argentina',
+      en: 'Posadas, Misiones, Argentina',
+      pt: 'Posadas, Misiones, Argentina',
+    },
   },
   {
     slug: 'un-petalo-un-mensaje-y-una-chispa',
@@ -744,11 +891,38 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
         alt: 'Un pétalo, un mensaje y una chispa — panel III',
       },
     ],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    year: '2020',
+    dimensions: '60 × 80 cm',
+    technique: {
+      es: 'Flotter medium, acrílico y cola vinílica sobre bastidor entelado y cola glitter',
+      en: 'Flotter medium, acrylic and PVA glue on stretched canvas, and glitter glue',
+      pt: 'Flotter medium, acrílico e cola vinílica sobre tela esticada e cola com glitter',
+    },
+    description: {
+      es: `¿Qué mensaje quieres darle al mundo?
+“Hagamos esto fácil.
+2+2=4 no? Bueno, así de simple es la vida. Dios te ama y estás protegido, no hay más de qué preocuparse.
+Levantaros cada mañana y repetidlo en sus cabezas “Dios me ama y no hay más remedio que amar en su favor”.
+¿Qué puedes perder? Si lo más importante ya está cubierto? Dios te ama y no hay nada más importante que aquello. Dios te guía y te abraza, al final del día, siente y agradece, ese calor es Dios dándote aliento para mañana.
+Se feliz.”`,
+      en: `What message do you want to give the world?
+“Let us make this easy.
+2+2=4, right? Well, life is that simple. God loves you and you are protected, there is nothing more to worry about.
+Rise every morning and repeat it in your heads “God loves me and there is nothing for it but to love in His favour”.
+What can you lose? If the most important thing is already covered? God loves you and there is nothing more important than that. God guides you and holds you, and at the end of the day, feel it and give thanks: that warmth is God giving you heart for tomorrow.
+Be happy.”`,
+      pt: `Que mensagem queres dar ao mundo?
+“Vamos tornar isto fácil.
+2+2=4, não é? Pois bem, a vida é assim tão simples. Deus ama-te e estás protegido, não há mais com que te preocupares.
+Levantai-vos todas as manhãs e repeti-o nas vossas cabeças “Deus ama-me e não há outro remédio senão amar a Seu favor”.
+O que podes perder? Se o mais importante já está garantido? Deus ama-te e não há nada mais importante do que isso. Deus guia-te e abraça-te, e ao fim do dia, sente e agradece: esse calor é Deus a dar-te alento para amanhã.
+Sê feliz.”`,
+    },
+    notes: {
+      es: 'Posadas, Misiones, Argentina',
+      en: 'Posadas, Misiones, Argentina',
+      pt: 'Posadas, Misiones, Argentina',
+    },
   },
   {
     slug: 'se-ondula-el-eter',
@@ -760,10 +934,40 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
     },
     detailImages: [],
     year: '2022',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    dimensions: '80 × 100 cm',
+    technique: {
+      es: 'Acrílico sobre bastidor entelado y cola glitter',
+      en: 'Acrylic on stretched canvas, and glitter glue',
+      pt: 'Acrílico sobre tela esticada e cola com glitter',
+    },
+    description: {
+      es: `¿Cuál es el mensaje que querés darle al mundo?
+“Que todos somos uno, somos parte de un mismo ecosistema hermoso que no distingue o sabe de razas y colores.
+Que el apoyo mutuo es lo que nos va a llevar lejos como sociedad, que las ramificaciones de los humanos son las interrelaciones personales y que eso es mucho más poderoso de lo que creemos.
+Tenemos un potencial hermoso al alcance de nuestras manos, fuera de las pantallas, que es La Presencia.
+Hacer presencia, allá donde vayamos, estar presentes, habitar los espacios por donde pasamos, hacer raíz en el momento que vivimos, estar vivos, eso emana una energía curativa de enorme poder que no solo que es válida, sino también necesaria.
+Relacionarnos es posible solo estando presentes en este plano, escalar es insano y es en vano. Nadie puede escapar de lo que de verdad le toca. Lo que toca toca y estar vivos es hacerse responsables.
+Gracias por mis palabras, los amo.”`,
+      en: `What is the message you want to give the world?
+“That we are all one, that we are part of one same beautiful ecosystem that does not tell apart or know of races and colours.
+That mutual support is what will take us far as a society, that the branches of human beings are personal relationships, and that this is far more powerful than we believe.
+We have a beautiful potential within reach of our hands, away from the screens, and it is Presence.
+To be present, wherever we go, to inhabit the spaces we pass through, to take root in the moment we are living, to be alive: that gives off a healing energy of enormous power that is not only valid but also necessary.
+Relating to one another is only possible by being present on this plane; climbing is unhealthy and it is in vain. No one can escape what truly falls to them. What falls to you falls to you, and being alive means taking responsibility.
+Thank you for my words, I love you.”`,
+      pt: `Qual é a mensagem que queres dar ao mundo?
+“Que todos somos um, somos parte de um mesmo ecossistema lindíssimo que não distingue nem sabe de raças e cores.
+Que o apoio mútuo é o que nos vai levar longe como sociedade, que as ramificações dos humanos são as relações pessoais e que isso é muito mais poderoso do que julgamos.
+Temos um potencial lindíssimo ao alcance das nossas mãos, fora dos ecrãs, que é A Presença.
+Fazer presença, onde quer que vamos, estar presentes, habitar os espaços por onde passamos, criar raiz no momento que vivemos, estar vivos: isso emana uma energia curativa de enorme poder que não só é válida como também necessária.
+Relacionarmo-nos só é possível estando presentes neste plano; escalar é insano e é em vão. Ninguém pode escapar ao que verdadeiramente lhe cabe. O que cabe, cabe, e estar vivo é tornar-se responsável.
+Obrigada pelas minhas palavras, amo-vos.”`,
+    },
+    notes: {
+      es: 'Colonia Pellegrini, Corrientes, Argentina — Marco del Ciclo Humedales',
+      en: 'Colonia Pellegrini, Corrientes, Argentina — part of the Ciclo Humedales',
+      pt: 'Colonia Pellegrini, Corrientes, Argentina — no âmbito do Ciclo Humedales',
+    },
   },
   {
     slug: 'ya-no-se-oye-el-ultimo-suspiro',
@@ -777,11 +981,38 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
       { src: '/images/portfolio/fluid-art/ya-no-se-oye-2.webp', alt: 'Ya no se oye el último suspiro — detalle' },
       { src: '/images/portfolio/fluid-art/ya-no-se-oye-3.webp', alt: 'Ya no se oye el último suspiro — detalle' },
     ],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    year: '2022',
+    dimensions: '30 × 30 cm',
+    technique: {
+      es: 'Flotter medium, acrílico y cola vinílica sobre bastidor entelado',
+      en: 'Flotter medium, acrylic and PVA glue on stretched canvas',
+      pt: 'Flotter medium, acrílico e cola vinílica sobre tela esticada',
+    },
+    description: {
+      es: `¿Qué mensajes les gustaría dar al mundo?
+“Hay sombras y hay fuerzas perversas. Pero todo se puede contrarrestar con la energía de la vida.
+No permitan que las austeridades del existir apaguen las llamas que se les han sido otorgadas.
+La vida está para ser vivida, disfrutada, expandida, habitada. Todo sugiere conectar con la chispa de la creación.
+Un paso en falso te traslada por el mal camino, la queja, la falta de gratitud que te ancla al presente y al disfrute.
+Contempla a solas en algún rincón y percibirás su verdad elocuente.”`,
+      en: `What messages would you like to give the world?
+“There are shadows and there are perverse forces. But everything can be countered with the energy of life.
+Do not let the austerities of existing put out the flames that have been granted to you.
+Life is there to be lived, enjoyed, expanded, inhabited. Everything points to connecting with the spark of creation.
+One false step carries you down the wrong road: the complaint, the lack of gratitude that anchors you to the present and to enjoyment.
+Contemplate alone in some corner and you will perceive its eloquent truth.”`,
+      pt: `Que mensagens gostariam de dar ao mundo?
+“Há sombras e há forças perversas. Mas tudo se pode contrariar com a energia da vida.
+Não permitam que as austeridades do existir apaguem as chamas que vos foram outorgadas.
+A vida está para ser vivida, desfrutada, expandida, habitada. Tudo sugere ligar-se à faísca da criação.
+Um passo em falso leva-te pelo mau caminho: a queixa, a falta de gratidão que te ancora ao presente e ao desfrute.
+Contempla a sós nalgum canto e perceberás a sua verdade eloquente.”`,
+    },
+    notes: {
+      es: 'Posadas, Misiones, Argentina',
+      en: 'Posadas, Misiones, Argentina',
+      pt: 'Posadas, Misiones, Argentina',
+    },
   },
   {
     slug: 'en-el-oceano-divise-al-inframundo',
@@ -797,11 +1028,35 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
         alt: 'En el océano divisé al inframundo — detalle',
       },
     ],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
+    year: '2023',
+    dimensions: '30 × 30 cm',
+    technique: {
+      es: 'Flotter medium, acrílico y cola vinílica sobre bastidor entelado',
+      en: 'Flotter medium, acrylic and PVA glue on stretched canvas',
+      pt: 'Flotter medium, acrílico e cola vinílica sobre tela esticada',
+    },
+    description: {
+      es: `“Ay, ay, la espera… la espera que desespera.
+Somos la unión de las fuerzas ancestrales, lo que muchos creen que es luz es sombra y tinieblas y viceversa.
+Todo se entremezcla, es difuso, pero eso está bien, jeje. Los humanos han de entender que los opuestos son dos polos de lo mismo y son indivisibles, no contrarios.
+Los vivos mueren, los muertos están vivos.
+El agua está viva ¿Tú lo estás?”`,
+      en: `“Oh, oh, the waiting… the waiting that drives you to despair.
+We are the union of the ancestral forces, what many believe to be light is shadow and darkness and the other way round.
+Everything mingles, it is blurred, but that is all right, hehe. Humans must understand that opposites are two poles of the same thing and are indivisible, not contrary.
+The living die, the dead are alive.
+The water is alive. Are you?”`,
+      pt: `“Ai, ai, a espera… a espera que desespera.
+Somos a união das forças ancestrais, aquilo que muitos julgam ser luz é sombra e trevas e vice-versa.
+Tudo se entremeia, é difuso, mas isso está bem, hehe. Os humanos hão de entender que os opostos são dois polos do mesmo e são indivisíveis, não contrários.
+Os vivos morrem, os mortos estão vivos.
+A água está viva. E tu, estás?”`,
+    },
+    notes: {
+      es: 'Posadas, Misiones, Argentina',
+      en: 'Posadas, Misiones, Argentina',
+      pt: 'Posadas, Misiones, Argentina',
+    },
   },
   {
     slug: 'it-might-be-a-mess',
@@ -810,44 +1065,6 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
     wallImage: { src: '/images/portfolio/fluid-art/mess-mine-1.webp', alt: 'It might be a mess' },
     detailImages: [
       { src: '/images/portfolio/fluid-art/mess-mine-2.webp', alt: 'It might be a mess — detalle' },
-    ],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
-  },
-  {
-    slug: 'como-es-arriba-es-abajo',
-    title: 'Como es arriba es abajo',
-    category: 'fluid-art',
-    wallImage: {
-      src: '/images/portfolio/fluid-art/como-es-arriba.webp',
-      alt: 'Como es arriba es abajo',
-    },
-    detailImages: [
-      {
-        src: '/images/portfolio/acuarela/como-es-arriba.webp',
-        alt: 'Como es arriba es abajo — detalle',
-      },
-    ],
-    year: '',
-    dimensions: '',
-    technique: { ...EMPTY },
-    description: { ...EMPTY },
-    notes: { ...EMPTY },
-  },
-  {
-    slug: 'las-aguas-de-la-resurreccion',
-    title: 'Las aguas de la resurrección',
-    category: 'fluid-art',
-    wallImage: {
-      src: '/images/portfolio/fluid-art/las-aguas-resurreccion.webp',
-      alt: 'Las aguas de la resurrección',
-    },
-    detailImages: [
-      { src: '/images/portfolio/fluid-art/las-aguas-2.webp', alt: 'Las aguas de la resurrección — detalle' },
-      { src: '/images/portfolio/fluid-art/las-aguas-3.webp', alt: 'Las aguas de la resurrección — detalle' },
     ],
     year: '',
     dimensions: '',
