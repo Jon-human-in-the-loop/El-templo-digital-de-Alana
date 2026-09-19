@@ -30,6 +30,9 @@ export default function CategorySection({ category }: CategorySectionProps) {
   const t = useTranslations('portfolio')
 
   const works = artworksByCategory(category.slug)
+  // La grilla es de imágenes: una obra anunciada sin fotografiar no entra, pero
+  // sí aparece abajo, en su ficha.
+  const conFoto = works.filter((work) => work.wallImage)
   const description = localize(category.description, locale)
 
   return (
@@ -65,7 +68,7 @@ export default function CategorySection({ category }: CategorySectionProps) {
 
       {/* Obras de la categoría */}
       <div ref={ref} className="grid grid-cols-1 md:grid-cols-2">
-        {works.map((work, i) => (
+        {conFoto.map((work, i) => (
           <motion.div
             key={work.slug}
             initial={{ opacity: 0, y: 32 }}
@@ -77,8 +80,8 @@ export default function CategorySection({ category }: CategorySectionProps) {
               className="group relative block h-[380px] md:h-[520px] overflow-hidden"
             >
               <Image
-                src={work.wallImage.src}
-                alt={work.wallImage.alt}
+                src={work.wallImage!.src}
+                alt={work.wallImage!.alt}
                 fill
                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, 50vw"

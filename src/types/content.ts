@@ -37,8 +37,13 @@ export type Artwork = {
   slug: string
   title: string
   category: ArtworkCategorySlug
-  /** Main image — the piece hanging on a wall. */
-  wallImage: ArtworkImage
+  /**
+   * Main image — the piece hanging on a wall.
+   *
+   * Opcional: una obra se puede anunciar antes de estar fotografiada. Sin
+   * imagen, la ficha se abre mostrando sólo «Próximamente».
+   */
+  wallImage?: ArtworkImage
   /** Close-ups and secondary shots. */
   detailImages: ArtworkImage[]
   year: string

@@ -254,6 +254,21 @@ A vida é para os valentes. Amo-te. És forte, mantém-te fortemente na dita ins
     notes: { es: 'Porto, Portugal', en: 'Porto, Portugal', pt: 'Porto, Portugal' },
   },
 
+  {
+    // Anunciada antes de estar fotografiada: sin `wallImage`, la ficha se abre
+    // mostrando sólo «Próximamente». Al cargar sus fotos y su texto queda como
+    // cualquier otra.
+    slug: 'la-somba',
+    title: 'La Somba',
+    category: 'obras-originales',
+    detailImages: [],
+    year: '',
+    dimensions: '',
+    technique: { ...EMPTY },
+    description: { ...EMPTY },
+    notes: { ...EMPTY },
+  },
+
   /* ── Portfolio · Figurativo ─────────────────────────────────────────────── */
   /*
    * En el orden del machete. «De cuando fuimos pantera con Obsidiana» todavía
