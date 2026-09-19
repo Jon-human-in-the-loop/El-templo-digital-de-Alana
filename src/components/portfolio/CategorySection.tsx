@@ -67,7 +67,16 @@ export default function CategorySection({ category }: CategorySectionProps) {
       )}
 
       {/* Obras de la categoría */}
-      <div ref={ref} className="grid grid-cols-1 md:grid-cols-2">
+      {/*
+        Tres columnas con aire alrededor: a pantalla completa, dos columnas a
+        sangre hacían que cada obra ocupara media pantalla y la grilla se
+        recorriera de a dos. Más chicas y separadas por blanco, la sección se
+        lee de un vistazo y el blanco hace de marco.
+      */}
+      <div
+        ref={ref}
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 px-6 md:px-12 py-12 md:py-16"
+      >
         {conFoto.map((work, i) => (
           <motion.div
             key={work.slug}
@@ -77,20 +86,20 @@ export default function CategorySection({ category }: CategorySectionProps) {
           >
             <Link
               href={`/portfolio#obra-${work.slug}`}
-              className="group relative block h-[380px] md:h-[520px] overflow-hidden"
+              className="group relative block h-[320px] md:h-[360px] lg:h-[420px] overflow-hidden"
             >
               <Image
                 src={work.wallImage!.src}
                 alt={work.wallImage!.alt}
                 fill
                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, 50vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-500 flex flex-col justify-end p-6 md:p-8">
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-500 flex flex-col justify-end p-5 md:p-6">
                 <div className="translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                   <h3
                     className="font-heading uppercase text-white"
-                    style={{ fontSize: 'clamp(1.3rem, 3vw, 2.2rem)' }}
+                    style={{ fontSize: 'clamp(1.1rem, 2vw, 1.6rem)' }}
                   >
                     {work.title}
                   </h3>
