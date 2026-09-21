@@ -1,7 +1,7 @@
 import { useTranslations, useLocale } from 'next-intl'
 import Image from 'next/image'
 
-import { CONTACT_EMAIL } from '@/content/site'
+import { CONTACT_EMAIL, INSTAGRAM_HANDLE, INSTAGRAM_URL } from '@/content/site'
 import { Link } from '@/i18n/routing'
 
 /** Same routes as the header nav, plus the shop and contact. */
@@ -71,19 +71,28 @@ export default function Footer() {
             >
               {CONTACT_EMAIL}
             </a>
-            <div className="flex items-center gap-4">
+            {/* El QR y el nombre llevan al Instagram: el código sólo sirve si
+                tenés el teléfono a mano, y acá la mayoría ya está en uno. */}
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex w-fit items-center gap-4"
+            >
               <Image
                 src="/images/brand/qr-instagram.png"
                 alt={t('instagramQr')}
                 width={72}
                 height={72}
-                className="invert opacity-60"
+                className="invert opacity-60 group-hover:opacity-100 transition-opacity duration-300"
               />
               <div>
                 <p className="text-xs font-sans text-white/30 uppercase tracking-widest">Instagram</p>
-                <p className="font-sans text-white/60 text-sm">@alanazarzairaeta</p>
+                <p className="font-sans text-white/60 text-sm group-hover:text-white transition-colors duration-300">
+                  {INSTAGRAM_HANDLE}
+                </p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
