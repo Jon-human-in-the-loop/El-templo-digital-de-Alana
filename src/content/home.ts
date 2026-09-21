@@ -49,7 +49,7 @@ export const CV_PHOTOS: ArtworkImage[] = [
 
 /** Imagen de cierre de la home: deriva a la Galería. Acá sí va obra. */
 export const GALLERY_TEASER_IMAGE: ArtworkImage = {
-  src: '/images/portfolio/fluid-art/se-ondula-el-eter.webp',
+  src: '/images/portfolio/fluid-art/06 Se ondula el eter que ata las superficies/cuadro.webp',
   alt: 'Se ondula el éter que ata las superficies',
 }
 
