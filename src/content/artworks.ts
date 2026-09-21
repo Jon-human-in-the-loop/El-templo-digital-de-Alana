@@ -555,10 +555,14 @@ Por detrás de cada momento que evitamos está Deus. Vemos Deus ao permanecer.`,
     title: 'El registro del poder heredado',
     category: 'figurativo',
     wallImage: {
-      src: '/images/portfolio/figurativo/01 El registro del poder heredado/el-registro-del-poder-heredado-1.webp',
+      src: '/images/portfolio/figurativo/01 El registro del poder heredado/PORTADA-EN-PORTFOLIO.webp',
       alt: 'El registro del poder heredado',
     },
     detailImages: [
+      {
+        src: '/images/portfolio/figurativo/01 El registro del poder heredado/el-registro-del-poder-heredado-1.webp',
+        alt: 'El registro del poder heredado — detalle',
+      },
       {
         src: '/images/portfolio/figurativo/01 El registro del poder heredado/el-registro-del-poder-heredado-2.webp',
         alt: 'El registro del poder heredado — detalle',
@@ -611,12 +615,12 @@ Tem força, mas a sua expressão é levemente divertida. Leva a vida com leveza 
     title: 'La luz y la sombra equilibran la mente y el espíritu',
     category: 'figurativo',
     wallImage: {
-      src: '/images/portfolio/figurativo/02 La luz y la sombra equilibran la mente y el espiritu/La-luz-y-la-sombra-equilibran-la-mente-y-el-espiritu-70x100-vertical.webp',
+      src: '/images/portfolio/figurativo/02 La luz y la sombra equilibran la mente y el espiritu/PORTADA-EN-PORTFOLIO.webp',
       alt: 'La luz y la sombra equilibran la mente y el espíritu',
     },
     detailImages: [
       {
-        src: '/images/portfolio/figurativo/02 La luz y la sombra equilibran la mente y el espiritu/La-luz-y-la-sombra-equilibran-la-mente-y-el-espiritu-70x100.webp',
+        src: '/images/portfolio/figurativo/02 La luz y la sombra equilibran la mente y el espiritu/La-luz-y-la-sombra-equilibran-la-mente-y-el-espiritu-70x100-vertical.webp',
         alt: 'La luz y la sombra equilibran la mente y el espíritu — detalle',
       },
     ],
@@ -661,10 +665,14 @@ Integra a sua totalidade de maneira neutra e equilibrada e não se esforça por 
     title: 'La ceguera que viene por encandilarse',
     category: 'figurativo',
     wallImage: {
-      src: '/images/portfolio/figurativo/03 La ceguera que viene por encandilarse/la-ceguera-que-viene-por-encandilarse-50x30-1.webp',
+      src: '/images/portfolio/figurativo/03 La ceguera que viene por encandilarse/PORTADA-EN-PORTFOLIO.webp',
       alt: 'La ceguera que viene por encandilarse',
     },
     detailImages: [
+      {
+        src: '/images/portfolio/figurativo/03 La ceguera que viene por encandilarse/la-ceguera-que-viene-por-encandilarse-50x30-1.webp',
+        alt: 'La ceguera que viene por encandilarse — detalle',
+      },
       {
         src: '/images/portfolio/figurativo/03 La ceguera que viene por encandilarse/la-ceguera-que-viene-por-encandilarse-2.webp',
         alt: 'La ceguera que viene por encandilarse — detalle',
@@ -711,12 +719,22 @@ Toldava-se pelos olhos que não veem e mantinha fechados os olhos da visão real
     title: 'Unibesos',
     category: 'figurativo',
     wallImage: {
-      src: '/images/portfolio/figurativo/04 Unibesos/unibesos-1.webp',
+      src: '/images/portfolio/figurativo/04 Unibesos/PORTADA-EN-PORTFOLIO.webp',
       alt: 'Unibesos',
     },
     detailImages: [
-      { src: '/images/portfolio/figurativo/04 Unibesos/unibesos-2.webp', alt: 'Unibesos — detalle' },
-      { src: '/images/portfolio/figurativo/04 Unibesos/unibesos-3.webp', alt: 'Unibesos — detalle' },
+      {
+        src: '/images/portfolio/figurativo/04 Unibesos/unibesos-1.webp',
+        alt: 'Unibesos — detalle',
+      },
+      {
+        src: '/images/portfolio/figurativo/04 Unibesos/unibesos-2.webp',
+        alt: 'Unibesos — detalle',
+      },
+      {
+        src: '/images/portfolio/figurativo/04 Unibesos/unibesos-3.webp',
+        alt: 'Unibesos — detalle',
+      },
     ],
     year: '2018',
     dimensions: '100 × 70 cm',
@@ -757,8 +775,14 @@ O quadro reflete o sentimento do seu poema. A avassaladora e grandemente intensa
       alt: 'De cuando fuimos pantera con Obsidiana',
     },
     detailImages: [
-      { src: '/images/portfolio/figurativo/05 De cuando fuimos pantera con Obsidiana/IMG_7762.webp', alt: 'De cuando fuimos pantera con Obsidiana — detalle' },
-      { src: '/images/portfolio/figurativo/05 De cuando fuimos pantera con Obsidiana/IMG_7764.webp', alt: 'De cuando fuimos pantera con Obsidiana — detalle' },
+      {
+        src: '/images/portfolio/figurativo/05 De cuando fuimos pantera con Obsidiana/IMG_7762.webp',
+        alt: 'De cuando fuimos pantera con Obsidiana — detalle',
+      },
+      {
+        src: '/images/portfolio/figurativo/05 De cuando fuimos pantera con Obsidiana/IMG_7764.webp',
+        alt: 'De cuando fuimos pantera con Obsidiana — detalle',
+      },
     ],
     year: '2021',
     dimensions: '100 × 80 cm',
@@ -804,12 +828,16 @@ De pé no meu poder, acompanhada pela minha companheira perigosa e protetora. Li
     title: 'El llanto del rey expectante',
     category: 'figurativo',
     wallImage: {
-      src: '/images/portfolio/figurativo/06 El llanto del rey expectante/el-llanto-del-rey-expectante-2-100x80.webp',
+      src: '/images/portfolio/figurativo/06 El llanto del rey expectante/PORTADA-EN-PORTFOLIO.webp',
       alt: 'El llanto del rey expectante',
     },
     detailImages: [
       {
-        src: '/images/portfolio/figurativo/06 El llanto del rey expectante/el-llanto-rey.webp',
+        src: '/images/portfolio/figurativo/06 El llanto del rey expectante/el-llanto-del-rey-expectante-1-100x80.webp',
+        alt: 'El llanto del rey expectante — detalle',
+      },
+      {
+        src: '/images/portfolio/figurativo/06 El llanto del rey expectante/el-llanto-del-rey-expectante-2-100x80.webp',
         alt: 'El llanto del rey expectante — detalle',
       },
     ],
@@ -865,9 +893,19 @@ Não duvido de que, talvez, se tenha gerado uma ferida cármica.`,
     slug: 'it-might-be-a-mess',
     title: 'It might be a mess',
     category: 'figurativo',
-    wallImage: { src: '/images/portfolio/figurativo/07 It might be a mess/mess-mine-1.webp', alt: 'It might be a mess' },
+    wallImage: {
+      src: '/images/portfolio/figurativo/07 It might be a mess/PORTADA-EN-PORTFOLIO.webp',
+      alt: 'It might be a mess',
+    },
     detailImages: [
-      { src: '/images/portfolio/figurativo/07 It might be a mess/mess-mine-2.webp', alt: 'It might be a mess — detalle' },
+      {
+        src: '/images/portfolio/figurativo/07 It might be a mess/mess-mine-1.webp',
+        alt: 'It might be a mess — detalle',
+      },
+      {
+        src: '/images/portfolio/figurativo/07 It might be a mess/mess-mine-2.webp',
+        alt: 'It might be a mess — detalle',
+      },
     ],
     year: '2022',
     // El machete deja las medidas en blanco: la ficha no muestra el dato.
