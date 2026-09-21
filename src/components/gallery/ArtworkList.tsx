@@ -14,22 +14,107 @@ interface ArtworkListProps {
 }
 
 /**
+ * Cuánto tarda una ficha en plegarse o desplegarse, en segundos.
+ *
+ * Lo comparten la animación y el scroll: si el scroll no sabe cuánto dura el
+ * pliegue, apunta a un sitio que todavía se está moviendo.
+ */
+const DURACION_PLIEGUE = 0.45
+
+/**
  * Gallery list: one collapsible sheet per artwork.
  * Fields with no content yet are simply not rendered, so the skeleton can be
  * published and filled in later from src/content/artworks.ts.
  */
 export default function ArtworkList({ artworks }: ArtworkListProps) {
   const [openSlug, setOpenSlug] = useState<string | null>(null)
+  const detener = useRef<(() => void) | null>(null)
+
+  const cancelarScroll = () => {
+    detener.current?.()
+    detener.current = null
+  }
+
+  /**
+   * Subir la ficha recién abierta al tope de la pantalla.
+   *
+   * La ficha se despliega hacia abajo y el scroll se queda donde estaba, así
+   * que si la obra estaba a media pantalla su imagen quedaba debajo del
+   * pliegue: se abría mostrando la descripción y había que scrollear hacia
+   * arriba para ver el cuadro. El `scroll-mt-28` del <li> deja el sitio del
+   * header fijo.
+   *
+   * Lo delicado es cuando ya había otra ficha abierta: esa ficha se pliega al
+   * mismo tiempo, y al encogerse arrastra hacia arriba todo lo que tiene
+   * debajo. Un `scrollIntoView` apunta a donde la obra está *ahora* y, para
+   * cuando el pliegue termina, la obra ya subió esos cientos de píxeles: ese
+   * era el salto. Y pedir un scroll suave y esperar tampoco alcanza, porque
+   * el navegador lo cancela al ver que el documento cambia de alto debajo.
+   *
+   * Así que movemos el scroll nosotros, cuadro a cuadro y a la par del
+   * pliegue: en cada cuadro volvemos a medir dónde está la obra y avanzamos
+   * un poco hacia ahí. Como la medición es siempre fresca, da igual cuánto se
+   * encoja lo de arriba: al terminar el pliegue la obra está en su sitio.
+   */
+  const subirAlAbrir = (slug: string) => {
+    cancelarScroll()
+    const destino = document.getElementById(`obra-${slug}`)
+    if (!destino) return
+
+    const margen = parseFloat(window.getComputedStyle(destino).scrollMarginTop) || 0
+    const sitio = () => destino.getBoundingClientRect().top + window.scrollY - margen
+    const desde = window.scrollY
+    // Lo que hay que recorrer, medido antes de que nada se mueva.
+    const trecho = sitio() - desde
+    const inicio = performance.now()
+    const pliegue = DURACION_PLIEGUE * 1000
+    // Unos cuadros de más: el pliegue puede asentarse justo después del final.
+    const cola = 150
+    let cuadro = 0
+
+    const paso = (ahora: number) => {
+      const transcurrido = ahora - inicio
+      const t = Math.min(1, transcurrido / pliegue)
+      // Curva parecida a la del pliegue, para ir a su paso y no adelantarse.
+      const suave = t < 0.5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2
+      // Medido desde donde la obra está *en este cuadro*: lo que falta es sólo
+      // lo que falta del viaje, sin arrastrar lo que la obra se movió sola al
+      // plegarse la ficha de arriba.
+      const top = sitio() - trecho * (1 - suave)
+      // `instant` es necesario: globals.css pone scroll-behavior: smooth, y sin
+      // esto cada cuadro pediría su propia animación y el scroll se arrastraría.
+      window.scrollTo({ top: Math.max(0, top), behavior: 'instant' })
+      if (transcurrido < pliegue + cola) cuadro = window.requestAnimationFrame(paso)
+      else cancelarScroll()
+    }
+
+    // Si la persona scrollea mientras tanto, mandan sus dedos.
+    const interrumpir = () => cancelarScroll()
+    detener.current = () => {
+      window.cancelAnimationFrame(cuadro)
+      window.removeEventListener('wheel', interrumpir)
+      window.removeEventListener('touchmove', interrumpir)
+    }
+    window.addEventListener('wheel', interrumpir, { passive: true })
+    window.addEventListener('touchmove', interrumpir, { passive: true })
+    cuadro = window.requestAnimationFrame(paso)
+  }
+
+  useEffect(() => cancelarScroll, [])
 
   // Deep links from the portfolio (/gallery#obra-<slug>) open that sheet.
   useEffect(() => {
     const openFromHash = () => {
       const hash = window.location.hash.replace('#obra-', '')
-      if (hash && artworks.some((artwork) => artwork.slug === hash)) setOpenSlug(hash)
+      if (hash && artworks.some((artwork) => artwork.slug === hash)) {
+        setOpenSlug(hash)
+        subirAlAbrir(hash)
+      }
     }
     openFromHash()
     window.addEventListener('hashchange', openFromHash)
     return () => window.removeEventListener('hashchange', openFromHash)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [artworks])
 
   /**
@@ -44,6 +129,8 @@ export default function ArtworkList({ artworks }: ArtworkListProps) {
   const toggle = (slug: string) => {
     const siguiente = openSlug === slug ? null : slug
     setOpenSlug(siguiente)
+    if (siguiente) subirAlAbrir(siguiente)
+    else cancelarScroll()
     const { pathname, search } = window.location
     window.history.replaceState(null, '', siguiente ? `#obra-${siguiente}` : `${pathname}${search}`)
   }
@@ -71,23 +158,6 @@ interface ArtworkSheetProps {
 function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
   const t = useTranslations('gallery')
   const locale = useLocale()
-  const sheetRef = useRef<HTMLLIElement>(null)
-
-  /**
-   * Al abrir, subir la ficha al tope de la pantalla.
-   *
-   * La ficha se despliega hacia abajo y el scroll se queda donde estaba, así
-   * que si la obra estaba a media pantalla su imagen quedaba debajo del
-   * pliegue: se abría mostrando la descripción y había que scrollear para ver
-   * el cuadro. El `scroll-mt-28` del <li> deja el sitio del header fijo.
-   */
-  useEffect(() => {
-    if (!open) return
-    const timer = window.setTimeout(() => {
-      sheetRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }, 50)
-    return () => window.clearTimeout(timer)
-  }, [open])
 
   const technique = localize(artwork.technique, locale)
   const description = localize(artwork.description, locale)
@@ -108,11 +178,7 @@ function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
   const onlyComingSoon = !artwork.wallImage && !hasSheet
 
   return (
-    <li
-      ref={sheetRef}
-      id={`obra-${artwork.slug}`}
-      className="border-b border-black/10 scroll-mt-28"
-    >
+    <li id={`obra-${artwork.slug}`} className="border-b border-black/10 scroll-mt-28">
       <button
         type="button"
         onClick={onToggle}
@@ -143,7 +209,7 @@ function ArtworkSheet({ artwork, open, onToggle }: ArtworkSheetProps) {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.45, ease: 'easeInOut' }}
+            transition={{ duration: DURACION_PLIEGUE, ease: 'easeInOut' }}
             className="overflow-hidden"
           >
             {/* Anunciada, sin fotografiar y sin ficha todavía */}
