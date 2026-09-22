@@ -16,17 +16,17 @@ export const CAROUSEL_SLIDES: CarouselSlide[] = [
   // foto, así que en pantallas anchas (donde el carrusel es mucho más ancho
   // que alto) un recorte centrado la corta. `focusY` fija el punto de
   // recorte más arriba para que la cara siempre quede visible.
-  { src: '/images/carrucel/1.jpg', alt: STUDIO_ALT, focusY: 27 },
-  { src: '/images/carrucel/2.jpg', alt: STUDIO_ALT, focusY: 27 },
-  { src: '/images/carrucel/2.1.jpg', alt: STUDIO_ALT },
-  { src: '/images/carrucel/3.jpg', alt: STUDIO_ALT },
-  { src: '/images/carrucel/4.jpg', alt: STUDIO_ALT },
-  { src: '/images/carrucel/4.1.jpg', alt: STUDIO_ALT },
-  { src: '/images/carrucel/5.jpg', alt: STUDIO_ALT },
-  { src: '/images/carrucel/5.1.jpg', alt: STUDIO_ALT },
-  { src: '/images/carrucel/6.jpg', alt: STUDIO_ALT },
-  { src: '/images/carrucel/6.1.jpg', alt: STUDIO_ALT },
-  { src: '/images/carrucel/6.2.jpg', alt: STUDIO_ALT },
+  { src: '/images/carrucel/1.webp', alt: STUDIO_ALT, focusY: 27 },
+  { src: '/images/carrucel/2.webp', alt: STUDIO_ALT, focusY: 27 },
+  { src: '/images/carrucel/2.1.webp', alt: STUDIO_ALT },
+  { src: '/images/carrucel/3.webp', alt: STUDIO_ALT },
+  { src: '/images/carrucel/4.webp', alt: STUDIO_ALT },
+  { src: '/images/carrucel/4.1.webp', alt: STUDIO_ALT },
+  { src: '/images/carrucel/5.webp', alt: STUDIO_ALT },
+  { src: '/images/carrucel/5.1.webp', alt: STUDIO_ALT },
+  { src: '/images/carrucel/6.webp', alt: STUDIO_ALT },
+  { src: '/images/carrucel/6.1.webp', alt: STUDIO_ALT },
+  { src: '/images/carrucel/6.2.webp', alt: STUDIO_ALT },
 ]
 
 /**
