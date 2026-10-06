@@ -45,6 +45,8 @@
     "viewWorks": "Ver obras"
   },
   "gallery": {
+    "availableLabel": "Obra disponible",
+    "availableText": "Todas las pinturas de esta galería están disponibles para la venta. Cada una es una pieza original y única.",
     "eyebrow": "Galería",
     "title": "Obra",
     "year": "Año",

@@ -45,6 +45,8 @@
     "viewWorks": "View works"
   },
   "gallery": {
+    "availableLabel": "Available work",
+    "availableText": "Every painting in this gallery is available for purchase. Each one is a unique original piece.",
     "eyebrow": "Gallery",
     "title": "Work",
     "year": "Year",
