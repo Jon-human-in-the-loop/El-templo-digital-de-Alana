@@ -39,4 +39,4 @@ export const INSTAGRAM_CHANNEL_URL =
  * Mail de contacto. Cuando esté el dominio alanazarzairaeta, cambiar por el
  * mail asociado a él: se usa en la página de contacto y en el footer.
  */
-export const CONTACT_EMAIL = 'zarzairaetaalana@gmail.com'
+export const CONTACT_EMAIL = 'info@alanazarzairaeta.com'
