@@ -148,7 +148,7 @@ Los textos se gestionan en `src/i18n/messages/`.
 ## Contacto
 
 - **WhatsApp:** +351 968 493 165
-- **Email:** zarzairaetaalana@gmail.com
+- **Email:** info@alanazarzairaeta.com
 - **Instagram:** [@alanazarzairaeta](https://www.instagram.com/alanazarzairaeta/)
 - **YouTube:** [@alanazarzairaeta](https://www.youtube.com/@alanazarzairaeta)
 - **TikTok:** [@alanazarzairaeta](https://www.tiktok.com/@alanazarzairaeta)

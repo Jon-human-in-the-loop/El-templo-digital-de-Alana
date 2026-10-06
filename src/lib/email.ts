@@ -10,7 +10,7 @@ function getResend(): Resend {
 }
 
 const FROM_EMAIL = process.env.FROM_EMAIL || 'onboarding@resend.dev'
-const TO_EMAIL = process.env.TO_EMAIL || 'zarzairaetaalana@gmail.com'
+const TO_EMAIL = process.env.TO_EMAIL || 'info@alanazarzairaeta.com'
 
 export async function sendContactEmail(data: {
   name: string
@@ -145,7 +145,7 @@ export async function sendOrderConfirmationEmail(data: {
           </p>
         </div>
         
-        <p style="color: #999; font-size: 11px; text-align: center; margin-top: 60px;">ALANA ZARZAIRAETA | zarzairaetaalana@gmail.com</p>
+        <p style="color: #999; font-size: 11px; text-align: center; margin-top: 60px;">ALANA ZARZAIRAETA | info@alanazarzairaeta.com</p>
       </div>
     `,
   })
